@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../login-page/styles/style.css">
+  <link rel="shortcut icon" href="/MiR/assets/icons/wine-favicon.png" type="image/x-icon">
+
+  <script defer src="../login-page/script.js"></script>
+
+  <title>Made in Red | Login</title>
+</head>
+
+<body>
+  <div class="container-grid">
+    <div class="container-logo-slogan">
+      <a href="../home-page/index.html" class="home">
+        <img src="/MiR/assets/logo/logo-2-removebg-preview.png" alt="logo" class="logo-company">
+      </a>
+      <p class="slogan-company">You Dink. <span>We Make.</span></p>
+    </div>
+
+    <div class="container-general">
+      <div class="container-top">
+        <a href="../home-page/index.html" class="link-home">
+          <img src="/MiR/assets/logo/logo-2-removebg-preview.png" alt="logo" class="logo">
+        </a>
+        <p class="slogan">You Drink. <span>We Make.</span></p>
+      </div>
+
+      <p class="login">Login</p>
+
+      <div class="container-forms">
+        <form action="/MiR/code/error-page/index.html">
+          <p class="handle-form">
+            <label for="email" class="labels">Email</label><br>
+            <input type="email" id="email" name="email" required>
+          </p>
+          <p class="handle-form">
+            <label for="password" class="labels">Password</label><br>
+            <input type="password" id="password" name="password" required>
+
+            <button id="btn-visibility" type="button">
+              <img src="/MiR/assets/icons/others/eye.png" alt="visible" class="visibility">
+            </button>
+          </p>
+
+          <button type="submit">Continue</button>
+        </form>
+      </div>
+
+      <div class="container-separation">
+        <p id="line-separator">Ou</p>
+      </div>
+
+      <div class="container-login-signs">
+        <a href="../error-page/index.html" class="redirect-link-error">
+          <button type="button" id="google-cta">
+            <img src="/MiR/assets/icons/social-icons/google-1.png" alt="google" class="logos-signs">
+            <p class="other-login-google">Continue with Google</p>
+          </button>
+        </a>
+
+        <a href="../error-page/index.html" class="redirect-link-error">
+          <button type="button" id="facebook-cta">
+            <img src="/MiR/assets/icons/social-icons/facebook-4-32.png" alt="facebook" class="logos-signs">
+            <p class="other-login-face">Continue with Facebook</p>
+          </button>
+        </a>
+
+      </div>
+      <div class="container-signup">
+        <p class="text">Novo usuário?
+          <a href="../sign-up-page/index.html" class="link-to-sign-up">
+            <button id="sign-up-same-page">Crie uma conta</button>
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

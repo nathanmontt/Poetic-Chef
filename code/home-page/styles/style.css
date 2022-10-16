@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink&family=Dosis:wght@200;300;400;500&display=swap");
+/* SASS VARIABLES */
+/* CSS RESET */
+* {
+  list-style-type: none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url("/MiR/assets/midia/home-midia/img-wine-4.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+@media screen and (min-width: 768px) {
+  body {
+    background-image: url("/MiR/assets/midia/home-midia/img-wine-3.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+}
+body .hidden {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  body .hidden {
+    display: block;
+  }
+}
+
+.navbar .container-nav {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar .container-nav .logo-home .logo-company {
+  width: 4rem;
+  height: 3.8rem;
+  padding: 1.5rem;
+}
+.navbar nav {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+}
+.navbar nav .hamb-menu {
+  align-self: flex-end;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 0.1rem;
+  padding: 0.4rem;
+  height: 1.8rem;
+  width: 1.8rem;
+}
+@media screen and (min-width: 768px) {
+  .navbar nav .hamb-menu {
+    display: none;
+    background-color: transparent;
+  }
+}
+@media screen and (min-width: 768px) {
+  .navbar nav .nav-options {
+    display: flex;
+  }
+}
+.navbar nav .nav-options .options {
+  padding: 0.3rem;
+  margin-left: 0.7rem;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 300;
+  font-size: 1rem;
+  margin: 0.5rem;
+  text-align: right;
+  border-bottom: 0.01rem solid rgba(114, 114, 114, 0.379);
+  transition: font-weight 0.3s;
+}
+@media screen and (min-width: 768px) {
+  .navbar nav .nav-options .options {
+    padding: 0.8rem;
+    margin-left: 1rem;
+    border-bottom: none;
+    transition: background-color 0.3s, color 0.3s, font-weight 0.3s;
+  }
+}
+.navbar nav .nav-options .options:hover {
+  font-weight: bolder;
+}
+@media screen and (min-width: 768px) {
+  .navbar nav .nav-options .options:hover {
+    background-color: #ab2614;
+    font-weight: 700;
+  }
+}
+.navbar nav .nav-options .options a {
+  color: black;
+}
+@media screen and (min-width: 768px) {
+  .navbar nav .nav-options .options a {
+    color: white;
+  }
+}
+
+main .container-general-main {
+  margin-top: 14rem;
+  color: white;
+  font-family: "Cormorant Garamond", serif;
+  text-align: center;
+  font-weight: bold;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  font-size: 3.5rem;
+}
+@media screen and (min-width: 768px) {
+  main .container-general-main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 17rem;
+  }
+}
+main .container-general-main .container-slogan-btn .slogan-company span {
+  color: #ab2614;
+}
+main .container-general-main .container-slogan-btn .container-order-online .redirect-link .btn-products {
+  background-color: white;
+  border: 0.05rem solid white;
+  cursor: pointer;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: bold;
+  font-size: 1.1rem;
+  padding: 1rem;
+  transition: background-color 0.5s, color 0.5s;
+}
+main .container-general-main .container-slogan-btn .container-order-online .redirect-link .btn-products:hover {
+  background-color: transparent;
+  color: white;
+}
+main .container-general-main .container-img .img-full-width {
+  display: none;
+  width: 20rem;
+}
+@media screen and (min-width: 768px) {
+  main .container-general-main .container-img .img-full-width {
+    position: absolute;
+  }
+}/*# sourceMappingURL=style.css.map */

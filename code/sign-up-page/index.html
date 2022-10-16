@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../sign-up-page/styles/style.css">
+  <link rel="shortcut icon" href="/MiR/assets/icons/wine-favicon.png" type="image/x-icon">
+
+  <script defer src="../sign-up-page/script.js"></script>
+
+  <title>Made in Red | Sign Up</title>
+</head>
+
+<body>
+  <div class="container-general-sign-up">
+    <div class="container-top">
+      <a href="../home-page/index.html" class="link-home">
+        <img src="/MiR/assets/logo/logo-2-removebg-preview.png" alt="logo" class="logo">
+      </a>
+      <p class="slogan">You Drink. <span>We Make.</span></p>
+    </div>
+
+    <div class="container-texts-top">
+      <p class="sign-up">Sign Up</p>
+    </div>
+
+    <div class="container-form-sign-up">
+      <form action="/MiR/code/error-page/index.html">
+        <p class="handle-form-sign-up">
+          <label for="text" class="labels">Name</label><br>
+          <input type="text" id="name" name="name" required>
+        </p>
+
+        <p class="handle-form-sign-up">
+          <label for="text" class="labels">Username</label><br>
+          <input type="text" id="username" name="username" required>
+        </p>
+
+        <p class="handle-form-sign-up">
+          <label for="birthday" class="labels">Birth Date</label><br>
+          <input type="date" id="birthday" name="birthday" required>
+        </p>
+
+        <p class="handle-form-sign-up">
+          <label for="email" class="labels">Email</label><br>
+          <input type="email" id="email-2" name="email-2" required>
+        </p>
+
+        <p class="handle-form-sign-up">
+          <label for="password" class="labels">Password</label><br>
+          <input type="password" id="password-1" name="password-2" required>
+
+          <button id="btn-visibility-1" type="button">
+            <img src="/MiR/assets/icons/others/eye.png" alt="visible" class="visibility">
+          </button>
+        </p>
+
+        <p class="handle-form-sign-up">
+          <label for="confirm-password" class="labels">Confirm Password</label><br>
+          <input type="password" id="confirm-password" name="confirm-password" required autocomplete="new-password">
+
+          <button id="btn-visibility-2" type="button">
+            <img src="/MiR/assets/icons/others/eye.png" alt="visible" class="visibility">
+          </button>
+        </p>
+
+        <p class="handle-form-sign-up-2">
+          <label for="choose" class="title-labels">What kind of wine do you prefer?</label>
+          <select name="wine" id="wine-options">
+            <option hidden disabled selected value="">Select an Option</option>
+            <option value="red">Red Wine</option>
+            <option value="white">White Wine</option>
+            <option value="rose">Rosé Wine</option>
+            <option value="sparkling">Sparkling Wine</option>
+            <option value="fortified">Fortified (Dessert wine)</option>
+          </select>
+        </p>
+
+        <p class="handle-form-sign-up-2">
+          <label for="occasions" class="title-labels">In which occasion do you prefer to taste a good wine?</label>
+          <select name="wine" id="wine-options">
+            <option hidden disabled selected value="">Select an Option</option>
+            <option value="family">With my family</option>
+            <option value="friends">With friends</option>
+            <option value="myself">Just by myself</option>
+          </select>
+        </p>
+
+        <p class="handle-form-sign-up-2">
+          <label for="drink" class="title-labels">Do you usually drink in what part of your day?</label>
+          <select name="wine" id="wine-options">
+            <option hidden disabled selected value="">Select an Option</option>
+            <option value="day">Day</option>
+            <option value="afternoon">Afternoon</option>
+            <option value="night">Night</option>
+          </select>
+        </p>
+
+        <p class="handle-form-sign-up-2">
+          <label for="benefits" class="title-labels">Do you know the benefits of wine:</label>
+          <select name="wine" id="wine-options">
+            <option hidden disabled selected value="">Select an Option</option>
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+          </select>
+        </p>
+
+        <a href="../error-page/index.html">
+          <button id="finish-btn" type="submit">Finish</button>
+        </a>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>

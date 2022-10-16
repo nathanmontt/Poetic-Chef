@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink&display=swap");
+/* SASS VARIABLES */
+/* CSS RESET */
+* {
+  list-style-type: none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+body::-webkit-scrollbar {
+  width: 0.3rem;
+  height: 0.3rem;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: black;
+}
+body::-webkit-scrollbar-track {
+  background-color: white;
+}
+@media screen and (min-width: 768px) {
+  body::-webkit-scrollbar {
+    width: 0.3rem;
+    height: 0.3rem;
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: black;
+  }
+  body::-webkit-scrollbar-track {
+    background-color: white;
+  }
+}
+body .hidden {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  body .hidden {
+    display: block;
+  }
+}
+
+.navbar {
+  background-color: black;
+  width: 100%;
+  height: 6.5rem;
+}
+.navbar .container-nav {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar .container-nav .logo-home .logo-company {
+  width: 4rem;
+  height: 3.8rem;
+  padding: 1.5rem;
+}
+.navbar nav {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  z-index: 1;
+}
+.navbar nav .hamb-menu {
+  align-self: flex-end;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 0.1rem;
+  padding: 0.3rem;
+  height: 1.8rem;
+  width: 1.8rem;
+}
+@media screen and (min-width: 768px) {
+  .navbar nav .hamb-menu {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .navbar nav .nav-options {
+    display: flex;
+    background-color: transparent;
+    text-decoration: none;
+  }
+}
+.navbar nav .nav-options .options {
+  z-index: 1;
+  padding: 0.3rem;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 300;
+  font-size: 1rem;
+  margin-left: 0.7rem;
+  margin: 0.5rem;
+  text-align: right;
+  border-bottom: 0.01rem solid rgba(114, 114, 114, 0.379);
+  transition: font-weight 0.3s;
+}
+@media screen and (min-width: 768px) {
+  .navbar nav .nav-options .options {
+    padding: 0.8rem;
+    margin-left: 1rem;
+    border-bottom: none;
+    transition: background-color 0.3s, color 0.3s, font-weight 0.3s;
+  }
+}
+.navbar nav .nav-options .options:hover {
+  font-weight: bolder;
+}
+@media screen and (min-width: 768px) {
+  .navbar nav .nav-options .options:hover {
+    background-color: #ab2614;
+    font-weight: 700;
+  }
+}
+.navbar nav .nav-options .options a {
+  color: black;
+}
+@media screen and (min-width: 768px) {
+  .navbar nav .nav-options .options a {
+    color: white;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container-general .item {
+    direction: rtl;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container-general .direc-orign {
+    direction: ltr;
+  }
+}
+.container-general .container-text-initial .title-about {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-top: 2rem;
+  margin-left: 1.4rem;
+}
+.container-general .container-text-initial .description {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1rem;
+  margin-top: 0.2rem;
+  margin-left: 1.4rem;
+  margin-bottom: 2rem;
+}
+@media screen and (min-width: 768px) {
+  .container-general .container-about {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.container-general .container-about .generic-container-text {
+  width: 100%;
+  background-color: #304f29;
+  color: white;
+}
+.container-general .container-about .generic-container-text .generic-short-title {
+  font-family: "Cormorant Garamond", serif;
+  text-transform: capitalize;
+  font-size: 1.68rem;
+  font-weight: 500;
+  margin-left: 0.5rem;
+  padding: 1.5rem;
+}
+@media screen and (min-width: 768px) {
+  .container-general .container-about .generic-container-text .generic-short-title {
+    font-size: 2rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container-general .container-about .generic-container-text .generic-short-title {
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+  }
+}
+.container-general .container-about .generic-container-text .generic-desc {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1rem;
+  margin-left: 0.5rem;
+  padding: 1.5rem;
+  margin-top: -1.7rem;
+}
+@media screen and (min-width: 768px) {
+  .container-general .container-about .generic-container-text .generic-desc {
+    font-size: 1.05rem;
+    margin-left: 1rem;
+  }
+}
+.container-general .container-about .diff-color-1 {
+  background-color: #503838;
+}
+.container-general .container-about .diff-color-2 {
+  background-color: #7d9fbb;
+}
+.container-general .container-about .diff-color-3 {
+  background-color: #05242B;
+}
+.container-general .container-about .diff-color-4 {
+  background-color: #F6F6F6;
+  color: black;
+}
+.container-general .container-about .diff-color-5 {
+  background-color: #8B6E6A;
+}
+.container-general .container-about .diff-color-6 {
+  background-color: #58010A;
+  color: white;
+}
+.container-general .container-about .diff-color-7 {
+  background-color: #8297ae;
+  color: black;
+}
+.container-general .container-about .winery-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+footer .container-general-footer {
+  color: white;
+}
+footer .container-general-footer .container-about-me {
+  background-color: black;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 0.94rem;
+  display: flex;
+  justify-content: center;
+}
+footer .container-general-footer .container-about-me .myself {
+  text-align: center;
+  padding: 0.5em;
+}
+footer .container-general-footer .container-about-me .myself #my-links {
+  color: white;
+}
+footer .container-general-footer .container-about-me .myself #my-links:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink&display=swap');
+
+
+/* SASS VARIABLES */
+$firstColor: white;
+$secondColor: black;
+$anotherColor1: #ab2614;
+$fontFamily1: 'Cormorant Garamond', serif;
+$fontFamily2: 'Dosis', sans-serif;
+$fontFamily3: 'PT Serif', serif;
+
+/* CSS RESET */
+* {
+  list-style-type: none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  @media screen and(min-width: 510px) {
+    background-image: url("/MiR/assets/midia/login-sign-page/bg-img-1.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+
+  .hidden {
+    display: none;
+
+    @media screen and(min-width: 768px) {
+      // display: block;
+    }
+  }
+}
+
+.container-grid {
+  @media screen and(min-width: 1366px) {
+    display: grid;
+    grid-template-columns: repeat(2, 45rem);
+
+    // margin: 2rem;
+  }
+
+  .container-logo-slogan {
+    display: none;
+
+    @media screen and(min-width: 1366px) {
+      display: flex;
+      justify-self: center;
+      align-self: center;
+    }
+
+    .home {
+      @media screen and(min-width: 1366px) {}
+
+      .logo-company {
+        width: 4.7rem;
+        height: 4.7rem;
+
+        @media screen and(min-width: 1366px) {
+          width: 4.7rem;
+          height: 4.7rem;
+          background-color: $firstColor;
+          border-radius: .2rem;
+          padding: 1rem;
+        }
+      }
+    }
+
+    .slogan-company {
+      @media screen and(min-width: 1366px) {
+        font-family: $fontFamily1;
+        font-weight: 700;
+        font-size: 3rem;
+        color: $firstColor;
+
+        margin: 1.7rem 0 0 1.3rem;
+      }
+
+      span {
+        @media screen and(min-width: 1366px) {
+          color: $anotherColor1;
+        }
+      }
+    }
+  }
+
+  .container-general {
+    // border: 3px solid blue;
+    @media screen and(min-width: 510px) {
+      background-color: $firstColor;
+      width: 31rem;
+      margin: 3rem auto auto auto;
+      display: block;
+      border-radius: .18rem;
+      // padding: 1rem;
+      // display: flex;
+      // flex-direction: column;
+      // align-content: center;
+      // align-items: center;
+    }
+
+    @media screen and(min-width: 1366px) {
+      background-color: $firstColor;
+      width: 31rem;
+      margin: 3rem 5rem auto auto;
+      display: block;
+      border-radius: .18rem;
+      // padding: 1rem;
+      // display: flex;
+      // flex-direction: column;
+      // align-content: center;
+      // align-items: center;
+    }
+
+    .container-top {
+      display: flex;
+      color: $secondColor;
+      padding: 1.3rem;
+
+      .link-home {
+        @media screen and(min-width: 1366px) {
+          display: none;
+        }
+
+        .logo {
+          width: 3rem;
+          height: 3rem;
+        }
+      }
+
+      .slogan {
+        @media screen and(min-width: 1366px) {
+          display: none;
+        }
+
+        display: flex;
+        flex-direction: column;
+
+        font-family: $fontFamily1;
+        font-weight: 700;
+        font-size: 1em;
+
+        margin: .4rem 0 0 1.7rem;
+
+        span {
+          color: $anotherColor1;
+        }
+      }
+    }
+
+    .login {
+      margin: 0 0 1.2rem 0;
+      padding: 0 0 1rem 1.3rem;
+
+      font-family: $fontFamily1;
+      font-weight: 500;
+      font-size: 1.9rem;
+
+      position: relative;
+
+      &::after {
+        content: '';
+        position: absolute;
+        border: .01rem solid $secondColor;
+        width: 4rem;
+        background-color: $secondColor;
+        margin: 1.2rem 0 0 .5rem;
+      }
+    }
+
+    .container-forms {
+      form {
+        // border: 3px solid green;
+        padding: 1.3rem;
+
+        .handle-form {
+          .labels {
+            font-family: $fontFamily1;
+            font-weight: 600;
+            font-size: .9rem;
+            color: #5c5c5c;
+          }
+
+          #email {
+            width: 65%;
+            height: 2rem;
+            text-indent: 1rem;
+            margin-bottom: 1.5rem;
+
+            outline: none;
+            border-style: none none solid none;
+            background-color: transparent;
+          }
+
+          #password {
+            width: 65%;
+            height: 2rem;
+            text-indent: 1rem;
+
+            outline: none;
+            border-style: none none solid none;
+            background-color: transparent;
+          }
+
+          button {
+            margin-top: 1rem;
+            position: fixed;
+            border: none;
+            outline: none;
+            cursor: pointer;
+
+            .visibility {
+              background-color: transparent;
+              width: 1rem;
+              margin: -.9rem 0 0 -2rem;
+
+            }
+          }
+        }
+
+        button[type="submit"] {
+          margin-top: .6rem;
+
+          background-color: $secondColor;
+          color: $firstColor;
+          border: none;
+          outline: none;
+          cursor: pointer;
+
+          transition: background-color .3s, color .3s;
+          padding: .7rem;
+
+          &:hover {
+            background-color: $anotherColor1;
+            color: $firstColor;
+          }
+        }
+      }
+    }
+
+    .container-separation {
+      #line-separator {
+        text-align: center;
+        font-size: 2rem;
+        margin: 0 0 1.7rem 0;
+
+        &::before {
+          content: '';
+          position: absolute;
+          width: 3rem;
+
+          margin: 1.2rem 0 0 3.4rem;
+
+          border: .01rem solid $secondColor;
+          background-color: $secondColor;
+        }
+
+        &::after {
+          content: '';
+          position: absolute;
+          width: 3rem;
+
+          margin: 1.2rem 0 0 -6.5rem;
+
+          background-color: $secondColor;
+          border: .01rem solid $secondColor;
+        }
+      }
+    }
+
+
+    .container-login-signs {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .redirect-link-error {
+        button[type="button"] {
+          cursor: pointer;
+          border: none;
+          outline: none;
+
+          display: flex;
+
+          font-family: $fontFamily1;
+          font-size: 1.1rem;
+          font-weight: 500;
+
+          margin: 0 0 .7rem .6rem;
+          padding: .7rem;
+
+          .logos-signs {
+            width: 1.5rem;
+          }
+
+          .other-login-google {
+            color: $secondColor;
+            margin: 0 0 0 1rem;
+          }
+
+          .other-login-face {
+            color: $firstColor;
+            margin: 0 0 0 1rem;
+          }
+        }
+
+        /* CHANGE OF THE BORDER FOR GOOGLE BUTTON */
+        button[id="google-cta"] {
+          border: .01rem solid rgb(176, 176, 176);
+          outline: none;
+        }
+
+        /* CHANGE OF THE BACKGORUNDS */
+        #facebook-cta {
+          background-color: #1877F2;
+        }
+
+        #google-cta {
+          background-color: $firstColor;
+        }
+      }
+    }
+
+    .container-signup {
+      @media screen and(min-width: 510px) {
+        padding-bottom: 2rem;
+      }
+
+      .text {
+        margin: 1rem 0 0 1.7rem;
+        font-family: $fontFamily1;
+        font-size: 1.13rem;
+        font-weight: 600;
+
+        @media screen and(min-width: 510px) {
+          margin-top: 1rem;
+        }
+
+        #sign-up-same-page {
+          background-color: transparent;
+          border: none;
+          outline: none;
+          cursor: pointer;
+
+          font-family: $fontFamily1;
+          color: $secondColor;
+          font-weight: 600;
+          font-size: 1.1rem;
+
+          transition: color .3s;
+
+          &:hover {
+            color: $anotherColor1;
+          }
+        }
+      }
+    }
+  }
+}

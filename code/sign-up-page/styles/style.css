@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink&display=swap");
+/* SASS VARIABLES */
+/* CSS RESET */
+* {
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+body::-webkit-scrollbar {
+  width: 0.3rem;
+  height: 0.3rem;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: black;
+}
+body::-webkit-scrollbar-track {
+  background-color: white;
+}
+@media screen and (min-width: 510px) {
+  body {
+    background-image: url("/MiR/assets/midia/login-sign-page/bg-img-1.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+  body::-webkit-scrollbar {
+    width: 0.3rem;
+    height: 0.3rem;
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: black;
+  }
+  body::-webkit-scrollbar-track {
+    background-color: white;
+  }
+}
+body .hidden {
+  display: none;
+}
+@media screen and (min-width: 510px) {
+  .container-general-sign-up {
+    background-color: white;
+    width: 31rem;
+    margin: 2rem auto auto auto;
+    display: block;
+    border-radius: 0.1rem;
+  }
+}
+.container-general-sign-up .container-top {
+  display: flex;
+  padding: 1.3rem 0 1.3rem 1.3rem;
+}
+.container-general-sign-up .container-top .link-home .logo {
+  width: 3rem;
+  height: 3rem;
+}
+.container-general-sign-up .container-top .slogan {
+  display: flex;
+  flex-direction: column;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 700;
+  font-size: 1em;
+  margin: 0.4rem 0 0 1.7rem;
+}
+.container-general-sign-up .container-top .slogan span {
+  color: #ab2614;
+}
+.container-general-sign-up .container-texts-top .sign-up {
+  margin: 0 0 1.2rem 0;
+  padding: 0 0 1rem 1.3rem;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 500;
+  font-size: 1.9rem;
+}
+.container-general-sign-up .container-texts-top .sign-up::after {
+  content: "";
+  position: absolute;
+  border: 0.01rem solid black;
+  width: 4rem;
+  background-color: black;
+  margin: 1.2rem 0 0 0.5rem;
+}
+.container-general-sign-up .container-form-sign-up form {
+  padding: 0 0 1rem 2rem;
+  margin: 0 0 2rem 0;
+}
+.container-general-sign-up .container-form-sign-up form .handle-form-sign-up .labels {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #5c5c5c;
+}
+.container-general-sign-up .container-form-sign-up form .handle-form-sign-up #name {
+  width: 65%;
+  height: 2rem;
+  text-indent: 1rem;
+  margin-bottom: 1rem;
+  outline: none;
+  border-style: none none solid none;
+  background-color: transparent;
+}
+.container-general-sign-up .container-form-sign-up form .handle-form-sign-up #username {
+  width: 65%;
+  height: 2rem;
+  text-indent: 1rem;
+  margin-bottom: 1rem;
+  outline: none;
+  border-style: none none solid none;
+  background-color: transparent;
+}
+.container-general-sign-up .container-form-sign-up form .handle-form-sign-up #birthday {
+  width: 65%;
+  height: 2rem;
+  text-indent: 0.5rem;
+  margin-bottom: 1rem;
+  outline: none;
+  border-style: none none solid none;
+  background-color: transparent;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1rem;
+}
+.container-general-sign-up .container-form-sign-up form .handle-form-sign-up #email-2 {
+  width: 65%;
+  height: 2rem;
+  text-indent: 1rem;
+  margin-bottom: 1rem;
+  outline: none;
+  border-style: none none solid none;
+  background-color: transparent;
+}
+.container-general-sign-up .container-form-sign-up form .handle-form-sign-up #password-1 {
+  width: 65%;
+  height: 2rem;
+  text-indent: 1rem;
+  margin-bottom: 1rem;
+  outline: none;
+  border-style: none none solid none;
+  background-color: transparent;
+}
+.container-general-sign-up .container-form-sign-up form .handle-form-sign-up #confirm-password {
+  width: 65%;
+  height: 2rem;
+  text-indent: 1rem;
+  margin-bottom: 3rem;
+  outline: none;
+  border-style: none none solid none;
+  background-color: transparent;
+}
+.container-general-sign-up .container-form-sign-up form .handle-form-sign-up button {
+  margin-top: 1rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.container-general-sign-up .container-form-sign-up form .handle-form-sign-up button .visibility {
+  background-color: transparent;
+  width: 1rem;
+  margin: -0.9rem 0 0 -2rem;
+}
+.container-general-sign-up .container-form-sign-up form .handle-form-sign-up-2 .title-labels {
+  display: flex;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 600;
+}
+.container-general-sign-up .container-form-sign-up form .handle-form-sign-up-2 #wine-options {
+  margin: 0.3rem 0 1rem 0;
+  padding: 0.3rem;
+  outline: none;
+  border: 6px solid transparent;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 0.97rem;
+  font-weight: 600;
+}
+.container-general-sign-up .container-form-sign-up form .handle-form-sign-up-2 #wine-options option {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 700;
+}
+.container-general-sign-up .container-form-sign-up form a {
+  margin-top: 0.6rem;
+  background-color: black;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  padding: 0.7rem;
+}
+.container-general-sign-up .container-form-sign-up form a:hover {
+  background-color: #ab2614;
+  color: white;
+}
+.container-general-sign-up .container-form-sign-up form a #finish-btn {
+  margin-top: 0.6rem;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  margin: 0.6rem 0 1rem 0;
+}/*# sourceMappingURL=style.css.map */
