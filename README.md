@@ -6,10 +6,10 @@
 <!-- <hr> -->
 
 ![MIT Badge licensed](https://img.shields.io/badge/license-MIT-informational)
-![Badge](https://img.shields.io/badge/lançamento-Outubro-blue)
-![Status Badge](https://img.shields.io/badge/status-em_desenvolvimento-green)
+![Badge](https://img.shields.io/badge/relesase-Ocotber-blue)
+![Status Badge](https://img.shields.io/badge/status-in_development-green)
 
-<p align="center">Uma aplicação web, ainda em desenvolvimento, referente a uma vinícula fictícia na qual a mesma fabrica os próprios vinhos, os precifica e os vende.</p>
+<p align="center"> A web application, still in development, refering to a fictional winery in which the same makes wines, price then and sell then too.</p>
 
 #
 ### **Sobre o projeto**
@@ -58,7 +58,5 @@ Foi utilizada a linceça do [MIT](./LICENSE)
 [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/fagnerpsantos/)](https://www.linkedin.com/in/nathan-monteiro/)
 [![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/fagnerpsantos)](https://github.com/nathanmontt)
 [![Twitter Badge](https://img.shields.io/badge/-Twitter-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/fagnerpsantos)](https://twitter.com/nathanmontt)
-
-ddddddddd
 
 #
