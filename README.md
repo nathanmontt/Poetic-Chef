@@ -41,8 +41,6 @@ Para a aplicação, foram utilizadas poucas linguagens, como:
 * Página <i><strong>Login</strong></i>
 * Página <i><strong>Criar Conta (Sign Up)</strong></i>
 
-<br>
-
 ##### **Não concluídas:**
 * Página <i>Products (Produtos)</i>
 * Verificação nos <i>inputs</i> das áreas <i><strong>Login</strong></i> e <i><strong>Sign Up</strong></i>
