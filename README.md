@@ -1,6 +1,8 @@
 **<h1 align="center">MiR - Made In Red</h1>**
 
-![Logo](/MiR/assets/midia/screenshots/screenshot.png)
+<img src="../MiR/assets/midia/others/screenshot.png">
+
+<!-- ![Logo](/MiR/assets/midia/others/screenshot.png) -->
 <hr>
 
 ![MIT Badge licensed](https://img.shields.io/badge/license-MIT-informational)
