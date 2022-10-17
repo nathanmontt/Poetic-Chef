@@ -12,7 +12,6 @@
 <p align="center">Uma aplicação web, ainda em desenvolvimento, referente a uma vinícula fictícia na qual a mesma fabrica os próprios vinhos, os precifica e os vende.</p>
 
 #
-
 ## **Sobre o projeto**
 
 O projeto consiste na criação de uma aplicação web na qual podemos notar que é uma loja de vinhos. A mesma não <strong>não possui relação com nada na vida real</strong>, ou seja, <strong>é um local fictício</strong>.
@@ -33,10 +32,8 @@ Para a aplicação, foram utilizadas poucas linguagens, como:
 -  ![CSS Badge](https://img.shields.io/badge/CSS-blue)
 -  ![JavaScript Badge](https://img.shields.io/badge/JavaScript-yellow)
 <!-- [MIT licensed](./LICENSE). -->
-
 #
 ### **Features**
-
 ##### **Concluídas:**
 
 * Página <i><strong>Home</strong></i>
@@ -47,7 +44,6 @@ Para a aplicação, foram utilizadas poucas linguagens, como:
 <br>
 
 ##### **Não concluídas:**
-
 * Página <i>Products (Produtos)</i>
 * Verificação nos <i>inputs</i> das áreas <i><strong>Login</strong></i> e <i><strong>Sign Up</strong></i>
 #
