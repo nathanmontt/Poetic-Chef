@@ -55,7 +55,6 @@ Para a aplicação, foram utilizadas poucas linguagens, como:
 * Verificação nos <i>inputs</i> das áreas <i><strong>Login</strong></i> e <i><strong>Sign Up</strong></i>
 #
 ## **Autor**
-
 <img style="border-radius: 100%" src="https://avatars.githubusercontent.com/u/87106760?s=400&u=a4fcaf45e79daf73720315436d4e598560012ff5&v=4" width="100px;" alt="profile-photo"/>
 
 ##### Feito com ❤️ por Nathan Monteiro
