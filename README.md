@@ -2,8 +2,8 @@
 
 <!-- <img src="../MiR/assets/midia/others/screenshot.png" alt="logo"> -->
 
-![Logo](/MiR/assets/midia/others/screenshot.png)
-<hr>
+<!-- ![Logo](/MiR/assets/midia/others/screenshot.png) -->
+<!-- <hr> -->
 
 ![MIT Badge licensed](https://img.shields.io/badge/license-MIT-informational)
 ![Badge](https://img.shields.io/badge/lançamento-Outubro-blue)
@@ -14,17 +14,14 @@
 #
 
 ## **Sobre o projeto**
-<p>
-  O projeto consiste na criação de uma aplicação web na qual podemos notar que é uma loja de vinhos. A mesma não <strong>não possui relação com nada na vida real</strong>, ou seja, <strong>é um local fictício</strong>.
 
-  A aplicação consiste em demonstrar para o usuário sobre:
-  
-  <ul>
-    <li>Como a história da vinícula apresentada;</li>
-    <li>Como é ter uma grande variedades de vinhos;</li>
-    <li>Como funciona a questão de transporte dos mesmos</li>
-  </ul>
-</p>
+O projeto consiste na criação de uma aplicação web na qual podemos notar que é uma loja de vinhos. A mesma não <strong>não possui relação com nada na vida real</strong>, ou seja, <strong>é um local fictício</strong>.
+
+A aplicação consiste em demonstrar para o usuário sobre:
+
+* Como a história da vinícula apresentada;
+* Como é ter uma grande variedades de vinhos;
+* Como funciona a questão de transporte dos mesmos
 
 #
 ### **Linguagens Utilizadas**
