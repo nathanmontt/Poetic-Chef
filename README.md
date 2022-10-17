@@ -12,9 +12,8 @@
 <p align="center">Uma aplicação web, ainda em desenvolvimento, referente a uma vinícula fictícia na qual a mesma fabrica os próprios vinhos, os precifica e os vende.</p>
 
 #
-## **Sobre o projeto**
-
-O projeto consiste na criação de uma aplicação web na qual podemos notar que é uma loja de vinhos. A mesma não <strong>não possui relação com nada na vida real</strong>, ou seja, <strong>é um local fictício</strong>.
+### **Sobre o projeto**
+O projeto consiste na criação de uma aplicação web na qual podemos notar que é uma loja de vinhos. A mesma <strong>não possui relação agluma com qualquer tipo de e-commerce online na vida real</strong>, ou seja, <strong>é um local fictício</strong>.
 
 A aplicação consiste em demonstrar para o usuário sobre:
 
@@ -45,7 +44,7 @@ Para a aplicação, foram utilizadas poucas linguagens, como:
 * Página <i>Products (Produtos)</i>
 * Verificação nos <i>inputs</i> das áreas <i><strong>Login</strong></i> e <i><strong>Sign Up</strong></i>
 #
-## **Autor**
+### **Autor**
 <img style="border-radius: 100%" src="https://avatars.githubusercontent.com/u/87106760?s=400&u=a4fcaf45e79daf73720315436d4e598560012ff5&v=4" width="100px;" alt="profile-photo"/>
 
 ##### Feito com ❤️ por Nathan Monteiro
