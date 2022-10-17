@@ -1,6 +1,6 @@
 **<h1 align="center">MiR - Made In Red</h1>**
 
-<img src="../MiR/assets/midia/others/screenshot.png">
+<img src="../MiR/assets/midia/others/screenshot.png" alt="logo">
 
 <!-- ![Logo](/MiR/assets/midia/others/screenshot.png) -->
 <hr>
