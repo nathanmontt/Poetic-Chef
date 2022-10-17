@@ -60,8 +60,6 @@ Para a aplicação, foram utilizadas poucas linguagens, como:
 
 ##### Feito com ❤️ por Nathan Monteiro
 
-<br>
-
 ### **Contato**
 
 [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/fagnerpsantos/)](https://www.linkedin.com/in/nathan-monteiro/)
