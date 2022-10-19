@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink&family=Dosis:wght@200;300;400;500&display=swap');
+
+
+/* SASS VARIABLES */
+$firstColor: white;
+$secondColor: black;
+$anotherColor1: #ab2614;
+$fontFamily1: 'Cormorant Garamond', serif;
+$fontFamily2: 'Aref Ruqaa Ink', serif;
+$fontFamily3: 'Dosis', sans-serif;
+$fontFamily4: 'PT Serif', serif;
+
+/* CSS RESET */
+* {
+  list-style-type: none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
