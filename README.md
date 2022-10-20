@@ -1,6 +1,6 @@
 **<h1 align="center">MiR - Made In Red</h1>**
 
-![Logo Aplication](https://user-images.githubusercontent.com/87106760/196168992-16ce5a0f-66f4-4140-92ed-b39100c52cc2.png)
+![Logo](https://user-images.githubusercontent.com/87106760/196972448-0ac03757-28fe-4d9d-b6ea-a465ca09ee96.png)
 
 <!-- ![Logo](/MiR/assets/midia/others/screenshot.png) -->
 <!-- <hr> -->
