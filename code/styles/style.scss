@@ -10,9 +10,71 @@ $fontFamily1: 'Cormorant Garamond', serif;
 
 /* CSS RESET */
 * {
+  // scroll-behavior: smooth;
   list-style-type: none;
   text-decoration: none;
   padding: 0;
   margin: 0;
 }
 
+#root {
+  nav {
+    .container-general-nav {
+      .link-home {
+        #logo {}
+      }
+    }
+
+    .container-options {
+      ul {
+        .options {
+          a {}
+        }
+
+        .options-modal {
+          .title-modal-products {}
+          .text-modal-products {}
+          .overlay {}
+        }
+      }
+    }
+  }
+
+
+  main {
+    .container-general-main {
+      .container-hero-text {
+        .title-hero {}
+        .description-hero {}
+        .hero-image {}
+      }
+
+      .container-briefings {
+        #briefings {
+          .title-briefing {}
+          .description-briefing {}
+          .briefing-images {}
+        }
+      }
+
+      .container-products {
+        .title-coming-soon {}
+        .description-coming-soon {}
+        .blurry-overlay {}
+      }
+
+      .container-testimonials {
+        .title-testimonials {
+          .group-testimonial {
+            .symbol {}
+            .testimonial-itself {}
+
+            .container-person {
+              
+            }
+          }
+        }
+      }
+    }
+  }
+}
