@@ -3,8 +3,8 @@
 
 
 /* SASS VARIABLES */
-$firstColor: white;
-$secondColor: black;
+$firstColor: black;
+$secondColor: white;
 $anotherColor1: #ab2614;
 $fontFamily1: 'Cormorant Garamond', serif;
 
@@ -17,26 +17,60 @@ $fontFamily1: 'Cormorant Garamond', serif;
   margin: 0;
 }
 
-// body {}
+body {
+  .hidden {
+    display: none;
+  }
+}
 
 #root {
-  nav {
-    .container-general-nav {
-      .link-home {
-        #logo {}
-      }
-    }
+  .container-general-nav {
+    nav {
+      display: flex;
+      justify-content: space-between;
 
-    .container-options {
-      ul {
-        .options {
-          a {}
+      // padding: 1rem;
+      border: 3px solid green;
+      background-color: $firstColor;
+
+      #logo {
+        background-color: $firstColor;
+        width: 5rem;
+        height: 5rem;
+      }
+
+      .container-options {
+        .container-menus {
+          display: flex;
+          justify-content: end;
+          // margin-right: .8rem;
+
+          .icon-open {
+            cursor: pointer;
+          }
+
+          .icon-close {
+            cursor: pointer;
+            // margin-right: 0rem;
+          }
+
         }
 
-        .options-modal {
-          .title-modal-products {}
-          .text-modal-products {}
-          .overlay {}
+        ul {
+          position: absolute;
+          margin: .7rem 1rem 0 0;
+          background-color: $secondColor;
+          // padding: 1rem;
+
+          .options {
+            margin: .5rem;
+            // border: 3px solid green;
+            text-align: right;
+
+            a {
+              color: $firstColor;
+            }
+          }
         }
       }
     }
@@ -47,21 +81,27 @@ $fontFamily1: 'Cormorant Garamond', serif;
     .container-general-main {
       .container-hero-text {
         .title-hero {}
+
         .description-hero {}
+
         .hero-image {}
       }
 
       .container-briefings {
         #briefings {
           .title-briefing {}
+
           .description-briefing {}
+
           .briefing-images {}
         }
       }
 
       .container-products {
         .title-coming-soon {}
+
         .description-coming-soon {}
+
         .blurry-overlay {}
       }
 
@@ -69,12 +109,15 @@ $fontFamily1: 'Cormorant Garamond', serif;
         .title-testimonials {
           .group-testimonial {
             .symbol {}
+
             .testimonial-itself {}
 
             .container-person {
               .persona {}
+
               .container-name-persona {
                 .title-name {}
+
                 .job-ocupation {}
               }
             }
@@ -90,6 +133,7 @@ $fontFamily1: 'Cormorant Garamond', serif;
         .container-general-footer {
           .container-left {
             .logo-company {}
+
             .slogan {}
           }
         }
@@ -97,12 +141,14 @@ $fontFamily1: 'Cormorant Garamond', serif;
         .container-right {
           .container-useful-links {
             .description {}
+
             .links {}
           }
         }
 
         .container-socials {
           .copyright {}
+
           .social-links {}
         }
       }

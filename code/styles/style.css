@@ -7,4 +7,42 @@
   text-decoration: none;
   padding: 0;
   margin: 0;
+}
+
+body .hidden {
+  display: none;
+}
+
+#root .container-general-nav nav {
+  display: flex;
+  justify-content: space-between;
+  border: 3px solid green;
+  background-color: black;
+}
+#root .container-general-nav nav #logo {
+  background-color: black;
+  width: 5rem;
+  height: 5rem;
+}
+#root .container-general-nav nav .container-options .container-menus {
+  display: flex;
+  justify-content: end;
+}
+#root .container-general-nav nav .container-options .container-menus .icon-open {
+  cursor: pointer;
+}
+#root .container-general-nav nav .container-options .container-menus .icon-close {
+  cursor: pointer;
+}
+#root .container-general-nav nav .container-options ul {
+  position: absolute;
+  margin: 0.7rem 1rem 0 0;
+  background-color: white;
+}
+#root .container-general-nav nav .container-options ul .options {
+  margin: 0.5rem;
+  text-align: right;
+}
+#root .container-general-nav nav .container-options ul .options a {
+  color: black;
 }/*# sourceMappingURL=style.css.map */
