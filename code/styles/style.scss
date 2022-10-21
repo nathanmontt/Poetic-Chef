@@ -17,6 +17,8 @@ $fontFamily1: 'Cormorant Garamond', serif;
   margin: 0;
 }
 
+// body {}
+
 #root {
   nav {
     .container-general-nav {
@@ -70,9 +72,38 @@ $fontFamily1: 'Cormorant Garamond', serif;
             .testimonial-itself {}
 
             .container-person {
-              
+              .persona {}
+              .container-name-persona {
+                .title-name {}
+                .job-ocupation {}
+              }
             }
           }
+        }
+      }
+
+      .container-sponsors {
+        .sponsors {}
+      }
+
+      footer {
+        .container-general-footer {
+          .container-left {
+            .logo-company {}
+            .slogan {}
+          }
+        }
+
+        .container-right {
+          .container-useful-links {
+            .description {}
+            .links {}
+          }
+        }
+
+        .container-socials {
+          .copyright {}
+          .social-links {}
         }
       }
     }
