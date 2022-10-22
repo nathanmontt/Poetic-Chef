@@ -25,50 +25,65 @@ body {
 
 #root {
   .container-general-nav {
+    background-color: $firstColor;
+    padding: 1rem;
+
     nav {
       display: flex;
       justify-content: space-between;
-
-      // padding: 1rem;
       border: 3px solid green;
-      background-color: $firstColor;
-
+      
       #logo {
-        background-color: $firstColor;
-        width: 5rem;
-        height: 5rem;
+        width: 4rem;
+        height: 4rem;
       }
-
-      .container-options {
-        .container-menus {
+      
+      .container-open-close-menu{
+        // border: 3px solid beige;
+        
+        display: flex;
+        flex-direction: column;
+        
+        .container-img-menus {
           display: flex;
           justify-content: end;
-          // margin-right: .8rem;
+
+          margin-left: auto;
 
           .icon-open {
-            cursor: pointer;
+            width: 2.7rem;
+            position: absolute;
           }
-
+          
           .icon-close {
-            cursor: pointer;
-            // margin-right: 0rem;
+            width: 2.7rem;
+            // position: absolute;
           }
-
+          
         }
+        
+        .container-options {
+          background-color: $firstColor;
+          border: 3px solid beige;
+          margin-top: .7rem;
+          // position: absolute;
+          
+          ul {
+            display: flex;
+            flex-direction: column;
 
-        ul {
-          position: absolute;
-          margin: .7rem 1rem 0 0;
-          background-color: $secondColor;
-          // padding: 1rem;
-
-          .options {
-            margin: .5rem;
-            // border: 3px solid green;
-            text-align: right;
-
-            a {
-              color: $firstColor;
+            .options {
+              display: flex;
+              justify-content: end;
+              // flex-direction: column;
+              padding: .2rem;
+              
+              a {
+                text-align: end;
+                color: $secondColor;
+                text-transform: capitalize;
+                // border: 3px solid #e5ff00;
+              }
             }
           }
         }

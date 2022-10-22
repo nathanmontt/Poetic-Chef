@@ -13,36 +13,51 @@ body .hidden {
   display: none;
 }
 
+#root .container-general-nav {
+  background-color: black;
+  padding: 1rem;
+}
 #root .container-general-nav nav {
   display: flex;
   justify-content: space-between;
   border: 3px solid green;
-  background-color: black;
 }
 #root .container-general-nav nav #logo {
-  background-color: black;
-  width: 5rem;
-  height: 5rem;
+  width: 4rem;
+  height: 4rem;
 }
-#root .container-general-nav nav .container-options .container-menus {
+#root .container-general-nav nav .container-open-close-menu {
+  display: flex;
+  flex-direction: column;
+}
+#root .container-general-nav nav .container-open-close-menu .container-img-menus {
   display: flex;
   justify-content: end;
+  margin-left: auto;
 }
-#root .container-general-nav nav .container-options .container-menus .icon-open {
-  cursor: pointer;
-}
-#root .container-general-nav nav .container-options .container-menus .icon-close {
-  cursor: pointer;
-}
-#root .container-general-nav nav .container-options ul {
+#root .container-general-nav nav .container-open-close-menu .container-img-menus .icon-open {
+  width: 2.7rem;
   position: absolute;
-  margin: 0.7rem 1rem 0 0;
-  background-color: white;
 }
-#root .container-general-nav nav .container-options ul .options {
-  margin: 0.5rem;
-  text-align: right;
+#root .container-general-nav nav .container-open-close-menu .container-img-menus .icon-close {
+  width: 2.7rem;
 }
-#root .container-general-nav nav .container-options ul .options a {
-  color: black;
+#root .container-general-nav nav .container-open-close-menu .container-options {
+  background-color: black;
+  border: 3px solid beige;
+  margin-top: 0.7rem;
+}
+#root .container-general-nav nav .container-open-close-menu .container-options ul {
+  display: flex;
+  flex-direction: column;
+}
+#root .container-general-nav nav .container-open-close-menu .container-options ul .options {
+  display: flex;
+  justify-content: end;
+  padding: 0.2rem;
+}
+#root .container-general-nav nav .container-open-close-menu .container-options ul .options a {
+  text-align: end;
+  color: white;
+  text-transform: capitalize;
 }/*# sourceMappingURL=style.css.map */
