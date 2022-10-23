@@ -1,3 +1,11 @@
+/*VARIABLES*/
+$color1: black;
+$color2: white;
+$color3: beige;
+$color4: transparent;
+
+// $fontFam1
+// $fontFam2
 
 /*CSS RESET*/
 * {
@@ -6,4 +14,78 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.container-general {
+  .container-bg-image-1{
+    background-image: url('/Poetic-Chef/assets/media/images/poetic-chef-1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+
+    position: relative;
+
+    .container-navbar {
+      display: flex;
+      justify-content: space-between;
+      padding: .7rem;
+      border: 3px solid green;
+      
+      .logo-company {
+        // border: 3px solid blue;
+        width: 5rem;
+        height: 5rem;
+      }
+      
+      nav {
+        display: flex;
+        flex-direction: column;
+
+        .hamb-nav {
+          margin: auto 0 auto auto;
+          width: 3rem;
+          cursor: pointer;
+        }
+        
+        .navigation-options{
+          background-color: $color2;
+          margin: .5rem .7rem 0 0;
+          
+          .options {
+            text-align: center;
+            text-transform: capitalize;
+            margin: .7rem 1rem 1rem 1rem;
+            // padding: .4rem;
+            
+            a {
+              margin-top: .5rem;
+              color: $color1;
+            }
+          }
+        }
+      }
+    }
+
+
+    .container-main {
+      main {
+        .container-hero-part {
+          .container-about {
+            .container-texts {
+              .title-hero-about {}
+
+              .description-hero-about {}
+            }
+
+            .image-hero-about {}
+          }
+        }
+      }
+    }
+  }
 }

@@ -1,3 +1,4 @@
+/*VARIABLES*/
 /*CSS RESET*/
 * {
   text-decoration: none;
@@ -5,4 +6,49 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.container-general .container-bg-image-1 {
+  background-image: url("/Poetic-Chef/assets/media/images/poetic-chef-1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  position: relative;
+}
+.container-general .container-bg-image-1 .container-navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.7rem;
+  border: 3px solid green;
+}
+.container-general .container-bg-image-1 .container-navbar .logo-company {
+  width: 5rem;
+  height: 5rem;
+}
+.container-general .container-bg-image-1 .container-navbar nav {
+  display: flex;
+  flex-direction: column;
+}
+.container-general .container-bg-image-1 .container-navbar nav .hamb-nav {
+  margin: auto 0 auto auto;
+  width: 3rem;
+  cursor: pointer;
+}
+.container-general .container-bg-image-1 .container-navbar nav .navigation-options {
+  background-color: white;
+  margin: 0.5rem 0.7rem 0 0;
+}
+.container-general .container-bg-image-1 .container-navbar nav .navigation-options .options {
+  text-align: center;
+  text-transform: capitalize;
+  margin: 0.7rem 1rem 1rem 1rem;
+}
+.container-general .container-bg-image-1 .container-navbar nav .navigation-options .options a {
+  margin-top: 0.5rem;
+  color: black;
 }/*# sourceMappingURL=style.css.map */
