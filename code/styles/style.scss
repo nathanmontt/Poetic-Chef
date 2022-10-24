@@ -20,8 +20,8 @@ $color4: transparent;
   display: none;
 }
 
-.container-general {
-  .container-bg-image-1{
+.container-whole-project {
+  .container-bg-image-1 {
     background-image: url('/Poetic-Chef/assets/media/images/poetic-chef-1.jpg');
     background-repeat: no-repeat;
     background-position: center;
@@ -34,14 +34,12 @@ $color4: transparent;
       display: flex;
       justify-content: space-between;
       padding: .7rem;
-      border: 3px solid green;
-      
+
       .logo-company {
-        // border: 3px solid blue;
-        width: 5rem;
-        height: 5rem;
+        width: 3.5rem;
+        height: 3.5rem;
       }
-      
+
       nav {
         display: flex;
         flex-direction: column;
@@ -51,20 +49,23 @@ $color4: transparent;
           width: 3rem;
           cursor: pointer;
         }
-        
-        .navigation-options{
+
+        .navigation-options {
           background-color: $color2;
-          margin: .5rem .7rem 0 0;
-          
+          margin: .5rem auto auto auto;
+
           .options {
             text-align: center;
             text-transform: capitalize;
             margin: .7rem 1rem 1rem 1rem;
-            // padding: .4rem;
-            
+
             a {
               margin-top: .5rem;
               color: $color1;
+
+              &:hover {
+                font-weight: 700;
+              }
             }
           }
         }
@@ -72,20 +73,48 @@ $color4: transparent;
     }
 
 
-    .container-main {
+    .container-main-1 {
       main {
-        .container-hero-part {
-          .container-about {
-            .container-texts {
-              .title-hero-about {}
-
-              .description-hero-about {}
+        .container-company {
+          margin-top: 17rem;
+          text-indent: 2rem;
+          
+          position: absolute;
+          top: 0;
+          right: 0;
+          left: 0;
+          bottom: 0;
+          
+          .container-texts-company {
+            // display: flex;
+            // flex-direction: column;
+            
+            // border: 3px solid lightslategrey;
+            .title-company {
+              font-size: 2rem; 
+              color: $color2;
+              text-transform: capitalize;
             }
-
-            .image-hero-about {}
+            
+            .slogan-company {
+              color: $color2;
+            }
           }
         }
       }
     }
   }
+
+  .container-bg-image-2 {
+    background-image: url('/Poetic-Chef/assets/media/images/poetic-chef-2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    // background-size: cover;
+    background-size: 65%;
+    min-height: 100vh;
+    
+    background-color: $color3;
+  }
+
+
 }

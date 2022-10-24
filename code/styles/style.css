@@ -12,7 +12,7 @@
   display: none;
 }
 
-.container-general .container-bg-image-1 {
+.container-whole-project .container-bg-image-1 {
   background-image: url("/Poetic-Chef/assets/media/images/poetic-chef-1.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -20,35 +20,62 @@
   min-height: 100vh;
   position: relative;
 }
-.container-general .container-bg-image-1 .container-navbar {
+.container-whole-project .container-bg-image-1 .container-navbar {
   display: flex;
   justify-content: space-between;
   padding: 0.7rem;
-  border: 3px solid green;
 }
-.container-general .container-bg-image-1 .container-navbar .logo-company {
-  width: 5rem;
-  height: 5rem;
+.container-whole-project .container-bg-image-1 .container-navbar .logo-company {
+  width: 3.5rem;
+  height: 3.5rem;
 }
-.container-general .container-bg-image-1 .container-navbar nav {
+.container-whole-project .container-bg-image-1 .container-navbar nav {
   display: flex;
   flex-direction: column;
 }
-.container-general .container-bg-image-1 .container-navbar nav .hamb-nav {
+.container-whole-project .container-bg-image-1 .container-navbar nav .hamb-nav {
   margin: auto 0 auto auto;
   width: 3rem;
   cursor: pointer;
 }
-.container-general .container-bg-image-1 .container-navbar nav .navigation-options {
+.container-whole-project .container-bg-image-1 .container-navbar nav .navigation-options {
   background-color: white;
-  margin: 0.5rem 0.7rem 0 0;
+  margin: 0.5rem auto auto auto;
 }
-.container-general .container-bg-image-1 .container-navbar nav .navigation-options .options {
+.container-whole-project .container-bg-image-1 .container-navbar nav .navigation-options .options {
   text-align: center;
   text-transform: capitalize;
   margin: 0.7rem 1rem 1rem 1rem;
 }
-.container-general .container-bg-image-1 .container-navbar nav .navigation-options .options a {
+.container-whole-project .container-bg-image-1 .container-navbar nav .navigation-options .options a {
   margin-top: 0.5rem;
   color: black;
+}
+.container-whole-project .container-bg-image-1 .container-navbar nav .navigation-options .options a:hover {
+  font-weight: 700;
+}
+.container-whole-project .container-bg-image-1 .container-main-1 main .container-company {
+  margin-top: 17rem;
+  text-indent: 2rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+.container-whole-project .container-bg-image-1 .container-main-1 main .container-company .container-texts-company .title-company {
+  font-size: 2rem;
+  color: white;
+  text-transform: capitalize;
+}
+.container-whole-project .container-bg-image-1 .container-main-1 main .container-company .container-texts-company .slogan-company {
+  color: white;
+}
+.container-whole-project .container-bg-image-2 {
+  background-image: url("/Poetic-Chef/assets/media/images/poetic-chef-2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 65%;
+  min-height: 100vh;
+  background-color: beige;
 }/*# sourceMappingURL=style.css.map */
