@@ -1,11 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
 /*VARIABLES*/
 $color1: black;
 $color2: white;
 $color3: beige;
 $color4: transparent;
+$fontFam1: 'Quicksand', sans-serif;
 
-// $fontFam1
-// $fontFam2
 
 /*CSS RESET*/
 * {
@@ -21,50 +22,90 @@ $color4: transparent;
 }
 
 .container-whole-project {
-  .container-bg-image-1 {
-    background-image: url('/Poetic-Chef/assets/media/images/poetic-chef-1.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    min-height: 100vh;
+  background-color: $color3;
+  .container-media-query-grid{
+    @media screen and(min-width: 768px) {}
 
-    position: relative;
+    .container-bg-image-1 {
+      background-image: url('/Poetic-Chef/assets/media/images/poetic-chef-1.jpg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      min-height: 100vh;
 
-    .container-navbar {
-      display: flex;
-      justify-content: space-between;
-      padding: .7rem;
+      position: relative;
 
-      .logo-company {
-        width: 3.5rem;
-        height: 3.5rem;
-      }
-
-      nav {
+      .container-navbar {
         display: flex;
-        flex-direction: column;
+        justify-content: space-between;
+        padding: .7rem;
 
-        .hamb-nav {
-          margin: auto 0 auto auto;
-          width: 3rem;
-          cursor: pointer;
+        .logo-company {
+          width: 3.5rem;
+          height: 3.5rem;
         }
 
-        .navigation-options {
-          background-color: $color2;
-          margin: .5rem auto auto auto;
+        nav {
+          display: flex;
+          flex-direction: column;
 
-          .options {
-            text-align: center;
-            text-transform: capitalize;
-            margin: .7rem 1rem 1rem 1rem;
+          .hamb-nav {
+            margin: auto 0 auto auto;
+            width: 3rem;
+            cursor: pointer;
+          }
 
-            a {
-              margin-top: .5rem;
-              color: $color1;
+          .navigation-options {
+            background-color: $color2;
+            margin: .5rem auto auto auto;
 
-              &:hover {
-                font-weight: 700;
+            .options {
+              font-family: $fontFam1;
+
+              text-align: center;
+              text-transform: capitalize;
+              margin: .7rem 1rem 1rem 1rem;
+
+              a {
+                margin-top: .5rem;
+                color: $color1;
+
+                &:hover {
+                  font-weight: 700;
+                }
+              }
+            }
+          }
+        }
+      }
+
+
+      .container-main-1 {
+        main {
+          .container-company {
+            margin-top: 17rem;
+            text-indent: 2rem;
+            
+            position: absolute;
+            top: 0;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            
+            .container-texts-company {
+              .title-company {
+                font-family: $fontFam1;
+                font-size: 2.3rem;
+                font-weight: 500;
+                color: $color2;
+                text-transform: capitalize;
+              }
+              
+              .slogan-company {
+                font-family: $fontFam1;
+                font-weight: 300;
+                font-size: 1rem;
+                color: $color2;
               }
             }
           }
@@ -72,49 +113,47 @@ $color4: transparent;
       }
     }
 
-
-    .container-main-1 {
-      main {
-        .container-company {
-          margin-top: 17rem;
-          text-indent: 2rem;
-          
-          position: absolute;
-          top: 0;
-          right: 0;
-          left: 0;
-          bottom: 0;
-          
-          .container-texts-company {
-            // display: flex;
-            // flex-direction: column;
-            
-            // border: 3px solid lightslategrey;
-            .title-company {
-              font-size: 2rem; 
-              color: $color2;
-              text-transform: capitalize;
-            }
-            
-            .slogan-company {
-              color: $color2;
-            }
-          }
-        }
-      }
+    .container-bg-image-2 {
+      background-image: url('/Poetic-Chef/assets/media/images/poetic-chef-3.jpg');
+      background-repeat: no-repeat;
+      background-position: center;
+      // background-size: cover;
+      background-size: 65%;
+      min-height: 100vh;
+      
+      background-color: $color3;
     }
   }
 
-  .container-bg-image-2 {
-    background-image: url('/Poetic-Chef/assets/media/images/poetic-chef-2.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    // background-size: cover;
-    background-size: 65%;
-    min-height: 100vh;
+  
+  .container-section-concept {
+    .title-concept {
+      font-family: $fontFam1;
+      font-weight: 600;
+      font-size: 2rem;
+
+      margin: 2rem 0 1rem 1rem;
+      
+      text-transform: capitalize;
+
+      position: relative;
+
+      &::after {
+        content: '';
+        position: absolute;
+        background-color: $color1;
+        width: 2rem;
+        border: .01rem solid black;
+        margin: 1.3rem 0 0 .7rem;
+      }
+    }
     
-    background-color: $color3;
+    .description-concept {
+      font-family: $fontFam1;
+      font-weight: 400;
+      
+      margin: 0 0 0 1rem;
+    }
+
   }
-
-
 }
