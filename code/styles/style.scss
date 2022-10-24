@@ -138,17 +138,6 @@ $fontFam1: 'Quicksand', sans-serif;
       margin: 2rem 0 1rem 1rem;
       
       text-transform: capitalize;
-
-      position: relative;
-
-      &::after {
-        content: '';
-        position: absolute;
-        background-color: $color1;
-        width: 2rem;
-        border: .01rem solid black;
-        margin: 1.3rem 0 0 .7rem;
-      }
     }
     
     .description-concept {
@@ -160,18 +149,69 @@ $fontFam1: 'Quicksand', sans-serif;
   }
 
   .container-section-popular-news {
+    min-height: 100vh;
+    padding: 5rem 1rem 0 1rem;
+
+    .title-most {
+      font-size: 1.5rem;
+      font-weight: 500;
+      font-family: $fontFam1;
+
+      text-align: center;
+      text-transform: capitalize;
+
+      margin: 0 0 3rem 0;
+    }
+
     .container-popular-news {
+      border: .01rem solid #aaaaaa;
+      margin-bottom: 1rem;
+
+      @media screen and(min-width: 768px) {}
+
       .section-article {
-        .img-article {}
-        .title-article {}
-        .overview {}
-        .read-article {}
+        .img-article {
+          display: flex;
+          margin: auto;
+          width: 100%;
+        }
+        
+        .container-tetxts-popular-news{
+          font-family: $fontFam1;
+          text-transform: capitalize;
+          
+          margin: .7rem;
+          
+          .title-article {
+            font-weight: 600;
+          }
+
+          .overview {
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+          }
+
+          .writtes-name {
+            color: gray;
+          }
+
+          .read-article {
+            color: #0101c2;
+          }
+        }
       }
     }
   }
 
   .container-section-latests-news {
+    min-height: 100vh;
+    padding: 5rem 1rem 0 1rem;
+
     .container-latests-news {
+      .title {
+
+      }
       .section-article {
         .img-article {}
         .title-article {}
