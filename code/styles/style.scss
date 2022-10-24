@@ -127,6 +127,9 @@ $fontFam1: 'Quicksand', sans-serif;
 
   
   .container-section-concept {
+    min-height: 100vh;
+    padding: 5rem 1rem 0 1rem;
+
     .title-concept {
       font-family: $fontFam1;
       font-weight: 600;
@@ -154,6 +157,27 @@ $fontFam1: 'Quicksand', sans-serif;
       
       margin: 0 0 0 1rem;
     }
+  }
 
+  .container-section-popular-news {
+    .container-popular-news {
+      .section-article {
+        .img-article {}
+        .title-article {}
+        .overview {}
+        .read-article {}
+      }
+    }
+  }
+
+  .container-section-latests-news {
+    .container-latests-news {
+      .section-article {
+        .img-article {}
+        .title-article {}
+        .overview {}
+        .read-article {}
+      }
+    }
   }
 }
