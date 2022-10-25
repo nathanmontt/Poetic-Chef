@@ -131,6 +131,9 @@
   text-transform: capitalize;
   margin: 0.7rem;
 }
+.container-whole-project .container-section-popular-news .container-popular-news .section-article .container-tetxts-popular-news .type, .container-whole-project .container-section-popular-news .container-popular-news .section-article .container-tetxts-popular-news .writtes-name {
+  color: gray;
+}
 .container-whole-project .container-section-popular-news .container-popular-news .section-article .container-tetxts-popular-news .title-article {
   font-weight: 600;
 }
@@ -139,13 +142,46 @@
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-.container-whole-project .container-section-popular-news .container-popular-news .section-article .container-tetxts-popular-news .writtes-name {
-  color: gray;
-}
 .container-whole-project .container-section-popular-news .container-popular-news .section-article .container-tetxts-popular-news .read-article {
   color: #0101c2;
 }
 .container-whole-project .container-section-latests-news {
   min-height: 100vh;
   padding: 5rem 1rem 0 1rem;
+}
+.container-whole-project .container-section-latests-news .title-latests {
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+  text-transform: capitalize;
+  margin: 0 0 3rem 0;
+}
+.container-whole-project .container-section-latests-news .container-latests-news {
+  border: 0.01rem solid #aaaaaa;
+  margin-bottom: 1rem;
+  font-family: "Quicksand", sans-serif;
+  text-transform: capitalize;
+}
+.container-whole-project .container-section-latests-news .container-latests-news .section-article .img-article {
+  display: flex;
+  margin: auto;
+  width: 100%;
+}
+.container-whole-project .container-section-latests-news .container-latests-news .section-article .container-section-texts {
+  margin: 0.7rem;
+}
+.container-whole-project .container-section-latests-news .container-latests-news .section-article .container-section-texts .type, .container-whole-project .container-section-latests-news .container-latests-news .section-article .container-section-texts .writtes-name-article {
+  color: gray;
+}
+.container-whole-project .container-section-latests-news .container-latests-news .section-article .container-section-texts .title-article {
+  font-weight: 600;
+}
+.container-whole-project .container-section-latests-news .container-latests-news .section-article .container-section-texts .overview-article {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.container-whole-project .container-section-latests-news .container-latests-news .section-article .container-section-texts .read-latests-article {
+  color: #0101c2;
 }/*# sourceMappingURL=style.css.map */

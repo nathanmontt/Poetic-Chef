@@ -181,6 +181,10 @@ $fontFam1: 'Quicksand', sans-serif;
           text-transform: capitalize;
           
           margin: .7rem;
+
+          .type, .writtes-name {
+            color: gray;
+          }
           
           .title-article {
             font-weight: 600;
@@ -190,10 +194,6 @@ $fontFam1: 'Quicksand', sans-serif;
             overflow: hidden;
             white-space: nowrap;
             text-overflow: ellipsis;
-          }
-
-          .writtes-name {
-            color: gray;
           }
 
           .read-article {
@@ -208,15 +208,51 @@ $fontFam1: 'Quicksand', sans-serif;
     min-height: 100vh;
     padding: 5rem 1rem 0 1rem;
 
-    .container-latests-news {
-      .title {
+    .title-latests {
+      font-size: 1.5rem;
+      font-weight: 500;
+      font-family: $fontFam1;
 
-      }
+      text-align: center;
+      text-transform: capitalize;
+
+      margin: 0 0 3rem 0;
+    }
+
+    .container-latests-news {
+      border: .01rem solid #aaaaaa;
+      margin-bottom: 1rem;
+
+      font-family: $fontFam1;
+      text-transform: capitalize;
+
       .section-article {
-        .img-article {}
-        .title-article {}
-        .overview {}
-        .read-article {}
+        .img-article {
+          display: flex;
+          margin: auto;
+          width: 100%;
+        }
+
+        .container-section-texts{
+          margin: .7rem;
+          .type, .writtes-name-article {
+            color: gray;
+          }
+
+          .title-article {
+            font-weight: 600;
+          }
+
+          .overview-article {
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+          }
+
+          .read-latests-article {
+            color: #0101c2;
+          }
+        }
       }
     }
   }
