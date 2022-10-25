@@ -257,4 +257,32 @@ $fontFam1: 'Quicksand', sans-serif;
       }
     }
   }
+
+  .container-footer {
+    footer {
+      .container-left {
+        .container-logo {
+          .logo {}
+          .company-name {}
+        }
+
+        .container-social-icons {
+          .redirect-social-link {}
+          .icons {}
+        }
+      }
+
+      .container-mid-right {
+        .container-other-links {
+          .title-links-about {}
+
+          .link-options {
+            .op {
+              a {}
+            }
+          }
+        }
+      }
+    }
+  }
 }
