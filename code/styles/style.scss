@@ -54,11 +54,22 @@ $fontFam1: 'Quicksand', sans-serif;
             margin: auto 0 auto auto;
             width: 3rem;
             cursor: pointer;
+
+            @media screen and(min-width: 500px) {
+              display: none;
+            }
           }
 
           .navigation-options {
             background-color: $color2;
             margin: .5rem auto auto auto;
+
+            @media screen and(min-width: 500px) {
+              display: flex;
+              flex-direction: row;
+
+              background-color: transparent;
+            }
 
             .options {
               font-family: $fontFam1;
@@ -67,12 +78,29 @@ $fontFam1: 'Quicksand', sans-serif;
               text-transform: capitalize;
               margin: .7rem 1rem 1rem 1rem;
 
+              @media screen and(min-width: 500px) {
+                display: block;
+                margin: .7rem .2rem 1rem .2rem;
+              }
+              
               a {
                 margin-top: .5rem;
-                color: $color1;
-
+                color: $color1; 
+                
+                @media screen and(min-width: 500px) {
+                  color: $color2;
+                  padding: .5rem;
+                }
+                
                 &:hover {
                   font-weight: 700;
+                  
+                  @media screen and(min-width: 500px) {
+                    color: $color2;
+                    font-weight: 700;
+                    background-color: $color1;
+                    transition: background-color .3s, color .3s;
+                  }
                 }
               }
             }
@@ -119,7 +147,7 @@ $fontFam1: 'Quicksand', sans-serif;
       background-repeat: no-repeat;
       background-position: center;
       // background-size: cover;
-      background-size: 65%;
+      background-size: 15rem;
       min-height: 100vh;
       
       background-color: $color3;
@@ -129,7 +157,7 @@ $fontFam1: 'Quicksand', sans-serif;
   
   .container-section-concept {
     min-height: 100vh;
-    padding: 5rem 1rem 0 1rem;
+    padding: 0 1rem 0 1rem;
 
     .title-concept {
       font-family: $fontFam1;
@@ -151,7 +179,7 @@ $fontFam1: 'Quicksand', sans-serif;
 
   .container-section-popular-news {
     min-height: 100vh;
-    padding: 5rem 1rem 0 1rem;
+    padding: 0 1rem 0 1rem;
 
     .title-most {
       font-size: 1.5rem;
@@ -167,66 +195,87 @@ $fontFam1: 'Quicksand', sans-serif;
     .container-popular-news {
       border: .01rem solid #aaaaaa;
       margin-bottom: 1rem;
-
-      @media screen and(min-width: 768px) {}
-
+      
+      @media screen and(min-width: 500px) {
+        border: none;
+      }
+      
       .section-article {
-        .img-article {
+        @media screen and(min-width: 500px) {
           display: flex;
-          margin: auto;
-          width: 100%;
+          flex-direction: column;
         }
-        
-        .container-tetxts-popular-news{
-          font-family: $fontFam1;
-          text-transform: capitalize;
-          
-          margin: .7rem;
 
-          .type, .writtes-name {
-            color: gray;
+        .teste{
+          @media screen and(min-width: 500px) {}
+
+          .img-article {
+            @media screen and(min-width: 500px) {
+              width: 15rem;
+            }
+
+            width: 100%;
           }
           
-          .title-article {
-            font-weight: 600;
-          }
+          .container-tetxts-popular-news{
+            font-family: $fontFam1;
+            text-transform: capitalize;
+            
+            margin: .7rem;
+            
+            .type, .writtes-name {
+              color: gray;
+            }
+            
+            .title-article {
+              font-weight: 600;
+            }
 
-          .overview {
-            overflow: hidden;
-            white-space: nowrap;
-            text-overflow: ellipsis;
-          }
+            .overview {
+              overflow: hidden;
+              white-space: nowrap;
+              text-overflow: ellipsis;
 
-          .read-article {
-            color: #0101c2;
+              // @media screen and(min-width: 500px) {
+              //   overflow: hidden;
+              //   white-space: nowrap;
+              //   text-overflow: ellipsis;
+              // }
+            }
+            
+            .read-article {
+              color: #0101c2;
+            }
           }
         }
       }
     }
   }
-
+  
   .container-section-latests-news {
     min-height: 100vh;
     padding: 5rem 1rem 0 1rem;
-
+    
+    margin-bottom: 1rem;
+    
     .title-latests {
       font-size: 1.5rem;
       font-weight: 500;
       font-family: $fontFam1;
-
+      
       text-align: center;
       text-transform: capitalize;
-
+      
       margin: 0 0 3rem 0;
     }
-
+    
     .container-latests-news {
       border: .01rem solid #aaaaaa;
       margin-bottom: 1rem;
-
+      
       font-family: $fontFam1;
       text-transform: capitalize;
-
+      
       .section-article {
         .img-article {
           display: flex;

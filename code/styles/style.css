@@ -43,9 +43,21 @@
   width: 3rem;
   cursor: pointer;
 }
+@media screen and (min-width: 500px) {
+  .container-whole-project .container-media-query-grid .container-bg-image-1 .container-navbar nav .hamb-nav {
+    display: none;
+  }
+}
 .container-whole-project .container-media-query-grid .container-bg-image-1 .container-navbar nav .navigation-options {
   background-color: white;
   margin: 0.5rem auto auto auto;
+}
+@media screen and (min-width: 500px) {
+  .container-whole-project .container-media-query-grid .container-bg-image-1 .container-navbar nav .navigation-options {
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+  }
 }
 .container-whole-project .container-media-query-grid .container-bg-image-1 .container-navbar nav .navigation-options .options {
   font-family: "Quicksand", sans-serif;
@@ -53,12 +65,32 @@
   text-transform: capitalize;
   margin: 0.7rem 1rem 1rem 1rem;
 }
+@media screen and (min-width: 500px) {
+  .container-whole-project .container-media-query-grid .container-bg-image-1 .container-navbar nav .navigation-options .options {
+    display: block;
+    margin: 0.7rem 0.2rem 1rem 0.2rem;
+  }
+}
 .container-whole-project .container-media-query-grid .container-bg-image-1 .container-navbar nav .navigation-options .options a {
   margin-top: 0.5rem;
   color: black;
 }
+@media screen and (min-width: 500px) {
+  .container-whole-project .container-media-query-grid .container-bg-image-1 .container-navbar nav .navigation-options .options a {
+    color: white;
+    padding: 0.5rem;
+  }
+}
 .container-whole-project .container-media-query-grid .container-bg-image-1 .container-navbar nav .navigation-options .options a:hover {
   font-weight: 700;
+}
+@media screen and (min-width: 500px) {
+  .container-whole-project .container-media-query-grid .container-bg-image-1 .container-navbar nav .navigation-options .options a:hover {
+    color: white;
+    font-weight: 700;
+    background-color: black;
+    transition: background-color 0.3s, color 0.3s;
+  }
 }
 .container-whole-project .container-media-query-grid .container-bg-image-1 .container-main-1 main .container-company {
   margin-top: 17rem;
@@ -86,13 +118,13 @@
   background-image: url("/Poetic-Chef/assets/media/images/poetic-chef-3.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 65%;
+  background-size: 15rem;
   min-height: 100vh;
   background-color: beige;
 }
 .container-whole-project .container-section-concept {
   min-height: 100vh;
-  padding: 5rem 1rem 0 1rem;
+  padding: 0 1rem 0 1rem;
 }
 .container-whole-project .container-section-concept .title-concept {
   font-family: "Quicksand", sans-serif;
@@ -108,7 +140,7 @@
 }
 .container-whole-project .container-section-popular-news {
   min-height: 100vh;
-  padding: 5rem 1rem 0 1rem;
+  padding: 0 1rem 0 1rem;
 }
 .container-whole-project .container-section-popular-news .title-most {
   font-size: 1.5rem;
@@ -122,33 +154,48 @@
   border: 0.01rem solid #aaaaaa;
   margin-bottom: 1rem;
 }
-.container-whole-project .container-section-popular-news .container-popular-news .section-article .img-article {
-  display: flex;
-  margin: auto;
+@media screen and (min-width: 500px) {
+  .container-whole-project .container-section-popular-news .container-popular-news {
+    border: none;
+  }
+}
+@media screen and (min-width: 500px) {
+  .container-whole-project .container-section-popular-news .container-popular-news .section-article {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.container-whole-project .container-section-popular-news .container-popular-news .section-article .teste .img-article {
   width: 100%;
 }
-.container-whole-project .container-section-popular-news .container-popular-news .section-article .container-tetxts-popular-news {
+@media screen and (min-width: 500px) {
+  .container-whole-project .container-section-popular-news .container-popular-news .section-article .teste .img-article {
+    width: 15rem;
+  }
+}
+.container-whole-project .container-section-popular-news .container-popular-news .section-article .teste .container-tetxts-popular-news {
   font-family: "Quicksand", sans-serif;
   text-transform: capitalize;
   margin: 0.7rem;
 }
-.container-whole-project .container-section-popular-news .container-popular-news .section-article .container-tetxts-popular-news .type, .container-whole-project .container-section-popular-news .container-popular-news .section-article .container-tetxts-popular-news .writtes-name {
+.container-whole-project .container-section-popular-news .container-popular-news .section-article .teste .container-tetxts-popular-news .type, .container-whole-project .container-section-popular-news .container-popular-news .section-article .teste .container-tetxts-popular-news .writtes-name {
   color: gray;
 }
-.container-whole-project .container-section-popular-news .container-popular-news .section-article .container-tetxts-popular-news .title-article {
+.container-whole-project .container-section-popular-news .container-popular-news .section-article .teste .container-tetxts-popular-news .title-article {
   font-weight: 600;
 }
-.container-whole-project .container-section-popular-news .container-popular-news .section-article .container-tetxts-popular-news .overview {
+.container-whole-project .container-section-popular-news .container-popular-news .section-article .teste .container-tetxts-popular-news .overview {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-.container-whole-project .container-section-popular-news .container-popular-news .section-article .container-tetxts-popular-news .read-article {
+.container-whole-project .container-section-popular-news .container-popular-news .section-article .teste .container-tetxts-popular-news .read-article {
   color: #0101c2;
 }
 .container-whole-project .container-section-latests-news {
   min-height: 100vh;
   padding: 5rem 1rem 0 1rem;
+  margin-bottom: 1rem;
 }
 .container-whole-project .container-section-latests-news .title-latests {
   font-size: 1.5rem;
