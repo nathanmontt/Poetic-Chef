@@ -198,8 +198,37 @@
   text-transform: capitalize;
   margin: 0 0 3rem 0;
 }
+.container-whole-project .container-books .container-book-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Quicksand", sans-serif;
+}
 .container-whole-project .container-books .container-book-detail .book-cover {
   width: 12rem;
+}
+.container-whole-project .container-books .container-book-detail .title-book {
+  margin-top: 0.3rem;
+  font-weight: 500;
+}
+.container-whole-project .container-books .container-book-detail .author {
+  margin: 0.2rem 0 1rem 0;
+  color: #595959;
+}
+.container-whole-project .container-books .container-book-detail .buy-book {
+  cursor: pointer;
+  outline: none;
+  text-transform: capitalize;
+  background-color: transparent;
+  width: 12rem;
+  height: 3rem;
+  border: 0.01rem solid black;
+  margin-bottom: 2rem;
+  transition: background-color 0.3s, color 0.3s;
+}
+.container-whole-project .container-books .container-book-detail .buy-book:hover {
+  background-color: black;
+  color: white;
 }
 .container-whole-project .container-footer {
   background-color: black;

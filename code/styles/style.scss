@@ -274,14 +274,44 @@ $fontFam1: 'Quicksand', sans-serif;
     }
 
     .container-book-detail {
-      
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      font-family: $fontFam1;
+
       .book-cover {
         width: 12rem;
       }
-      .title-book {}
-      .author {}
+      
+      .title-book {
+        margin-top: .3rem;
+        font-weight: 500;
+      }
+      
+      .author {
+        margin: .2rem 0 1rem 0;
+        color: #595959;
+      }
+
       .buy-book {
-        span {}
+        cursor: pointer;
+        outline: none;
+
+        text-transform: capitalize;
+        background-color: transparent;
+        width: 12rem;
+        height: 3rem;
+        border: .01rem solid $color1;
+
+        margin-bottom: 2rem;
+
+        transition: background-color .3s, color .3s;
+
+        &:hover {
+          background-color: $color1;
+          color: $color2;
+        }
       }
     }
   }
