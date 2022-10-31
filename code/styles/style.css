@@ -14,8 +14,32 @@
   display: none;
 }
 
+/*SCROLL BAR*/
+::-webkit-scrollbar {
+  width: 0.3rem;
+}
+
+::-webkit-scrollbar-track {
+  background: beige;
+}
+
+::-webkit-scrollbar-thumb {
+  background: black;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #3a3a3a;
+}
+
 .container-whole-project {
   background-color: beige;
+}
+@media screen and (min-width: 768px) {
+  .container-whole-project .container-media-query-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 .container-whole-project .container-media-query-grid .container-bg-image-1 {
   background-image: url("/Poetic-Chef/assets/media/images/poetic-chef-1.jpg");
@@ -25,71 +49,74 @@
   min-height: 100vh;
   position: relative;
 }
-.container-whole-project .container-media-query-grid .container-bg-image-1 .container-navbar {
+@media screen and (min-width: 1000px) {
+  .container-whole-project .container-media-query-grid .container-bg-image-1 .container-hide-nav {
+    display: none;
+  }
+}
+.container-whole-project .container-media-query-grid .container-bg-image-1 .container-hide-nav .container-navbar {
   display: flex;
   justify-content: space-between;
   padding: 0.7rem;
 }
-.container-whole-project .container-media-query-grid .container-bg-image-1 .container-navbar .logo-company {
+.container-whole-project .container-media-query-grid .container-bg-image-1 .container-hide-nav .container-navbar .logo-company {
   width: 3.5rem;
   height: 3.5rem;
 }
-.container-whole-project .container-media-query-grid .container-bg-image-1 .container-navbar nav {
+.container-whole-project .container-media-query-grid .container-bg-image-1 .container-hide-nav .container-navbar nav {
   display: flex;
   flex-direction: column;
 }
-.container-whole-project .container-media-query-grid .container-bg-image-1 .container-navbar nav .hamb-nav {
+.container-whole-project .container-media-query-grid .container-bg-image-1 .container-hide-nav .container-navbar nav .hamb-nav {
   margin: auto 0 auto auto;
   width: 3rem;
   cursor: pointer;
 }
 @media screen and (min-width: 500px) {
-  .container-whole-project .container-media-query-grid .container-bg-image-1 .container-navbar nav .hamb-nav {
+  .container-whole-project .container-media-query-grid .container-bg-image-1 .container-hide-nav .container-navbar nav .hamb-nav {
     display: none;
   }
 }
-.container-whole-project .container-media-query-grid .container-bg-image-1 .container-navbar nav .navigation-options {
+.container-whole-project .container-media-query-grid .container-bg-image-1 .container-hide-nav .container-navbar nav .navigation-options {
   background-color: white;
   margin: 0.5rem auto auto auto;
 }
 @media screen and (min-width: 500px) {
-  .container-whole-project .container-media-query-grid .container-bg-image-1 .container-navbar nav .navigation-options {
+  .container-whole-project .container-media-query-grid .container-bg-image-1 .container-hide-nav .container-navbar nav .navigation-options {
     display: flex;
     flex-direction: row;
     background-color: transparent;
   }
 }
-.container-whole-project .container-media-query-grid .container-bg-image-1 .container-navbar nav .navigation-options .options {
+.container-whole-project .container-media-query-grid .container-bg-image-1 .container-hide-nav .container-navbar nav .navigation-options .options {
   font-family: "Quicksand", sans-serif;
   text-align: center;
   text-transform: capitalize;
   margin: 0.7rem 1rem 1rem 1rem;
 }
 @media screen and (min-width: 500px) {
-  .container-whole-project .container-media-query-grid .container-bg-image-1 .container-navbar nav .navigation-options .options {
+  .container-whole-project .container-media-query-grid .container-bg-image-1 .container-hide-nav .container-navbar nav .navigation-options .options {
     display: block;
     margin: 0.7rem 1rem 1rem 1rem;
   }
 }
-.container-whole-project .container-media-query-grid .container-bg-image-1 .container-navbar nav .navigation-options .options a {
+.container-whole-project .container-media-query-grid .container-bg-image-1 .container-hide-nav .container-navbar nav .navigation-options .options a {
   margin-top: 0.5rem;
   color: black;
 }
 @media screen and (min-width: 500px) {
-  .container-whole-project .container-media-query-grid .container-bg-image-1 .container-navbar nav .navigation-options .options a {
+  .container-whole-project .container-media-query-grid .container-bg-image-1 .container-hide-nav .container-navbar nav .navigation-options .options a {
     color: white;
     padding: 0.5rem;
   }
 }
-.container-whole-project .container-media-query-grid .container-bg-image-1 .container-navbar nav .navigation-options .options a:hover {
+.container-whole-project .container-media-query-grid .container-bg-image-1 .container-hide-nav .container-navbar nav .navigation-options .options a:hover {
   font-weight: 700;
 }
 @media screen and (min-width: 500px) {
-  .container-whole-project .container-media-query-grid .container-bg-image-1 .container-navbar nav .navigation-options .options a:hover {
+  .container-whole-project .container-media-query-grid .container-bg-image-1 .container-hide-nav .container-navbar nav .navigation-options .options a:hover {
     color: white;
-    font-weight: 700;
-    background-color: black;
-    transition: background-color 0.3s, color 0.3s;
+    transition: color 0.3s;
   }
 }
 .container-whole-project .container-media-query-grid .container-bg-image-1 .container-main-1 main .container-company {
@@ -121,6 +148,83 @@
   background-size: 15rem;
   min-height: 100vh;
   background-color: beige;
+}
+.container-whole-project .container-media-query-grid .container-bg-image-2 .container-side-navbar {
+  display: none;
+}
+@media screen and (min-width: 1000px) {
+  .container-whole-project .container-media-query-grid .container-bg-image-2 .container-side-navbar {
+    display: block;
+  }
+}
+.container-whole-project .container-media-query-grid .container-bg-image-2 .container-side-navbar .container-navbar-2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.7rem;
+}
+.container-whole-project .container-media-query-grid .container-bg-image-2 .container-side-navbar .container-navbar-2 .logo-company {
+  display: none;
+  width: 3.5rem;
+  height: 3.5rem;
+}
+.container-whole-project .container-media-query-grid .container-bg-image-2 .container-side-navbar .container-navbar-2 nav {
+  display: flex;
+  flex-direction: column;
+}
+.container-whole-project .container-media-query-grid .container-bg-image-2 .container-side-navbar .container-navbar-2 nav .hamb-nav {
+  margin: auto 0 auto auto;
+  width: 3rem;
+  cursor: pointer;
+}
+@media screen and (min-width: 500px) {
+  .container-whole-project .container-media-query-grid .container-bg-image-2 .container-side-navbar .container-navbar-2 nav .hamb-nav {
+    display: none;
+  }
+}
+.container-whole-project .container-media-query-grid .container-bg-image-2 .container-side-navbar .container-navbar-2 nav .navigation-options {
+  line-height: 3rem;
+  margin: 0.5rem auto auto auto;
+}
+.container-whole-project .container-media-query-grid .container-bg-image-2 .container-side-navbar .container-navbar-2 nav .navigation-options .options {
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+  text-transform: capitalize;
+  margin: 0.7rem 1rem 1rem 1rem;
+}
+@media screen and (min-width: 500px) {
+  .container-whole-project .container-media-query-grid .container-bg-image-2 .container-side-navbar .container-navbar-2 nav .navigation-options .options {
+    display: block;
+    margin: 0.7rem 1rem 1rem 1rem;
+  }
+}
+.container-whole-project .container-media-query-grid .container-bg-image-2 .container-side-navbar .container-navbar-2 nav .navigation-options .options a {
+  margin-top: 0.5rem;
+  color: black;
+}
+@media screen and (min-width: 500px) {
+  .container-whole-project .container-media-query-grid .container-bg-image-2 .container-side-navbar .container-navbar-2 nav .navigation-options .options a {
+    color: black;
+    padding: 0.5rem;
+  }
+}
+.container-whole-project .container-media-query-grid .container-bg-image-2 .container-side-navbar .container-navbar-2 nav .navigation-options .options a:hover {
+  position: relative;
+  font-weight: 700;
+}
+.container-whole-project .container-media-query-grid .container-bg-image-2 .container-side-navbar .container-navbar-2 nav .navigation-options .options a:hover::after {
+  content: "";
+  position: absolute;
+  border: 0.01rem solid black;
+  background-color: black;
+  width: 3rem;
+  height: 0.01rem;
+  margin: 1.5rem 0 0 1rem;
+}
+@media screen and (min-width: 500px) {
+  .container-whole-project .container-media-query-grid .container-bg-image-2 .container-side-navbar .container-navbar-2 nav .navigation-options .options a:hover {
+    color: black;
+    transition: color 0.3s;
+  }
 }
 .container-whole-project .container-section-concept {
   min-height: 100vh;

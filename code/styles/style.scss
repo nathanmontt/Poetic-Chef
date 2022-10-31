@@ -7,7 +7,6 @@ $color3: beige;
 $color4: transparent;
 $fontFam1: 'Quicksand', sans-serif;
 
-
 /*CSS RESET*/
 * {
   text-decoration: none;
@@ -22,11 +21,32 @@ $fontFam1: 'Quicksand', sans-serif;
   display: none;
 }
 
+/*SCROLL BAR*/
+::-webkit-scrollbar {
+  width: .3rem;
+}
+
+::-webkit-scrollbar-track {
+  background: $color3;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $color1;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #3a3a3a;
+} 
+
 .container-whole-project {
   background-color: $color3;
 
   .container-media-query-grid {
-    @media screen and(min-width: 768px) {}
+    @media screen and(min-width: 768px) {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
 
     .container-bg-image-1 {
       background-image: url('/Poetic-Chef/assets/media/images/poetic-chef-1.jpg');
@@ -37,70 +57,76 @@ $fontFam1: 'Quicksand', sans-serif;
 
       position: relative;
 
-      .container-navbar {
-        display: flex;
-        justify-content: space-between;
-        padding: .7rem;
-
-        .logo-company {
-          width: 3.5rem;
-          height: 3.5rem;
+      .container-hide-nav{
+        @media screen and(min-width: 1000px) {
+          display: none;
         }
 
-        nav {
+        .container-navbar {
+          
           display: flex;
-          flex-direction: column;
+          justify-content: space-between;
+          padding: .7rem;
 
-          .hamb-nav {
-            margin: auto 0 auto auto;
-            width: 3rem;
-            cursor: pointer;
-
-            @media screen and(min-width: 500px) {
-              display: none;
-            }
+          .logo-company {
+            width: 3.5rem;
+            height: 3.5rem;
           }
 
-          .navigation-options {
-            background-color: $color2;
-            margin: .5rem auto auto auto;
+          nav {
+            display: flex;
+            flex-direction: column;
 
-            @media screen and(min-width: 500px) {
-              display: flex;
-              flex-direction: row;
-
-              background-color: transparent;
-            }
-
-            .options {
-              font-family: $fontFam1;
-
-              text-align: center;
-              text-transform: capitalize;
-              margin: .7rem 1rem 1rem 1rem;
+            .hamb-nav {
+              margin: auto 0 auto auto;
+              width: 3rem;
+              cursor: pointer;
 
               @media screen and(min-width: 500px) {
-                display: block;
-                margin: .7rem 1rem 1rem 1rem;
+                display: none;
+              }
+            }
+
+            .navigation-options {
+              background-color: $color2;
+              margin: .5rem auto auto auto;
+
+              @media screen and(min-width: 500px) {
+                display: flex;
+                flex-direction: row;
+
+                background-color: transparent;
               }
 
-              a {
-                margin-top: .5rem;
-                color: $color1;
+              .options {
+                font-family: $fontFam1;
+
+                text-align: center;
+                text-transform: capitalize;
+                margin: .7rem 1rem 1rem 1rem;
 
                 @media screen and(min-width: 500px) {
-                  color: $color2;
-                  padding: .5rem;
+                  display: block;
+                  margin: .7rem 1rem 1rem 1rem;
                 }
 
-                &:hover {
-                  font-weight: 700;
+                a {
+                  margin-top: .5rem;
+                  color: $color1;
+
 
                   @media screen and(min-width: 500px) {
                     color: $color2;
+                    padding: .5rem;
+                  }
+
+                  &:hover {
                     font-weight: 700;
-                    background-color: $color1;
-                    transition: background-color .3s, color .3s;
+
+                    @media screen and(min-width: 500px) {
+                      color: $color2;
+                      transition: color .3s;
+                    }
                   }
                 }
               }
@@ -115,13 +141,13 @@ $fontFam1: 'Quicksand', sans-serif;
           .container-company {
             margin-top: 17rem;
             text-indent: 2rem;
-
+            
             position: absolute;
             top: 0;
             right: 0;
             left: 0;
             bottom: 0;
-
+            
             .container-texts-company {
               .title-company {
                 font-family: $fontFam1;
@@ -142,7 +168,7 @@ $fontFam1: 'Quicksand', sans-serif;
         }
       }
     }
-
+    
     .container-bg-image-2 {
       background-image: url('/Poetic-Chef/assets/media/images/poetic-chef-3.jpg');
       background-repeat: no-repeat;
@@ -150,8 +176,98 @@ $fontFam1: 'Quicksand', sans-serif;
       // background-size: cover;
       background-size: 15rem;
       min-height: 100vh;
-
+      
       background-color: $color3;
+      
+      .container-side-navbar{
+        display: none;
+        
+        @media screen and(min-width: 1000px) {
+          display: block;
+        }
+
+        .container-navbar-2 {
+          display: flex;
+          justify-content: space-between;
+          padding: .7rem;
+
+          .logo-company {
+            display: none;
+            width: 3.5rem;
+            height: 3.5rem;
+          }
+
+          nav {
+            display: flex;
+            flex-direction: column;
+
+            .hamb-nav {
+              margin: auto 0 auto auto;
+              width: 3rem;
+              cursor: pointer;
+
+              @media screen and(min-width: 500px) {
+                display: none;
+              }
+            }
+
+            .navigation-options {
+              line-height: 3rem;
+              margin: .5rem auto auto auto;
+
+              @media screen and(min-width: 500px) {
+                // display: flex;
+
+                // background-color: transparent;
+              }
+
+              .options {
+                font-family: $fontFam1;
+
+                text-align: center;
+                text-transform: capitalize;
+                margin: .7rem 1rem 1rem 1rem;
+
+                @media screen and(min-width: 500px) {
+                  display: block;
+                  margin: .7rem 1rem 1rem 1rem;
+                }
+
+                a {
+                  margin-top: .5rem;
+                  color: $color1;
+
+
+                  @media screen and(min-width: 500px) {
+                    color: $color1;
+                    padding: .5rem;
+                  }
+
+                  &:hover {
+                    position: relative;
+                    font-weight: 700;
+
+                    &::after {
+                      content: '';
+                      position: absolute;
+                      border: .01rem solid black;
+                      background-color: black;
+                      width: 3rem;
+                      height: .01rem;
+                      margin: 1.5rem 0 0 1rem;
+                    }
+
+                    @media screen and(min-width: 500px) {
+                      color: $color1;
+                      transition: color .3s;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
     }
   }
 
