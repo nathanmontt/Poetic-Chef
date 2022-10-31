@@ -228,23 +228,45 @@
 }
 .container-whole-project .container-section-concept {
   min-height: 100vh;
-  padding: 0 1rem 0 1rem;
+  padding: 3rem 1rem 0 1rem;
+  background-color: #181818;
 }
-.container-whole-project .container-section-concept .title-concept {
+.container-whole-project .container-section-concept .container-texts-concept-grid .container-texts-concept {
+  color: white;
+}
+@media screen and (min-width: 820px) {
+  .container-whole-project .container-section-concept .container-texts-concept-grid .container-texts-concept {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.container-whole-project .container-section-concept .container-texts-concept-grid .container-texts-concept .title-concept {
   font-family: "Quicksand", sans-serif;
   font-weight: 600;
   font-size: 2rem;
-  margin: 2rem 0 1rem 1rem;
+  margin: 2rem 0 2rem 1rem;
   text-transform: capitalize;
 }
-.container-whole-project .container-section-concept .description-concept {
+@media screen and (min-width: 820px) {
+  .container-whole-project .container-section-concept .container-texts-concept-grid .container-texts-concept .title-concept {
+    margin: 0 0 0 1rem;
+    text-indent: 5rem;
+    padding-top: 0;
+  }
+}
+.container-whole-project .container-section-concept .container-texts-concept-grid .container-texts-concept .description-concept {
+  margin: 2rem 0 2rem 1rem;
   font-family: "Quicksand", sans-serif;
   font-weight: 400;
-  margin: 0 0 0 1rem;
+}
+@media screen and (min-width: 820px) {
+  .container-whole-project .container-section-concept .container-texts-concept-grid .container-texts-concept .description-concept {
+    margin: 8rem 0 3rem 1rem;
+  }
 }
 .container-whole-project .container-section-popular-news {
   min-height: 100vh;
-  padding: 0 1rem 0 1rem;
+  padding: 3rem 1rem 0 1rem;
 }
 .container-whole-project .container-section-popular-news .title-most {
   font-size: 1.5rem;

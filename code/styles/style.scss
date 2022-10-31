@@ -37,7 +37,7 @@ $fontFam1: 'Quicksand', sans-serif;
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #3a3a3a;
-} 
+}
 
 .container-whole-project {
   background-color: $color3;
@@ -57,13 +57,13 @@ $fontFam1: 'Quicksand', sans-serif;
 
       position: relative;
 
-      .container-hide-nav{
+      .container-hide-nav {
         @media screen and(min-width: 1000px) {
           display: none;
         }
 
         .container-navbar {
-          
+
           display: flex;
           justify-content: space-between;
           padding: .7rem;
@@ -141,13 +141,13 @@ $fontFam1: 'Quicksand', sans-serif;
           .container-company {
             margin-top: 17rem;
             text-indent: 2rem;
-            
+
             position: absolute;
             top: 0;
             right: 0;
             left: 0;
             bottom: 0;
-            
+
             .container-texts-company {
               .title-company {
                 font-family: $fontFam1;
@@ -168,7 +168,7 @@ $fontFam1: 'Quicksand', sans-serif;
         }
       }
     }
-    
+
     .container-bg-image-2 {
       background-image: url('/Poetic-Chef/assets/media/images/poetic-chef-3.jpg');
       background-repeat: no-repeat;
@@ -176,12 +176,12 @@ $fontFam1: 'Quicksand', sans-serif;
       // background-size: cover;
       background-size: 15rem;
       min-height: 100vh;
-      
+
       background-color: $color3;
-      
-      .container-side-navbar{
+
+      .container-side-navbar {
         display: none;
-        
+
         @media screen and(min-width: 1000px) {
           display: block;
         }
@@ -274,29 +274,53 @@ $fontFam1: 'Quicksand', sans-serif;
 
   .container-section-concept {
     min-height: 100vh;
-    padding: 0 1rem 0 1rem;
+    padding: 3rem 1rem 0 1rem;
+    background-color: #181818;
 
-    .title-concept {
-      font-family: $fontFam1;
-      font-weight: 600;
-      font-size: 2rem;
+    @media screen and(min-width: 820px) {}
 
-      margin: 2rem 0 1rem 1rem;
+    .container-texts-concept-grid {
+      @media screen and(min-width: 820px) {}
 
-      text-transform: capitalize;
-    }
+      .container-texts-concept {
+        color: $color2;
 
-    .description-concept {
-      font-family: $fontFam1;
-      font-weight: 400;
+        @media screen and(min-width: 820px) {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+        }
 
-      margin: 0 0 0 1rem;
+        .title-concept {
+          font-family: $fontFam1;
+          font-weight: 600;
+          font-size: 2rem;
+          margin: 2rem 0 2rem 1rem;
+
+          text-transform: capitalize;
+
+          @media screen and(min-width: 820px) {
+            margin: 0 0 0 1rem;
+            text-indent: 5rem;
+            padding-top: 0;
+          }
+        }
+
+        .description-concept {
+          margin: 2rem 0 2rem 1rem;
+          font-family: $fontFam1;
+          font-weight: 400;
+
+          @media screen and(min-width: 820px) {
+            margin: 8rem 0 3rem 1rem;
+          }
+        }
+      }
     }
   }
 
   .container-section-popular-news {
     min-height: 100vh;
-    padding: 0 1rem 0 1rem;
+    padding: 3rem 1rem 0 1rem;
 
     .title-most {
       font-size: 1.5rem;
