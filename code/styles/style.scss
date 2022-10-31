@@ -197,22 +197,8 @@ $fontFam1: 'Quicksand', sans-serif;
       border: .01rem solid #aaaaaa;
       margin-bottom: 1rem;
 
-      @media screen and(min-width: 500px) {
-        border: none;
-      }
-
       .section-article {
-        @media screen and(min-width: 500px) {
-          display: flex;
-          flex-direction: row;
-          // width: 10rem;
-        }
-
         .img-article {
-          @media screen and(min-width: 500px) {
-            width: 15rem;
-          }
-
           width: 100%;
         }
 
@@ -221,10 +207,6 @@ $fontFam1: 'Quicksand', sans-serif;
           text-transform: capitalize;
 
           margin: .7rem;
-
-          @media screen and(min-width: 500px) {
-            // width: 20rem;
-          }
 
           .type,
           .writtes-name {
@@ -239,14 +221,6 @@ $fontFam1: 'Quicksand', sans-serif;
             overflow: hidden;
             white-space: nowrap;
             text-overflow: ellipsis;
-
-            @media screen and(min-width: 500px) {
-              overflow: hidden;
-              white-space: nowrap;
-              text-overflow: ellipsis;
-
-              // width: 20rem;
-            }
           }
 
           .read-article {
