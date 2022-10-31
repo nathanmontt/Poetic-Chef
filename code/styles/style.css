@@ -68,7 +68,7 @@
 @media screen and (min-width: 500px) {
   .container-whole-project .container-media-query-grid .container-bg-image-1 .container-navbar nav .navigation-options .options {
     display: block;
-    margin: 0.7rem 0.2rem 1rem 0.2rem;
+    margin: 0.7rem 1rem 1rem 1rem;
   }
 }
 .container-whole-project .container-media-query-grid .container-bg-image-1 .container-navbar nav .navigation-options .options a {
@@ -162,34 +162,42 @@
 @media screen and (min-width: 500px) {
   .container-whole-project .container-section-popular-news .container-popular-news .section-article {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
   }
 }
-.container-whole-project .container-section-popular-news .container-popular-news .section-article .teste .img-article {
+.container-whole-project .container-section-popular-news .container-popular-news .section-article .img-article {
   width: 100%;
 }
 @media screen and (min-width: 500px) {
-  .container-whole-project .container-section-popular-news .container-popular-news .section-article .teste .img-article {
+  .container-whole-project .container-section-popular-news .container-popular-news .section-article .img-article {
     width: 15rem;
   }
 }
-.container-whole-project .container-section-popular-news .container-popular-news .section-article .teste .container-tetxts-popular-news {
+.container-whole-project .container-section-popular-news .container-popular-news .section-article .container-tetxts-popular-news {
   font-family: "Quicksand", sans-serif;
   text-transform: capitalize;
   margin: 0.7rem;
 }
-.container-whole-project .container-section-popular-news .container-popular-news .section-article .teste .container-tetxts-popular-news .type, .container-whole-project .container-section-popular-news .container-popular-news .section-article .teste .container-tetxts-popular-news .writtes-name {
+.container-whole-project .container-section-popular-news .container-popular-news .section-article .container-tetxts-popular-news .type,
+.container-whole-project .container-section-popular-news .container-popular-news .section-article .container-tetxts-popular-news .writtes-name {
   color: gray;
 }
-.container-whole-project .container-section-popular-news .container-popular-news .section-article .teste .container-tetxts-popular-news .title-article {
+.container-whole-project .container-section-popular-news .container-popular-news .section-article .container-tetxts-popular-news .title-article {
   font-weight: 600;
 }
-.container-whole-project .container-section-popular-news .container-popular-news .section-article .teste .container-tetxts-popular-news .overview {
+.container-whole-project .container-section-popular-news .container-popular-news .section-article .container-tetxts-popular-news .overview {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-.container-whole-project .container-section-popular-news .container-popular-news .section-article .teste .container-tetxts-popular-news .read-article {
+@media screen and (min-width: 500px) {
+  .container-whole-project .container-section-popular-news .container-popular-news .section-article .container-tetxts-popular-news .overview {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+}
+.container-whole-project .container-section-popular-news .container-popular-news .section-article .container-tetxts-popular-news .read-article {
   color: #0101c2;
 }
 .container-whole-project .container-section-latests-news {
@@ -219,7 +227,8 @@
 .container-whole-project .container-section-latests-news .container-latests-news .section-article .container-section-texts {
   margin: 0.7rem;
 }
-.container-whole-project .container-section-latests-news .container-latests-news .section-article .container-section-texts .type, .container-whole-project .container-section-latests-news .container-latests-news .section-article .container-section-texts .writtes-name-article {
+.container-whole-project .container-section-latests-news .container-latests-news .section-article .container-section-texts .type,
+.container-whole-project .container-section-latests-news .container-latests-news .section-article .container-section-texts .writtes-name-article {
   color: gray;
 }
 .container-whole-project .container-section-latests-news .container-latests-news .section-article .container-section-texts .title-article {

@@ -24,7 +24,8 @@ $fontFam1: 'Quicksand', sans-serif;
 
 .container-whole-project {
   background-color: $color3;
-  .container-media-query-grid{
+
+  .container-media-query-grid {
     @media screen and(min-width: 768px) {}
 
     .container-bg-image-1 {
@@ -80,21 +81,21 @@ $fontFam1: 'Quicksand', sans-serif;
 
               @media screen and(min-width: 500px) {
                 display: block;
-                margin: .7rem .2rem 1rem .2rem;
+                margin: .7rem 1rem 1rem 1rem;
               }
-              
+
               a {
                 margin-top: .5rem;
-                color: $color1; 
-                
+                color: $color1;
+
                 @media screen and(min-width: 500px) {
                   color: $color2;
                   padding: .5rem;
                 }
-                
+
                 &:hover {
                   font-weight: 700;
-                  
+
                   @media screen and(min-width: 500px) {
                     color: $color2;
                     font-weight: 700;
@@ -114,13 +115,13 @@ $fontFam1: 'Quicksand', sans-serif;
           .container-company {
             margin-top: 17rem;
             text-indent: 2rem;
-            
+
             position: absolute;
             top: 0;
             right: 0;
             left: 0;
             bottom: 0;
-            
+
             .container-texts-company {
               .title-company {
                 font-family: $fontFam1;
@@ -129,7 +130,7 @@ $fontFam1: 'Quicksand', sans-serif;
                 color: $color2;
                 text-transform: capitalize;
               }
-              
+
               .slogan-company {
                 font-family: $fontFam1;
                 font-weight: 300;
@@ -149,12 +150,12 @@ $fontFam1: 'Quicksand', sans-serif;
       // background-size: cover;
       background-size: 15rem;
       min-height: 100vh;
-      
+
       background-color: $color3;
     }
   }
 
-  
+
   .container-section-concept {
     min-height: 100vh;
     padding: 0 1rem 0 1rem;
@@ -165,14 +166,14 @@ $fontFam1: 'Quicksand', sans-serif;
       font-size: 2rem;
 
       margin: 2rem 0 1rem 1rem;
-      
+
       text-transform: capitalize;
     }
-    
+
     .description-concept {
       font-family: $fontFam1;
       font-weight: 400;
-      
+
       margin: 0 0 0 1rem;
     }
   }
@@ -195,87 +196,91 @@ $fontFam1: 'Quicksand', sans-serif;
     .container-popular-news {
       border: .01rem solid #aaaaaa;
       margin-bottom: 1rem;
-      
+
       @media screen and(min-width: 500px) {
         border: none;
       }
-      
+
       .section-article {
         @media screen and(min-width: 500px) {
           display: flex;
-          flex-direction: column;
+          flex-direction: row;
+          // width: 10rem;
         }
 
-        .teste{
-          @media screen and(min-width: 500px) {}
-
-          .img-article {
-            @media screen and(min-width: 500px) {
-              width: 15rem;
-            }
-
-            width: 100%;
+        .img-article {
+          @media screen and(min-width: 500px) {
+            width: 15rem;
           }
-          
-          .container-tetxts-popular-news{
-            font-family: $fontFam1;
-            text-transform: capitalize;
-            
-            margin: .7rem;
-            
-            .type, .writtes-name {
-              color: gray;
-            }
-            
-            .title-article {
-              font-weight: 600;
-            }
 
-            .overview {
+          width: 100%;
+        }
+
+        .container-tetxts-popular-news {
+          font-family: $fontFam1;
+          text-transform: capitalize;
+
+          margin: .7rem;
+
+          @media screen and(min-width: 500px) {
+            // width: 20rem;
+          }
+
+          .type,
+          .writtes-name {
+            color: gray;
+          }
+
+          .title-article {
+            font-weight: 600;
+          }
+
+          .overview {
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+
+            @media screen and(min-width: 500px) {
               overflow: hidden;
               white-space: nowrap;
               text-overflow: ellipsis;
 
-              // @media screen and(min-width: 500px) {
-              //   overflow: hidden;
-              //   white-space: nowrap;
-              //   text-overflow: ellipsis;
-              // }
+              // width: 20rem;
             }
-            
-            .read-article {
-              color: #0101c2;
-            }
+          }
+
+          .read-article {
+            color: #0101c2;
           }
         }
       }
     }
   }
-  
+
   .container-section-latests-news {
     min-height: 100vh;
     padding: 5rem 1rem 0 1rem;
-    
+
     margin-bottom: 1rem;
-    
+
     .title-latests {
       font-size: 1.5rem;
       font-weight: 500;
       font-family: $fontFam1;
-      
+
       text-align: center;
       text-transform: capitalize;
-      
+
       margin: 0 0 3rem 0;
     }
-    
+
     .container-latests-news {
       border: .01rem solid #aaaaaa;
       margin-bottom: 1rem;
-      
+
       font-family: $fontFam1;
       text-transform: capitalize;
-      
+
       .section-article {
         .img-article {
           display: flex;
@@ -283,9 +288,11 @@ $fontFam1: 'Quicksand', sans-serif;
           width: 100%;
         }
 
-        .container-section-texts{
+        .container-section-texts {
           margin: .7rem;
-          .type, .writtes-name-article {
+
+          .type,
+          .writtes-name-article {
             color: gray;
           }
 
@@ -332,12 +339,12 @@ $fontFam1: 'Quicksand', sans-serif;
       .book-cover {
         width: 12rem;
       }
-      
+
       .title-book {
         margin-top: .3rem;
         font-weight: 500;
       }
-      
+
       .author {
         margin: .2rem 0 1rem 0;
         color: #595959;
@@ -377,7 +384,7 @@ $fontFam1: 'Quicksand', sans-serif;
           padding: 1rem;
           display: flex;
           justify-content: center;
-          
+
           .logo {
             width: 4.7rem;
             height: 4.7rem;
@@ -390,7 +397,7 @@ $fontFam1: 'Quicksand', sans-serif;
             font-family: $fontFam1;
             font-weight: 600;
             text-transform: capitalize;
-            
+
             span {
               font-size: .7rem;
               font-weight: normal;
