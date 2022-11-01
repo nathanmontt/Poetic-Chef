@@ -22,21 +22,23 @@ $fontFam1: 'Quicksand', sans-serif;
 }
 
 /*SCROLL BAR*/
-::-webkit-scrollbar {
-  width: .3rem;
-}
+body { 
+  &::-webkit-scrollbar {
+    width: .3rem;
+  }
 
-::-webkit-scrollbar-track {
-  background: $color3;
-}
+  &::-webkit-scrollbar-track {
+    background: $color3;
+  }
 
-::-webkit-scrollbar-thumb {
-  background: $color1;
-}
+  &::-webkit-scrollbar-thumb {
+    background: $color1;
+  }
 
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #3a3a3a;
+  /* Handle on hover */
+  &::-webkit-scrollbar-thumb:hover {
+    background: #3a3a3a;
+  }
 }
 
 .container-whole-project {
@@ -215,11 +217,7 @@ $fontFam1: 'Quicksand', sans-serif;
               line-height: 3rem;
               margin: .5rem auto auto auto;
 
-              @media screen and(min-width: 500px) {
-                // display: flex;
-
-                // background-color: transparent;
-              }
+              @media screen and(min-width: 500px) {}
 
               .options {
                 font-family: $fontFam1;
@@ -299,20 +297,16 @@ $fontFam1: 'Quicksand', sans-serif;
           text-transform: capitalize;
 
           @media screen and(min-width: 820px) {
-            margin: 0 0 0 1rem;
             text-indent: 5rem;
             padding-top: 0;
           }
         }
 
         .description-concept {
-          margin: 2rem 0 2rem 1rem;
+          margin: 2rem 0 0 1rem;
+          padding-bottom: 2rem;
           font-family: $fontFam1;
           font-weight: 400;
-
-          @media screen and(min-width: 820px) {
-            margin: 8rem 0 3rem 1rem;
-          }
         }
       }
     }
@@ -333,38 +327,67 @@ $fontFam1: 'Quicksand', sans-serif;
       margin: 0 0 3rem 0;
     }
 
-    .container-popular-news {
-      border: .01rem solid #aaaaaa;
-      margin-bottom: 1rem;
+    .container-test{
+      @media screen and(min-width: 800px) {
+        display: flex;
+        // flex-direction: column;
+        justify-content: center;
+        overflow: auto;
+        scroll-snap-type: x mandatory; 
+        border: 3px solid green;
 
-      .section-article {
-        .img-article {
-          width: 100%;
-        }
+        margin: 0 5rem 0 3rem;
+      }
 
-        .container-tetxts-popular-news {
-          font-family: $fontFam1;
-          text-transform: capitalize;
+      .container-popular-news {
+        border: .01rem solid #aaaaaa;
+        margin-bottom: 1rem;
 
-          margin: .7rem;
-
-          .type,
-          .writtes-name {
-            color: gray;
+        .section-article {
+          @media screen and(min-width: 800px) {
+            width: 15rem;
+            // border: 3px solid green;
+            // display: grid;
+            // grid-template-columns: repeat(3, 1fr);
+            // overflow: auto;
+            // scroll-snap-type: y mandatory;
+          }
+          
+          .img-article {
+            @media screen and(min-width: 800px) {
+              // width: 10rem;
+              // display: grid;
+              // grid-template-columns: repeat(3, 1fr);
+              // overflow: auto;
+              // scroll-snap-type: y mandatory;
+            }
+            width: 100%;
           }
 
-          .title-article {
-            font-weight: 600;
-          }
+          .container-tetxts-popular-news {
+            font-family: $fontFam1;
+            text-transform: capitalize;
 
-          .overview {
-            overflow: hidden;
-            white-space: nowrap;
-            text-overflow: ellipsis;
-          }
+            margin: .7rem;
 
-          .read-article {
-            color: #0101c2;
+            .type,
+            .writtes-name {
+              color: gray;
+            }
+
+            .title-article {
+              font-weight: 600;
+            }
+
+            .overview {
+              overflow: hidden;
+              white-space: nowrap;
+              text-overflow: ellipsis;
+            }
+
+            .read-article {
+              color: #0101c2;
+            }
           }
         }
       }
@@ -373,9 +396,11 @@ $fontFam1: 'Quicksand', sans-serif;
 
   .container-section-latests-news {
     min-height: 100vh;
-    padding: 5rem 1rem 0 1rem;
+    padding: 0 1rem 0 1rem;
 
     margin-bottom: 1rem;
+
+    border: 3px solid blue;
 
     .title-latests {
       font-size: 1.5rem;
