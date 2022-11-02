@@ -3,7 +3,8 @@
 /*VARIABLES*/
 $color1: black;
 $color2: white;
-$color3: #747474;
+$color3: beige;
+$color4: #747474;
 $color4: transparent;
 $font1: 'Quicksand', sans-serif;
 
@@ -106,6 +107,7 @@ $font1: 'Quicksand', sans-serif;
       
       margin-top: 16rem;
       text-align: center;
+
       .title-slogan-hero {
         font-size: 2rem;
         font-weight: 600;
@@ -120,20 +122,36 @@ $font1: 'Quicksand', sans-serif;
 
   .container-main {
     .container-concept{
+      background-color: $color3;
       min-height: 100vh;
       padding: 2rem 1.6rem 2rem 1.6rem;
+
+      @media screen and(min-width: 900px) {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-content: center;
+      }
       
       .title-concept {
         font-size: 1.3rem;
-        font-weight: 700;
+        font-weight: 800;
         font-family: $font1;
         text-transform: uppercase;
         margin-bottom: 1rem;
-      }
 
+        @media screen and(min-width: 900px) {
+          // border: 3px solid darkblue;
+          margin: 0 0 0 7rem;
+        }
+      }
+      
       .description-concept {
         font-weight: 500;
         font-family: $font1;
+        
+        @media screen and(min-width: 900px) {
+          margin: 0 7rem 0 0;
+        }
       }
     }
   }

@@ -87,17 +87,35 @@
   font-size: 0.989rem;
 }
 .container-poetic-chef .container-main .container-concept {
+  background-color: beige;
   min-height: 100vh;
   padding: 2rem 1.6rem 2rem 1.6rem;
 }
+@media screen and (min-width: 900px) {
+  .container-poetic-chef .container-main .container-concept {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-content: center;
+  }
+}
 .container-poetic-chef .container-main .container-concept .title-concept {
   font-size: 1.3rem;
-  font-weight: 700;
+  font-weight: 800;
   font-family: "Quicksand", sans-serif;
   text-transform: uppercase;
   margin-bottom: 1rem;
 }
+@media screen and (min-width: 900px) {
+  .container-poetic-chef .container-main .container-concept .title-concept {
+    margin: 0 0 0 7rem;
+  }
+}
 .container-poetic-chef .container-main .container-concept .description-concept {
   font-weight: 500;
   font-family: "Quicksand", sans-serif;
+}
+@media screen and (min-width: 900px) {
+  .container-poetic-chef .container-main .container-concept .description-concept {
+    margin: 0 7rem 0 0;
+  }
 }/*# sourceMappingURL=style.css.map */
