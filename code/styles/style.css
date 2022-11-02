@@ -15,16 +15,35 @@
 }
 
 /*SCROLL BAR*/
-body::-webkit-scrollbar {
-  width: 0.3rem;
+.container-poetic-chef .container-menu-bgBackground {
+  background-image: url("/Poetic-Chef/assets/media/images/poetic-chef-3-Jocelyn-Morales.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
 }
-body::-webkit-scrollbar-track {
-  background: beige;
+.container-poetic-chef .container-menu-bgBackground .container-menu nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 1rem;
 }
-body::-webkit-scrollbar-thumb {
-  background: black;
+.container-poetic-chef .container-menu-bgBackground .container-menu nav .hamb-menu {
+  cursor: pointer;
+  width: 3rem;
 }
-
-.container-poetic-chef .container-poetic-chef {
-  background-image: url("/Poetic-Chef/assets/media/images/");
+.container-poetic-chef .container-menu-bgBackground .container-menu nav .menu-options {
+  margin: 1rem;
+  font-family: "Quicksand", sans-serif;
+}
+.container-poetic-chef .container-menu-bgBackground .container-menu nav .menu-options .options {
+  text-transform: uppercase;
+  text-align: end;
+}
+.container-poetic-chef .container-menu-bgBackground .container-menu nav .menu-options .options a {
+  color: white;
+  line-height: 10mm;
+}
+.container-poetic-chef .container-menu-bgBackground .container-menu nav .menu-options .options a:hover {
+  font-weight: 700;
 }/*# sourceMappingURL=style.css.map */

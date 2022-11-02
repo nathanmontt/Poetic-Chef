@@ -5,7 +5,7 @@ $color1: black;
 $color2: white;
 $color3: beige;
 $color4: transparent;
-$fontFam1: 'Quicksand', sans-serif;
+$font1: 'Quicksand', sans-serif;
 
 /*CSS RESET*/
 * {
@@ -22,28 +22,55 @@ $fontFam1: 'Quicksand', sans-serif;
 }
 
 /*SCROLL BAR*/
-body { 
-  &::-webkit-scrollbar {
-    width: .3rem;
-  }
+// body { 
+//   &::-webkit-scrollbar {
+//     width: .3rem;
+//   }
 
-  &::-webkit-scrollbar-track {
-    background: $color3;
-  }
+//   &::-webkit-scrollbar-track {
+//     background: $color3;
+//   }
 
-  &::-webkit-scrollbar-thumb {
-    background: $color1;
-  }
-}
+//   &::-webkit-scrollbar-thumb {
+//     background: $color1;
+//   }
+// }
 
 .container-poetic-chef {
-  .container-poetic-chef {
-    background-image: url("/Poetic-Chef/assets/media/images/");
+  .container-menu-bgBackground {
+    background-image: url("/Poetic-Chef/assets/media/images/poetic-chef-3-Jocelyn-Morales.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    
     .container-menu{
       nav {
-        .menu-option {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+
+        padding: 1rem;
+        .hamb-menu {
+          cursor: pointer;
+          width: 3rem;
+        }
+        
+        .menu-options {
+          margin: 1rem;
+          font-family: $font1;
+
           .options {
-            a {}
+            text-transform: uppercase;
+            text-align: end;
+            a {
+              color: $color2;
+              line-height: 10mm;
+
+              &:hover {
+                font-weight: 700;
+              }
+            }
           }
         }
       }
