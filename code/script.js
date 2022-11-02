@@ -1,15 +1,15 @@
 'use strict'
 
 //VARIABLES
-const btnOpenMenu = document.querySelector('.hamb-nav');
-const optionsMenu = document.querySelectorAll('.options');
+// const btnOpenMenu = document.querySelector('.hamb-nav');
+// const optionsMenu = document.querySelectorAll('.options');
 // const teste = document.querySelector('.container-section-concept');
 
-for (let i = 0; i < optionsMenu.length; i++) {
-  btnOpenMenu.addEventListener('click', function () {
-    optionsMenu[i].classList.toggle('hidden');
-  });
-}
+// for (let i = 0; i < optionsMenu.length; i++) {
+//   btnOpenMenu.addEventListener('click', function () {
+//     optionsMenu[i].classList.toggle('hidden');
+//   });
+// }
 
 
 //RESIZE ON WINDOWN
