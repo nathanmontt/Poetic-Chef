@@ -23,4 +23,8 @@ body::-webkit-scrollbar-track {
 }
 body::-webkit-scrollbar-thumb {
   background: black;
+}
+
+.container-poetic-chef .container-poetic-chef {
+  background-image: url("/Poetic-Chef/assets/media/images/");
 }/*# sourceMappingURL=style.css.map */
