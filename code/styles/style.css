@@ -277,13 +277,15 @@ body::-webkit-scrollbar-thumb:hover {
     overflow: auto;
     -ms-scroll-snap-type: x mandatory;
         scroll-snap-type: x mandatory;
-    border: 3px solid green;
-    margin: 0 5rem 0 3rem;
   }
 }
 .container-whole-project .container-section-popular-news .container-test .container-popular-news {
   border: 0.01rem solid #aaaaaa;
-  margin-bottom: 1rem;
+  border: 3px solid green;
+  margin: 0.2rem;
+}
+.container-whole-project .container-section-popular-news .container-test .container-popular-news .section-article {
+  border: 3px solid blue;
 }
 @media screen and (min-width: 800px) {
   .container-whole-project .container-section-popular-news .container-test .container-popular-news .section-article {
@@ -317,7 +319,6 @@ body::-webkit-scrollbar-thumb:hover {
   min-height: 100vh;
   padding: 0 1rem 0 1rem;
   margin-bottom: 1rem;
-  border: 3px solid blue;
 }
 .container-whole-project .container-section-latests-news .title-latests {
   font-size: 1.5rem;
