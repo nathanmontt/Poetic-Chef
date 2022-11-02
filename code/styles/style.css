@@ -85,4 +85,19 @@
 .container-poetic-chef .container-menu .container-slogan-hero .slogan-hero {
   text-transform: lowercase;
   font-size: 0.989rem;
+}
+.container-poetic-chef .container-main .container-concept {
+  min-height: 100vh;
+  padding: 2rem 1.6rem 2rem 1.6rem;
+}
+.container-poetic-chef .container-main .container-concept .title-concept {
+  font-size: 1.3rem;
+  font-weight: 700;
+  font-family: "Quicksand", sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+.container-poetic-chef .container-main .container-concept .description-concept {
+  font-weight: 500;
+  font-family: "Quicksand", sans-serif;
 }/*# sourceMappingURL=style.css.map */
