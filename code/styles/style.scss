@@ -3,7 +3,7 @@
 /*VARIABLES*/
 $color1: black;
 $color2: white;
-$color3: beige;
+$color3: #747474;
 $color4: transparent;
 $font1: 'Quicksand', sans-serif;
 
@@ -37,12 +37,20 @@ $font1: 'Quicksand', sans-serif;
 // }
 
 .container-poetic-chef {
-  .container-menu-bgBackground {
+  .container-menu {
     background-image: url("/Poetic-Chef/assets/media/images/poetic-chef-3-Jocelyn-Morales.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
+
+    @media screen and(min-width: 700px) {
+      background-image: url("/Poetic-Chef/assets/media/images/poetic-chef-1-Ozan-Safak.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      min-height: 100vh;
+    }
     
     .container-menu{
       nav {
@@ -51,9 +59,14 @@ $font1: 'Quicksand', sans-serif;
         align-items: flex-end;
 
         padding: 1rem;
+
         .hamb-menu {
           cursor: pointer;
           width: 3rem;
+
+          @media screen and(min-width: 500px) {
+            display: none;
+          }
         }
         
         .menu-options {
@@ -63,6 +76,11 @@ $font1: 'Quicksand', sans-serif;
           .options {
             text-transform: uppercase;
             text-align: end;
+
+            @media screen and(min-width: 500px) {
+              display: block;
+            }
+
             a {
               color: $color2;
               line-height: 10mm;
@@ -100,5 +118,10 @@ $font1: 'Quicksand', sans-serif;
     }
   }
 
-
+  .container-main {
+    .container-concept{
+      .title-concept {}
+      .description-concept {}
+    }
+  }
 }
