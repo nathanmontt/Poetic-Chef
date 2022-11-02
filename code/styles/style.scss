@@ -34,136 +34,91 @@ body {
   &::-webkit-scrollbar-thumb {
     background: $color1;
   }
-
-  /* Handle on hover */
-  &::-webkit-scrollbar-thumb:hover {
-    background: #3a3a3a;
-  }
 }
 
-.container-whole-project {
+.container-poetic-chef {
   background-color: $color3;
 
-  .container-media-query-grid {
-    @media screen and(min-width: 768px) {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-    }
+  .container-bg-image-1 {
+    background-image: url('/Poetic-Chef/assets/media/images/poetic-chef-1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
 
-    .container-bg-image-1 {
-      background-image: url('/Poetic-Chef/assets/media/images/poetic-chef-1.jpg');
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-      min-height: 100vh;
+    position: relative;
 
-      position: relative;
+    .container-hide-nav {
+      @media screen and(min-width: 1000px) {
+        display: none;
+      }
 
-      .container-hide-nav {
-        @media screen and(min-width: 1000px) {
-          display: none;
+      .container-navbar {
+
+        display: flex;
+        justify-content: space-between;
+        padding: .7rem;
+
+        .logo-company {
+          width: 3.5rem;
+          height: 3.5rem;
         }
 
-        .container-navbar {
-
+        nav {
           display: flex;
-          justify-content: space-between;
-          padding: .7rem;
+          flex-direction: column;
 
-          .logo-company {
-            width: 3.5rem;
-            height: 3.5rem;
+          .hamb-nav {
+            margin: auto 0 auto auto;
+            width: 3rem;
+            cursor: pointer;
+
+            @media screen and(min-width: 500px) {
+              display: none;
+            }
           }
 
-          nav {
-            display: flex;
-            flex-direction: column;
+          .navigation-options {
+            background-color: $color2;
+            margin: .5rem auto auto auto;
 
-            .hamb-nav {
-              margin: auto 0 auto auto;
-              width: 3rem;
-              cursor: pointer;
+            @media screen and(min-width: 500px) {
+              display: flex;
+              flex-direction: row;
 
-              @media screen and(min-width: 500px) {
-                display: none;
-              }
+              background-color: transparent;
             }
 
-            .navigation-options {
-              background-color: $color2;
-              margin: .5rem auto auto auto;
+            .options {
+              font-family: $fontFam1;
+
+              text-align: center;
+              text-transform: capitalize;
+              margin: .7rem 1rem 1rem 1rem;
 
               @media screen and(min-width: 500px) {
-                display: flex;
-                flex-direction: row;
-
-                background-color: transparent;
+                display: block;
+                margin: .7rem 1rem 1rem 1rem;
               }
 
-              .options {
-                font-family: $fontFam1;
+              a {
+                margin-top: .5rem;
+                color: $color1;
 
-                text-align: center;
-                text-transform: capitalize;
-                margin: .7rem 1rem 1rem 1rem;
 
                 @media screen and(min-width: 500px) {
-                  display: block;
-                  margin: .7rem 1rem 1rem 1rem;
+                  color: $color2;
+                  padding: .5rem;
                 }
 
-                a {
-                  margin-top: .5rem;
-                  color: $color1;
-
+                &:hover {
+                  font-weight: 700;
 
                   @media screen and(min-width: 500px) {
                     color: $color2;
-                    padding: .5rem;
-                  }
-
-                  &:hover {
-                    font-weight: 700;
-
-                    @media screen and(min-width: 500px) {
-                      color: $color2;
-                      transition: color .3s;
-                    }
+                    transition: color .3s;
                   }
                 }
-              }
-            }
-          }
-        }
-      }
-
-
-      .container-main-1 {
-        main {
-          .container-company {
-            margin-top: 17rem;
-            text-indent: 2rem;
-
-            position: absolute;
-            top: 0;
-            right: 0;
-            left: 0;
-            bottom: 0;
-
-            .container-texts-company {
-              .title-company {
-                font-family: $fontFam1;
-                font-size: 2.3rem;
-                font-weight: 500;
-                color: $color2;
-                text-transform: capitalize;
-              }
-
-              .slogan-company {
-                font-family: $fontFam1;
-                font-weight: 300;
-                font-size: 1rem;
-                color: $color2;
               }
             }
           }
@@ -171,394 +126,131 @@ body {
       }
     }
 
-    .container-bg-image-2 {
-      background-image: url('/Poetic-Chef/assets/media/images/poetic-chef-3.jpg');
-      background-repeat: no-repeat;
-      background-position: center;
-      // background-size: cover;
-      background-size: 15rem;
-      min-height: 100vh;
 
-      background-color: $color3;
+    .container-main-1 {
+      main {
+        .container-company {
+          margin-top: 17rem;
+          text-indent: 2rem;
 
-      .container-side-navbar {
-        display: none;
+          position: absolute;
+          top: 0;
+          right: 0;
+          left: 0;
+          bottom: 0;
 
-        @media screen and(min-width: 1000px) {
-          display: block;
-        }
-
-        .container-navbar-2 {
-          display: flex;
-          justify-content: space-between;
-          padding: .7rem;
-
-          .logo-company {
-            display: none;
-            width: 3.5rem;
-            height: 3.5rem;
-          }
-
-          nav {
-            display: flex;
-            flex-direction: column;
-
-            .hamb-nav {
-              margin: auto 0 auto auto;
-              width: 3rem;
-              cursor: pointer;
-
-              @media screen and(min-width: 500px) {
-                display: none;
-              }
+          .container-texts-company {
+            .title-company {
+              font-family: $fontFam1;
+              font-size: 2.3rem;
+              font-weight: 500;
+              color: $color2;
+              text-transform: capitalize;
             }
 
-            .navigation-options {
-              line-height: 3rem;
-              margin: .5rem auto auto auto;
+            .slogan-company {
+              font-family: $fontFam1;
+              font-weight: 300;
+              font-size: 1rem;
+              color: $color2;
+            }
+          }
+        }
+      }
+    }
+  }
 
-              @media screen and(min-width: 500px) {}
+  .container-bg-image-2 {
+    background-image: url('/Poetic-Chef/assets/media/images/poetic-chef-3.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    // background-size: cover;
+    background-size: 15rem;
+    min-height: 100vh;
 
-              .options {
-                font-family: $fontFam1;
+    background-color: $color3;
 
-                text-align: center;
-                text-transform: capitalize;
+    .container-side-navbar {
+      display: none;
+
+      @media screen and(min-width: 1000px) {
+        display: block;
+      }
+
+      .container-navbar-2 {
+        display: flex;
+        justify-content: space-between;
+        padding: .7rem;
+
+        .logo-company {
+          display: none;
+          width: 3.5rem;
+          height: 3.5rem;
+        }
+
+        nav {
+          display: flex;
+          flex-direction: column;
+
+          .hamb-nav {
+            margin: auto 0 auto auto;
+            width: 3rem;
+            cursor: pointer;
+
+            @media screen and(min-width: 500px) {
+              display: none;
+            }
+          }
+
+          .navigation-options {
+            line-height: 3rem;
+            margin: .5rem auto auto auto;
+
+            @media screen and(min-width: 500px) {}
+
+            .options {
+              font-family: $fontFam1;
+
+              text-align: center;
+              text-transform: capitalize;
+              margin: .7rem 1rem 1rem 1rem;
+
+              @media screen and(min-width: 500px) {
+                display: block;
                 margin: .7rem 1rem 1rem 1rem;
+              }
+
+              a {
+                margin-top: .5rem;
+                color: $color1;
+
 
                 @media screen and(min-width: 500px) {
-                  display: block;
-                  margin: .7rem 1rem 1rem 1rem;
+                  color: $color1;
+                  padding: .5rem;
                 }
 
-                a {
-                  margin-top: .5rem;
-                  color: $color1;
+                &:hover {
+                  position: relative;
+                  font-weight: 700;
 
+                  &::after {
+                    content: '';
+                    position: absolute;
+                    border: .01rem solid black;
+                    background-color: black;
+                    width: 3rem;
+                    height: .01rem;
+                    margin: 1.5rem 0 0 1rem;
+                  }
 
                   @media screen and(min-width: 500px) {
                     color: $color1;
-                    padding: .5rem;
-                  }
-
-                  &:hover {
-                    position: relative;
-                    font-weight: 700;
-
-                    &::after {
-                      content: '';
-                      position: absolute;
-                      border: .01rem solid black;
-                      background-color: black;
-                      width: 3rem;
-                      height: .01rem;
-                      margin: 1.5rem 0 0 1rem;
-                    }
-
-                    @media screen and(min-width: 500px) {
-                      color: $color1;
-                      transition: color .3s;
-                    }
+                    transition: color .3s;
                   }
                 }
               }
             }
-          }
-        }
-      }
-    }
-  }
-
-
-  .container-section-concept {
-    min-height: 100vh;
-    padding: 3rem 1rem 0 1rem;
-    background-color: #181818;
-
-    @media screen and(min-width: 820px) {}
-
-    .container-texts-concept-grid {
-      @media screen and(min-width: 820px) {}
-
-      .container-texts-concept {
-        color: $color2;
-
-        @media screen and(min-width: 820px) {
-          display: grid;
-          grid-template-columns: repeat(2, 1fr);
-        }
-
-        .title-concept {
-          font-family: $fontFam1;
-          font-weight: 600;
-          font-size: 2rem;
-          margin: 2rem 0 2rem 1rem;
-
-          text-transform: capitalize;
-
-          @media screen and(min-width: 820px) {
-            text-indent: 5rem;
-            padding-top: 0;
-          }
-        }
-
-        .description-concept {
-          margin: 2rem 0 0 1rem;
-          padding-bottom: 2rem;
-          font-family: $fontFam1;
-          font-weight: 400;
-        }
-      }
-    }
-  }
-
-  .container-section-popular-news {
-    min-height: 100vh;
-    padding: 3rem 1rem 0 1rem;
-
-    .title-most {
-      font-size: 1.5rem;
-      font-weight: 500;
-      font-family: $fontFam1;
-
-      text-align: center;
-      text-transform: capitalize;
-
-      margin: 0 0 3rem 0;
-    }
-
-    .container-test{
-      @media screen and(min-width: 800px) {
-        display: flex;
-        // flex-direction: column;
-        justify-content: center;
-        overflow: auto;
-        scroll-snap-type: x mandatory; 
-        // border: 3px solid green;
-
-        // margin: 0 5rem 0 3rem;
-        // padding: 5rem;
-      }
-
-      .container-popular-news {
-        border: .01rem solid #aaaaaa;
-        border: 3px solid green;
-        // margin-bottom: 1rem;
-        margin: .2rem;
-
-        .section-article {
-          border: 3px solid blue;
-          @media screen and(min-width: 800px) {
-            width: 15rem;
-            // height: 23rem;
-            // border: 3px solid green;
-            // display: grid;
-            // grid-template-columns: repeat(3, 1fr);
-            // overflow: auto;
-            // scroll-snap-type: y mandatory;
-          }
-          
-          .img-article {
-            @media screen and(min-width: 800px) {}
-            width: 100%;
-          }
-
-          .container-tetxts-popular-news {
-            font-family: $fontFam1;
-            text-transform: capitalize;
-
-            margin: .7rem;
-
-            .type,
-            .writtes-name {
-              color: gray;
-            }
-
-            .title-article {
-              font-weight: 600;
-            }
-
-            .overview {
-              overflow: hidden;
-              white-space: nowrap;
-              text-overflow: ellipsis;
-              @media screen and(min-width: 800px) {
-                // overflow: unset;
-                // white-space: unset;
-                // text-overflow: unset;
-              }
-            }
-
-            .read-article {
-              color: #0101c2;
-            }
-          }
-        }
-      }
-    }
-  }
-
-  .container-section-latests-news {
-    min-height: 100vh;
-    padding: 0 1rem 0 1rem;
-
-    margin-bottom: 1rem;
-
-    // border: 3px solid blue;
-
-    .title-latests {
-      font-size: 1.5rem;
-      font-weight: 500;
-      font-family: $fontFam1;
-
-      text-align: center;
-      text-transform: capitalize;
-
-      margin: 0 0 3rem 0;
-    }
-
-    .container-latests-news {
-      border: .01rem solid #aaaaaa;
-      margin-bottom: 1rem;
-
-      font-family: $fontFam1;
-      text-transform: capitalize;
-
-      .section-article {
-        .img-article {
-          display: flex;
-          margin: auto;
-          width: 100%;
-        }
-
-        .container-section-texts {
-          margin: .7rem;
-
-          .type,
-          .writtes-name-article {
-            color: gray;
-          }
-
-          .title-article {
-            font-weight: 600;
-          }
-
-          .overview-article {
-            overflow: hidden;
-            white-space: nowrap;
-            text-overflow: ellipsis;
-          }
-
-          .read-latests-article {
-            color: #0101c2;
-          }
-        }
-      }
-    }
-  }
-
-  .container-books {
-    min-height: 100vh;
-    padding: 5rem 1rem 0 1rem;
-
-    .title-books {
-      font-size: 1.5rem;
-      font-weight: 500;
-      font-family: $fontFam1;
-
-      text-align: center;
-      text-transform: capitalize;
-
-      margin: 0 0 3rem 0;
-    }
-
-    .container-book-detail {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-
-      font-family: $fontFam1;
-
-      .book-cover {
-        width: 12rem;
-      }
-
-      .title-book {
-        margin-top: .3rem;
-        font-weight: 500;
-      }
-
-      .author {
-        margin: .2rem 0 1rem 0;
-        color: #595959;
-      }
-
-      .buy-book {
-        cursor: pointer;
-        outline: none;
-
-        text-transform: capitalize;
-        background-color: transparent;
-        width: 12rem;
-        height: 3rem;
-        border: .01rem solid $color1;
-
-        margin-bottom: 2rem;
-
-        transition: background-color .3s, color .3s;
-
-        &:hover {
-          background-color: $color1;
-          color: $color2;
-        }
-      }
-    }
-  }
-
-  .container-footer {
-    background-color: $color1;
-    color: $color2;
-    min-height: 25vh;
-    // padding: 5rem 1rem 0 1rem;
-
-    footer {
-      .container-links {
-        .container-logo {
-          padding: 1rem;
-          display: flex;
-          justify-content: center;
-
-          .logo {
-            width: 4.7rem;
-            height: 4.7rem;
-            position: relative;
-            margin: .3rem 0 0 0;
-          }
-
-          .company-name {
-            margin: .7rem 0 0 .2rem;
-            font-family: $fontFam1;
-            font-weight: 600;
-            text-transform: capitalize;
-
-            span {
-              font-size: .7rem;
-              font-weight: normal;
-              color: #c3c3c3;
-            }
-          }
-        }
-
-        .container-social-icons {
-          display: flex;
-          flex-wrap: wrap;
-          justify-content: center;
-
-          .redirect-social-link {}
-
-          .icons {
-            margin: 1rem;
-            width: 1.5rem;
           }
         }
       }

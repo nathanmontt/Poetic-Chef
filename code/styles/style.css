@@ -15,9 +15,6 @@
 }
 
 /*SCROLL BAR*/
-body {
-  /* Handle on hover */
-}
 body::-webkit-scrollbar {
   width: 0.3rem;
 }
@@ -27,20 +24,11 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
   background: black;
 }
-body::-webkit-scrollbar-thumb:hover {
-  background: #3a3a3a;
-}
 
-.container-whole-project {
+.container-poetic-chef {
   background-color: beige;
 }
-@media screen and (min-width: 768px) {
-  .container-whole-project .container-media-query-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-.container-whole-project .container-media-query-grid .container-bg-image-1 {
+.container-poetic-chef .container-bg-image-1 {
   background-image: url("/Poetic-Chef/assets/media/images/poetic-chef-1.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -49,76 +37,76 @@ body::-webkit-scrollbar-thumb:hover {
   position: relative;
 }
 @media screen and (min-width: 1000px) {
-  .container-whole-project .container-media-query-grid .container-bg-image-1 .container-hide-nav {
+  .container-poetic-chef .container-bg-image-1 .container-hide-nav {
     display: none;
   }
 }
-.container-whole-project .container-media-query-grid .container-bg-image-1 .container-hide-nav .container-navbar {
+.container-poetic-chef .container-bg-image-1 .container-hide-nav .container-navbar {
   display: flex;
   justify-content: space-between;
   padding: 0.7rem;
 }
-.container-whole-project .container-media-query-grid .container-bg-image-1 .container-hide-nav .container-navbar .logo-company {
+.container-poetic-chef .container-bg-image-1 .container-hide-nav .container-navbar .logo-company {
   width: 3.5rem;
   height: 3.5rem;
 }
-.container-whole-project .container-media-query-grid .container-bg-image-1 .container-hide-nav .container-navbar nav {
+.container-poetic-chef .container-bg-image-1 .container-hide-nav .container-navbar nav {
   display: flex;
   flex-direction: column;
 }
-.container-whole-project .container-media-query-grid .container-bg-image-1 .container-hide-nav .container-navbar nav .hamb-nav {
+.container-poetic-chef .container-bg-image-1 .container-hide-nav .container-navbar nav .hamb-nav {
   margin: auto 0 auto auto;
   width: 3rem;
   cursor: pointer;
 }
 @media screen and (min-width: 500px) {
-  .container-whole-project .container-media-query-grid .container-bg-image-1 .container-hide-nav .container-navbar nav .hamb-nav {
+  .container-poetic-chef .container-bg-image-1 .container-hide-nav .container-navbar nav .hamb-nav {
     display: none;
   }
 }
-.container-whole-project .container-media-query-grid .container-bg-image-1 .container-hide-nav .container-navbar nav .navigation-options {
+.container-poetic-chef .container-bg-image-1 .container-hide-nav .container-navbar nav .navigation-options {
   background-color: white;
   margin: 0.5rem auto auto auto;
 }
 @media screen and (min-width: 500px) {
-  .container-whole-project .container-media-query-grid .container-bg-image-1 .container-hide-nav .container-navbar nav .navigation-options {
+  .container-poetic-chef .container-bg-image-1 .container-hide-nav .container-navbar nav .navigation-options {
     display: flex;
     flex-direction: row;
     background-color: transparent;
   }
 }
-.container-whole-project .container-media-query-grid .container-bg-image-1 .container-hide-nav .container-navbar nav .navigation-options .options {
+.container-poetic-chef .container-bg-image-1 .container-hide-nav .container-navbar nav .navigation-options .options {
   font-family: "Quicksand", sans-serif;
   text-align: center;
   text-transform: capitalize;
   margin: 0.7rem 1rem 1rem 1rem;
 }
 @media screen and (min-width: 500px) {
-  .container-whole-project .container-media-query-grid .container-bg-image-1 .container-hide-nav .container-navbar nav .navigation-options .options {
+  .container-poetic-chef .container-bg-image-1 .container-hide-nav .container-navbar nav .navigation-options .options {
     display: block;
     margin: 0.7rem 1rem 1rem 1rem;
   }
 }
-.container-whole-project .container-media-query-grid .container-bg-image-1 .container-hide-nav .container-navbar nav .navigation-options .options a {
+.container-poetic-chef .container-bg-image-1 .container-hide-nav .container-navbar nav .navigation-options .options a {
   margin-top: 0.5rem;
   color: black;
 }
 @media screen and (min-width: 500px) {
-  .container-whole-project .container-media-query-grid .container-bg-image-1 .container-hide-nav .container-navbar nav .navigation-options .options a {
+  .container-poetic-chef .container-bg-image-1 .container-hide-nav .container-navbar nav .navigation-options .options a {
     color: white;
     padding: 0.5rem;
   }
 }
-.container-whole-project .container-media-query-grid .container-bg-image-1 .container-hide-nav .container-navbar nav .navigation-options .options a:hover {
+.container-poetic-chef .container-bg-image-1 .container-hide-nav .container-navbar nav .navigation-options .options a:hover {
   font-weight: 700;
 }
 @media screen and (min-width: 500px) {
-  .container-whole-project .container-media-query-grid .container-bg-image-1 .container-hide-nav .container-navbar nav .navigation-options .options a:hover {
+  .container-poetic-chef .container-bg-image-1 .container-hide-nav .container-navbar nav .navigation-options .options a:hover {
     color: white;
     transition: color 0.3s;
   }
 }
-.container-whole-project .container-media-query-grid .container-bg-image-1 .container-main-1 main .container-company {
+.container-poetic-chef .container-bg-image-1 .container-main-1 main .container-company {
   margin-top: 17rem;
   text-indent: 2rem;
   position: absolute;
@@ -127,20 +115,20 @@ body::-webkit-scrollbar-thumb:hover {
   left: 0;
   bottom: 0;
 }
-.container-whole-project .container-media-query-grid .container-bg-image-1 .container-main-1 main .container-company .container-texts-company .title-company {
+.container-poetic-chef .container-bg-image-1 .container-main-1 main .container-company .container-texts-company .title-company {
   font-family: "Quicksand", sans-serif;
   font-size: 2.3rem;
   font-weight: 500;
   color: white;
   text-transform: capitalize;
 }
-.container-whole-project .container-media-query-grid .container-bg-image-1 .container-main-1 main .container-company .container-texts-company .slogan-company {
+.container-poetic-chef .container-bg-image-1 .container-main-1 main .container-company .container-texts-company .slogan-company {
   font-family: "Quicksand", sans-serif;
   font-weight: 300;
   font-size: 1rem;
   color: white;
 }
-.container-whole-project .container-media-query-grid .container-bg-image-2 {
+.container-poetic-chef .container-bg-image-2 {
   background-image: url("/Poetic-Chef/assets/media/images/poetic-chef-3.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -148,69 +136,69 @@ body::-webkit-scrollbar-thumb:hover {
   min-height: 100vh;
   background-color: beige;
 }
-.container-whole-project .container-media-query-grid .container-bg-image-2 .container-side-navbar {
+.container-poetic-chef .container-bg-image-2 .container-side-navbar {
   display: none;
 }
 @media screen and (min-width: 1000px) {
-  .container-whole-project .container-media-query-grid .container-bg-image-2 .container-side-navbar {
+  .container-poetic-chef .container-bg-image-2 .container-side-navbar {
     display: block;
   }
 }
-.container-whole-project .container-media-query-grid .container-bg-image-2 .container-side-navbar .container-navbar-2 {
+.container-poetic-chef .container-bg-image-2 .container-side-navbar .container-navbar-2 {
   display: flex;
   justify-content: space-between;
   padding: 0.7rem;
 }
-.container-whole-project .container-media-query-grid .container-bg-image-2 .container-side-navbar .container-navbar-2 .logo-company {
+.container-poetic-chef .container-bg-image-2 .container-side-navbar .container-navbar-2 .logo-company {
   display: none;
   width: 3.5rem;
   height: 3.5rem;
 }
-.container-whole-project .container-media-query-grid .container-bg-image-2 .container-side-navbar .container-navbar-2 nav {
+.container-poetic-chef .container-bg-image-2 .container-side-navbar .container-navbar-2 nav {
   display: flex;
   flex-direction: column;
 }
-.container-whole-project .container-media-query-grid .container-bg-image-2 .container-side-navbar .container-navbar-2 nav .hamb-nav {
+.container-poetic-chef .container-bg-image-2 .container-side-navbar .container-navbar-2 nav .hamb-nav {
   margin: auto 0 auto auto;
   width: 3rem;
   cursor: pointer;
 }
 @media screen and (min-width: 500px) {
-  .container-whole-project .container-media-query-grid .container-bg-image-2 .container-side-navbar .container-navbar-2 nav .hamb-nav {
+  .container-poetic-chef .container-bg-image-2 .container-side-navbar .container-navbar-2 nav .hamb-nav {
     display: none;
   }
 }
-.container-whole-project .container-media-query-grid .container-bg-image-2 .container-side-navbar .container-navbar-2 nav .navigation-options {
+.container-poetic-chef .container-bg-image-2 .container-side-navbar .container-navbar-2 nav .navigation-options {
   line-height: 3rem;
   margin: 0.5rem auto auto auto;
 }
-.container-whole-project .container-media-query-grid .container-bg-image-2 .container-side-navbar .container-navbar-2 nav .navigation-options .options {
+.container-poetic-chef .container-bg-image-2 .container-side-navbar .container-navbar-2 nav .navigation-options .options {
   font-family: "Quicksand", sans-serif;
   text-align: center;
   text-transform: capitalize;
   margin: 0.7rem 1rem 1rem 1rem;
 }
 @media screen and (min-width: 500px) {
-  .container-whole-project .container-media-query-grid .container-bg-image-2 .container-side-navbar .container-navbar-2 nav .navigation-options .options {
+  .container-poetic-chef .container-bg-image-2 .container-side-navbar .container-navbar-2 nav .navigation-options .options {
     display: block;
     margin: 0.7rem 1rem 1rem 1rem;
   }
 }
-.container-whole-project .container-media-query-grid .container-bg-image-2 .container-side-navbar .container-navbar-2 nav .navigation-options .options a {
+.container-poetic-chef .container-bg-image-2 .container-side-navbar .container-navbar-2 nav .navigation-options .options a {
   margin-top: 0.5rem;
   color: black;
 }
 @media screen and (min-width: 500px) {
-  .container-whole-project .container-media-query-grid .container-bg-image-2 .container-side-navbar .container-navbar-2 nav .navigation-options .options a {
+  .container-poetic-chef .container-bg-image-2 .container-side-navbar .container-navbar-2 nav .navigation-options .options a {
     color: black;
     padding: 0.5rem;
   }
 }
-.container-whole-project .container-media-query-grid .container-bg-image-2 .container-side-navbar .container-navbar-2 nav .navigation-options .options a:hover {
+.container-poetic-chef .container-bg-image-2 .container-side-navbar .container-navbar-2 nav .navigation-options .options a:hover {
   position: relative;
   font-weight: 700;
 }
-.container-whole-project .container-media-query-grid .container-bg-image-2 .container-side-navbar .container-navbar-2 nav .navigation-options .options a:hover::after {
+.container-poetic-chef .container-bg-image-2 .container-side-navbar .container-navbar-2 nav .navigation-options .options a:hover::after {
   content: "";
   position: absolute;
   border: 0.01rem solid black;
@@ -220,220 +208,8 @@ body::-webkit-scrollbar-thumb:hover {
   margin: 1.5rem 0 0 1rem;
 }
 @media screen and (min-width: 500px) {
-  .container-whole-project .container-media-query-grid .container-bg-image-2 .container-side-navbar .container-navbar-2 nav .navigation-options .options a:hover {
+  .container-poetic-chef .container-bg-image-2 .container-side-navbar .container-navbar-2 nav .navigation-options .options a:hover {
     color: black;
     transition: color 0.3s;
   }
-}
-.container-whole-project .container-section-concept {
-  min-height: 100vh;
-  padding: 3rem 1rem 0 1rem;
-  background-color: #181818;
-}
-.container-whole-project .container-section-concept .container-texts-concept-grid .container-texts-concept {
-  color: white;
-}
-@media screen and (min-width: 820px) {
-  .container-whole-project .container-section-concept .container-texts-concept-grid .container-texts-concept {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-.container-whole-project .container-section-concept .container-texts-concept-grid .container-texts-concept .title-concept {
-  font-family: "Quicksand", sans-serif;
-  font-weight: 600;
-  font-size: 2rem;
-  margin: 2rem 0 2rem 1rem;
-  text-transform: capitalize;
-}
-@media screen and (min-width: 820px) {
-  .container-whole-project .container-section-concept .container-texts-concept-grid .container-texts-concept .title-concept {
-    text-indent: 5rem;
-    padding-top: 0;
-  }
-}
-.container-whole-project .container-section-concept .container-texts-concept-grid .container-texts-concept .description-concept {
-  margin: 2rem 0 0 1rem;
-  padding-bottom: 2rem;
-  font-family: "Quicksand", sans-serif;
-  font-weight: 400;
-}
-.container-whole-project .container-section-popular-news {
-  min-height: 100vh;
-  padding: 3rem 1rem 0 1rem;
-}
-.container-whole-project .container-section-popular-news .title-most {
-  font-size: 1.5rem;
-  font-weight: 500;
-  font-family: "Quicksand", sans-serif;
-  text-align: center;
-  text-transform: capitalize;
-  margin: 0 0 3rem 0;
-}
-@media screen and (min-width: 800px) {
-  .container-whole-project .container-section-popular-news .container-test {
-    display: flex;
-    justify-content: center;
-    overflow: auto;
-    -ms-scroll-snap-type: x mandatory;
-        scroll-snap-type: x mandatory;
-  }
-}
-.container-whole-project .container-section-popular-news .container-test .container-popular-news {
-  border: 0.01rem solid #aaaaaa;
-  border: 3px solid green;
-  margin: 0.2rem;
-}
-.container-whole-project .container-section-popular-news .container-test .container-popular-news .section-article {
-  border: 3px solid blue;
-}
-@media screen and (min-width: 800px) {
-  .container-whole-project .container-section-popular-news .container-test .container-popular-news .section-article {
-    width: 15rem;
-  }
-}
-.container-whole-project .container-section-popular-news .container-test .container-popular-news .section-article .img-article {
-  width: 100%;
-}
-.container-whole-project .container-section-popular-news .container-test .container-popular-news .section-article .container-tetxts-popular-news {
-  font-family: "Quicksand", sans-serif;
-  text-transform: capitalize;
-  margin: 0.7rem;
-}
-.container-whole-project .container-section-popular-news .container-test .container-popular-news .section-article .container-tetxts-popular-news .type,
-.container-whole-project .container-section-popular-news .container-test .container-popular-news .section-article .container-tetxts-popular-news .writtes-name {
-  color: gray;
-}
-.container-whole-project .container-section-popular-news .container-test .container-popular-news .section-article .container-tetxts-popular-news .title-article {
-  font-weight: 600;
-}
-.container-whole-project .container-section-popular-news .container-test .container-popular-news .section-article .container-tetxts-popular-news .overview {
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-}
-.container-whole-project .container-section-popular-news .container-test .container-popular-news .section-article .container-tetxts-popular-news .read-article {
-  color: #0101c2;
-}
-.container-whole-project .container-section-latests-news {
-  min-height: 100vh;
-  padding: 0 1rem 0 1rem;
-  margin-bottom: 1rem;
-}
-.container-whole-project .container-section-latests-news .title-latests {
-  font-size: 1.5rem;
-  font-weight: 500;
-  font-family: "Quicksand", sans-serif;
-  text-align: center;
-  text-transform: capitalize;
-  margin: 0 0 3rem 0;
-}
-.container-whole-project .container-section-latests-news .container-latests-news {
-  border: 0.01rem solid #aaaaaa;
-  margin-bottom: 1rem;
-  font-family: "Quicksand", sans-serif;
-  text-transform: capitalize;
-}
-.container-whole-project .container-section-latests-news .container-latests-news .section-article .img-article {
-  display: flex;
-  margin: auto;
-  width: 100%;
-}
-.container-whole-project .container-section-latests-news .container-latests-news .section-article .container-section-texts {
-  margin: 0.7rem;
-}
-.container-whole-project .container-section-latests-news .container-latests-news .section-article .container-section-texts .type,
-.container-whole-project .container-section-latests-news .container-latests-news .section-article .container-section-texts .writtes-name-article {
-  color: gray;
-}
-.container-whole-project .container-section-latests-news .container-latests-news .section-article .container-section-texts .title-article {
-  font-weight: 600;
-}
-.container-whole-project .container-section-latests-news .container-latests-news .section-article .container-section-texts .overview-article {
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-}
-.container-whole-project .container-section-latests-news .container-latests-news .section-article .container-section-texts .read-latests-article {
-  color: #0101c2;
-}
-.container-whole-project .container-books {
-  min-height: 100vh;
-  padding: 5rem 1rem 0 1rem;
-}
-.container-whole-project .container-books .title-books {
-  font-size: 1.5rem;
-  font-weight: 500;
-  font-family: "Quicksand", sans-serif;
-  text-align: center;
-  text-transform: capitalize;
-  margin: 0 0 3rem 0;
-}
-.container-whole-project .container-books .container-book-detail {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-family: "Quicksand", sans-serif;
-}
-.container-whole-project .container-books .container-book-detail .book-cover {
-  width: 12rem;
-}
-.container-whole-project .container-books .container-book-detail .title-book {
-  margin-top: 0.3rem;
-  font-weight: 500;
-}
-.container-whole-project .container-books .container-book-detail .author {
-  margin: 0.2rem 0 1rem 0;
-  color: #595959;
-}
-.container-whole-project .container-books .container-book-detail .buy-book {
-  cursor: pointer;
-  outline: none;
-  text-transform: capitalize;
-  background-color: transparent;
-  width: 12rem;
-  height: 3rem;
-  border: 0.01rem solid black;
-  margin-bottom: 2rem;
-  transition: background-color 0.3s, color 0.3s;
-}
-.container-whole-project .container-books .container-book-detail .buy-book:hover {
-  background-color: black;
-  color: white;
-}
-.container-whole-project .container-footer {
-  background-color: black;
-  color: white;
-  min-height: 25vh;
-}
-.container-whole-project .container-footer footer .container-links .container-logo {
-  padding: 1rem;
-  display: flex;
-  justify-content: center;
-}
-.container-whole-project .container-footer footer .container-links .container-logo .logo {
-  width: 4.7rem;
-  height: 4.7rem;
-  position: relative;
-  margin: 0.3rem 0 0 0;
-}
-.container-whole-project .container-footer footer .container-links .container-logo .company-name {
-  margin: 0.7rem 0 0 0.2rem;
-  font-family: "Quicksand", sans-serif;
-  font-weight: 600;
-  text-transform: capitalize;
-}
-.container-whole-project .container-footer footer .container-links .container-logo .company-name span {
-  font-size: 0.7rem;
-  font-weight: normal;
-  color: #c3c3c3;
-}
-.container-whole-project .container-footer footer .container-links .container-social-icons {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-.container-whole-project .container-footer footer .container-links .container-social-icons .icons {
-  margin: 1rem;
-  width: 1.5rem;
 }/*# sourceMappingURL=style.css.map */
