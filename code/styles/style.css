@@ -46,4 +46,24 @@
 }
 .container-poetic-chef .container-menu-bgBackground .container-menu nav .menu-options .options a:hover {
   font-weight: 700;
+}
+.container-poetic-chef .container-menu-bgBackground .container-slogan-hero {
+  font-family: "Quicksand", sans-serif;
+  color: white;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin-top: 16rem;
+  text-align: center;
+}
+.container-poetic-chef .container-menu-bgBackground .container-slogan-hero .title-slogan-hero {
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.container-poetic-chef .container-menu-bgBackground .container-slogan-hero .slogan-hero {
+  text-transform: lowercase;
+  font-size: 0.989rem;
 }/*# sourceMappingURL=style.css.map */

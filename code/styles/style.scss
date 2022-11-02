@@ -77,8 +77,26 @@ $font1: 'Quicksand', sans-serif;
     }
 
     .container-slogan-hero {
-      .title-slogan-hero {}
-      .slogan-hero {}
+      font-family: $font1;
+      color: $color2;
+      
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      
+      margin-top: 16rem;
+      text-align: center;
+      .title-slogan-hero {
+        font-size: 2rem;
+        font-weight: 600;
+        text-transform: uppercase;
+      }
+      .slogan-hero {
+        text-transform: lowercase;
+        font-size: .989rem;
+      }
     }
   }
 
