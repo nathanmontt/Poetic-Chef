@@ -118,4 +118,11 @@
   .container-poetic-chef .container-main .container-concept .description-concept {
     margin: 0 7rem 0 0;
   }
+}
+.container-poetic-chef .container-main .container-bgPhoto-separator .title-separator {
+  font-family: "Quicksand", sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */

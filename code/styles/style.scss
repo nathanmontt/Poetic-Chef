@@ -140,7 +140,6 @@ $font1: 'Quicksand', sans-serif;
         margin-bottom: 1rem;
 
         @media screen and(min-width: 900px) {
-          // border: 3px solid darkblue;
           margin: 0 0 0 7rem;
         }
       }
@@ -152,6 +151,19 @@ $font1: 'Quicksand', sans-serif;
         @media screen and(min-width: 900px) {
           margin: 0 7rem 0 0;
         }
+      }
+    }
+
+    .container-bgPhoto-separator {
+      // @media screen and(min-width: 520px) {}
+
+      .title-separator {
+        font-family: $font1;
+        font-size: 2rem;
+        font-weight: 600;
+        
+        text-transform: uppercase;
+        text-align: center;
       }
     }
   }
