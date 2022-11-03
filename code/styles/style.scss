@@ -157,22 +157,33 @@ $font1: 'Quicksand', sans-serif;
     .container-section-2 {
       min-height: 100vh;
       background-color: $color1;
-      // @media screen and(min-width: 520px) {}
+      
+      .bg-image {
+        background-image: url("/Poetic-Chef/assets/media/images/poetic-chef-6-Nubelson-Fernandes.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 100vh;
 
-      .img-section-2 {
-        width: 100%;
+        @media screen and(min-width: 1000px) {
+          background-image: url("/Poetic-Chef/assets/media/images/poetic-chef-5-Nubelson-Fernandes.jpg");
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          min-height: 100vh;
+        }
       }
 
       .container-texts-section-2{
-        
+        // display: flex;
         .title-section-2 {
           font-family: $font1;
           font-size: 1.1rem;
           color: $color2;
-
-          padding: 2rem 0 0 1rem;
-
+          
           text-transform: uppercase;
+          
+          padding: 2rem 0 0 1rem;
         }
 
         .description-section-2 {
@@ -182,10 +193,13 @@ $font1: 'Quicksand', sans-serif;
           padding: 2rem 0 0 1rem;
         }
         
-        .container-grid-media-query-1 {
-          .container-information-section-2 {
-            // border: 3px solid white;
+        .container-flex-media-query-1 {
+          @media screen and(min-width: 1000px) {
             display: flex;
+          }
+          .container-information-section-2 {
+            display: flex;
+            border: 3px solid darkorange;
             .container-data {
               font-family: $font1;
               color: $color2;
@@ -203,7 +217,12 @@ $font1: 'Quicksand', sans-serif;
             }
           }
 
-          .food-place-2 {}
+          .food-place-2 {
+            @media screen and(min-width: 1000px) {
+              display: block;
+              width: 10rem;
+            }
+          }
         }
       }
     }

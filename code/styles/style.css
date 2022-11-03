@@ -123,33 +123,58 @@
   min-height: 100vh;
   background-color: black;
 }
-.container-poetic-chef .container-main .container-section-2 .img-section-2 {
-  width: 100%;
+.container-poetic-chef .container-main .container-section-2 .bg-image {
+  background-image: url("/Poetic-Chef/assets/media/images/poetic-chef-6-Nubelson-Fernandes.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+@media screen and (min-width: 1000px) {
+  .container-poetic-chef .container-main .container-section-2 .bg-image {
+    background-image: url("/Poetic-Chef/assets/media/images/poetic-chef-5-Nubelson-Fernandes.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+  }
 }
 .container-poetic-chef .container-main .container-section-2 .container-texts-section-2 .title-section-2 {
   font-family: "Quicksand", sans-serif;
   font-size: 1.1rem;
   color: white;
-  padding: 2rem 0 0 1rem;
   text-transform: uppercase;
+  padding: 2rem 0 0 1rem;
 }
 .container-poetic-chef .container-main .container-section-2 .container-texts-section-2 .description-section-2 {
   font-family: "Quicksand", sans-serif;
   color: white;
   padding: 2rem 0 0 1rem;
 }
-.container-poetic-chef .container-main .container-section-2 .container-texts-section-2 .container-grid-media-query-1 .container-information-section-2 {
-  display: flex;
+@media screen and (min-width: 1000px) {
+  .container-poetic-chef .container-main .container-section-2 .container-texts-section-2 .container-flex-media-query-1 {
+    display: flex;
+  }
 }
-.container-poetic-chef .container-main .container-section-2 .container-texts-section-2 .container-grid-media-query-1 .container-information-section-2 .container-data {
+.container-poetic-chef .container-main .container-section-2 .container-texts-section-2 .container-flex-media-query-1 .container-information-section-2 {
+  display: flex;
+  border: 3px solid darkorange;
+}
+.container-poetic-chef .container-main .container-section-2 .container-texts-section-2 .container-flex-media-query-1 .container-information-section-2 .container-data {
   font-family: "Quicksand", sans-serif;
   color: white;
   padding: 2rem 0 0 1rem;
 }
-.container-poetic-chef .container-main .container-section-2 .container-texts-section-2 .container-grid-media-query-1 .container-information-section-2 .container-data .number-info {
+.container-poetic-chef .container-main .container-section-2 .container-texts-section-2 .container-flex-media-query-1 .container-information-section-2 .container-data .number-info {
   font-size: 1.5rem;
   font-weight: 700;
 }
-.container-poetic-chef .container-main .container-section-2 .container-texts-section-2 .container-grid-media-query-1 .container-information-section-2 .container-data .short-desc-info {
+.container-poetic-chef .container-main .container-section-2 .container-texts-section-2 .container-flex-media-query-1 .container-information-section-2 .container-data .short-desc-info {
   font-size: 0.88rem;
+}
+@media screen and (min-width: 1000px) {
+  .container-poetic-chef .container-main .container-section-2 .container-texts-section-2 .container-flex-media-query-1 .food-place-2 {
+    display: block;
+    width: 10rem;
+  }
 }/*# sourceMappingURL=style.css.map */
