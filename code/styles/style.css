@@ -118,4 +118,38 @@
   .container-poetic-chef .container-main .container-concept .description-concept {
     margin: 0 7rem 0 0;
   }
+}
+.container-poetic-chef .container-main .container-section-2 {
+  min-height: 100vh;
+  background-color: black;
+}
+.container-poetic-chef .container-main .container-section-2 .img-section-2 {
+  width: 100%;
+}
+.container-poetic-chef .container-main .container-section-2 .container-texts-section-2 .title-section-2 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.1rem;
+  color: white;
+  padding: 2rem 0 0 1rem;
+  text-transform: uppercase;
+}
+.container-poetic-chef .container-main .container-section-2 .container-texts-section-2 .description-section-2 {
+  font-family: "Quicksand", sans-serif;
+  color: white;
+  padding: 2rem 0 0 1rem;
+}
+.container-poetic-chef .container-main .container-section-2 .container-texts-section-2 .container-grid-media-query-1 .container-information-section-2 {
+  display: flex;
+}
+.container-poetic-chef .container-main .container-section-2 .container-texts-section-2 .container-grid-media-query-1 .container-information-section-2 .container-data {
+  font-family: "Quicksand", sans-serif;
+  color: white;
+  padding: 2rem 0 0 1rem;
+}
+.container-poetic-chef .container-main .container-section-2 .container-texts-section-2 .container-grid-media-query-1 .container-information-section-2 .container-data .number-info {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.container-poetic-chef .container-main .container-section-2 .container-texts-section-2 .container-grid-media-query-1 .container-information-section-2 .container-data .short-desc-info {
+  font-size: 0.88rem;
 }/*# sourceMappingURL=style.css.map */
