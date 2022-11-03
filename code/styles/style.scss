@@ -176,8 +176,15 @@ $font1: 'Quicksand', sans-serif;
 
       .container-texts-section-2{
         display: flex;
+        justify-content: space-between;
+              // border: 3px solid green;
 
         .container-flex-media-query-1{
+          @media screen and(min-width: 1040px){
+            // padding: 4rem 0 0 4rem;
+          }
+
+          // border: 3px solid green;
           .title-section-2 {
             font-family: $font1;
             font-size: 1.1rem;
@@ -187,7 +194,7 @@ $font1: 'Quicksand', sans-serif;
             
             padding: 2rem 0 0 1rem;
 
-            @media screen and(min-width: 1000px) {
+            @media screen and(min-width: 1040px) {
               padding: 4rem 0 0 3rem;
             }
           }
@@ -199,28 +206,28 @@ $font1: 'Quicksand', sans-serif;
             padding: 2rem 0 0 1rem;
 
             
-            @media screen and(min-width: 1000px) {
+            @media screen and(min-width: 1040px) {
               padding: 3rem 0 0 3rem;
-              width: 480px;
+              // width: 480px;
             }
           }
           
           .container-flex-media-query-2 {
-            @media screen and(min-width: 1000px) {
+            @media screen and(min-width: 1040px) {
               display: flex;
             }
             .container-information-section-2 {
               display: flex;
               
-              @media screen and(min-width: 1000px) {
-                padding: 3rem 0 0 2rem;
+              @media screen and(min-width: 1040px) {
+                padding: 1.5rem 0 0 2rem;
               }
               
               .container-data {
                 font-family: $font1;
                 color: $color2;
 
-                padding: 2rem 2rem 0 1rem;
+                padding: 1rem 2rem 2rem 1rem;
 
                 .number-info {
                   font-size: 1.5rem;
@@ -229,7 +236,6 @@ $font1: 'Quicksand', sans-serif;
                 
                 .short-desc-info {
                   font-size: .88rem;
-                  width: 5rem; 
                 }
               }
             }
@@ -238,10 +244,11 @@ $font1: 'Quicksand', sans-serif;
         }
 
         .food-place-2 {
-          @media screen and(min-width: 1000px) {
-            display: block;
+          @media screen and(min-width: 1040px) {
+            display: inline-block;
             width: 50%;
             height: 50%;
+            padding: 5rem;
           }
         }
       }
