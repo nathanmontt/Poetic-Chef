@@ -175,53 +175,73 @@ $font1: 'Quicksand', sans-serif;
       }
 
       .container-texts-section-2{
-        // display: flex;
-        .title-section-2 {
-          font-family: $font1;
-          font-size: 1.1rem;
-          color: $color2;
-          
-          text-transform: uppercase;
-          
-          padding: 2rem 0 0 1rem;
-        }
+        display: flex;
 
-        .description-section-2 {
-          font-family: $font1;
-          color: $color2;
+        .container-flex-media-query-1{
+          .title-section-2 {
+            font-family: $font1;
+            font-size: 1.1rem;
+            color: $color2;
+            
+            text-transform: uppercase;
+            
+            padding: 2rem 0 0 1rem;
 
-          padding: 2rem 0 0 1rem;
-        }
-        
-        .container-flex-media-query-1 {
-          @media screen and(min-width: 1000px) {
-            display: flex;
-          }
-          .container-information-section-2 {
-            display: flex;
-            border: 3px solid darkorange;
-            .container-data {
-              font-family: $font1;
-              color: $color2;
-
-              padding: 2rem 0 0 1rem;
-
-              .number-info {
-                font-size: 1.5rem;
-                font-weight: 700;
-              }
-
-              .short-desc-info {
-                font-size: .88rem;
-              }
-            }
-          }
-
-          .food-place-2 {
             @media screen and(min-width: 1000px) {
-              display: block;
-              width: 10rem;
+              padding: 4rem 0 0 3rem;
             }
+          }
+
+          .description-section-2 {
+            font-family: $font1;
+            color: $color2;
+
+            padding: 2rem 0 0 1rem;
+
+            
+            @media screen and(min-width: 1000px) {
+              padding: 3rem 0 0 3rem;
+              width: 480px;
+            }
+          }
+          
+          .container-flex-media-query-2 {
+            @media screen and(min-width: 1000px) {
+              display: flex;
+            }
+            .container-information-section-2 {
+              display: flex;
+              
+              @media screen and(min-width: 1000px) {
+                padding: 3rem 0 0 2rem;
+              }
+              
+              .container-data {
+                font-family: $font1;
+                color: $color2;
+
+                padding: 2rem 2rem 0 1rem;
+
+                .number-info {
+                  font-size: 1.5rem;
+                  font-weight: 700;
+                }
+                
+                .short-desc-info {
+                  font-size: .88rem;
+                  width: 5rem; 
+                }
+              }
+            }
+
+          }
+        }
+
+        .food-place-2 {
+          @media screen and(min-width: 1000px) {
+            display: block;
+            width: 50%;
+            height: 50%;
           }
         }
       }

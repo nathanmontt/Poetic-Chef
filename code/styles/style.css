@@ -139,42 +139,62 @@
     min-height: 100vh;
   }
 }
-.container-poetic-chef .container-main .container-section-2 .container-texts-section-2 .title-section-2 {
+.container-poetic-chef .container-main .container-section-2 .container-texts-section-2 {
+  display: flex;
+}
+.container-poetic-chef .container-main .container-section-2 .container-texts-section-2 .container-flex-media-query-1 .title-section-2 {
   font-family: "Quicksand", sans-serif;
   font-size: 1.1rem;
   color: white;
   text-transform: uppercase;
   padding: 2rem 0 0 1rem;
 }
-.container-poetic-chef .container-main .container-section-2 .container-texts-section-2 .description-section-2 {
+@media screen and (min-width: 1000px) {
+  .container-poetic-chef .container-main .container-section-2 .container-texts-section-2 .container-flex-media-query-1 .title-section-2 {
+    padding: 4rem 0 0 3rem;
+  }
+}
+.container-poetic-chef .container-main .container-section-2 .container-texts-section-2 .container-flex-media-query-1 .description-section-2 {
   font-family: "Quicksand", sans-serif;
   color: white;
   padding: 2rem 0 0 1rem;
 }
 @media screen and (min-width: 1000px) {
-  .container-poetic-chef .container-main .container-section-2 .container-texts-section-2 .container-flex-media-query-1 {
+  .container-poetic-chef .container-main .container-section-2 .container-texts-section-2 .container-flex-media-query-1 .description-section-2 {
+    padding: 3rem 0 0 3rem;
+    width: 480px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .container-poetic-chef .container-main .container-section-2 .container-texts-section-2 .container-flex-media-query-1 .container-flex-media-query-2 {
     display: flex;
   }
 }
-.container-poetic-chef .container-main .container-section-2 .container-texts-section-2 .container-flex-media-query-1 .container-information-section-2 {
+.container-poetic-chef .container-main .container-section-2 .container-texts-section-2 .container-flex-media-query-1 .container-flex-media-query-2 .container-information-section-2 {
   display: flex;
-  border: 3px solid darkorange;
 }
-.container-poetic-chef .container-main .container-section-2 .container-texts-section-2 .container-flex-media-query-1 .container-information-section-2 .container-data {
+@media screen and (min-width: 1000px) {
+  .container-poetic-chef .container-main .container-section-2 .container-texts-section-2 .container-flex-media-query-1 .container-flex-media-query-2 .container-information-section-2 {
+    padding: 3rem 0 0 2rem;
+  }
+}
+.container-poetic-chef .container-main .container-section-2 .container-texts-section-2 .container-flex-media-query-1 .container-flex-media-query-2 .container-information-section-2 .container-data {
   font-family: "Quicksand", sans-serif;
   color: white;
-  padding: 2rem 0 0 1rem;
+  padding: 2rem 2rem 0 1rem;
 }
-.container-poetic-chef .container-main .container-section-2 .container-texts-section-2 .container-flex-media-query-1 .container-information-section-2 .container-data .number-info {
+.container-poetic-chef .container-main .container-section-2 .container-texts-section-2 .container-flex-media-query-1 .container-flex-media-query-2 .container-information-section-2 .container-data .number-info {
   font-size: 1.5rem;
   font-weight: 700;
 }
-.container-poetic-chef .container-main .container-section-2 .container-texts-section-2 .container-flex-media-query-1 .container-information-section-2 .container-data .short-desc-info {
+.container-poetic-chef .container-main .container-section-2 .container-texts-section-2 .container-flex-media-query-1 .container-flex-media-query-2 .container-information-section-2 .container-data .short-desc-info {
   font-size: 0.88rem;
+  width: 5rem;
 }
 @media screen and (min-width: 1000px) {
-  .container-poetic-chef .container-main .container-section-2 .container-texts-section-2 .container-flex-media-query-1 .food-place-2 {
+  .container-poetic-chef .container-main .container-section-2 .container-texts-section-2 .food-place-2 {
     display: block;
-    width: 10rem;
+    width: 50%;
+    height: 50%;
   }
 }/*# sourceMappingURL=style.css.map */
