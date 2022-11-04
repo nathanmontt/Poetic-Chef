@@ -221,31 +221,19 @@ body ::-webkit-scrollbar-thumb:horizontal {
 }
 .container-poetic-chef .container-main .container-section-3 .title-section-3 {
   font-family: "Quicksand", sans-serif;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 1.5rem;
-  padding: 2rem 0 3rem 2rem;
   text-transform: uppercase;
 }
-.container-poetic-chef .container-main .container-section-3 .container-imgs {
-  display: flex;
-  overflow: auto;
-  -ms-scroll-snap-type: y mandatory;
-      scroll-snap-type: y mandatory;
-  scroll-snap-align: start;
-}
 .container-poetic-chef .container-main .container-section-3 .container-imgs .container-desc-img {
-  padding: 2rem;
+  border: 3px solid;
 }
 .container-poetic-chef .container-main .container-section-3 .container-imgs .container-desc-img .places {
-  width: 13rem;
+  padding: 1rem;
+  width: 17rem;
 }
-@media screen and (min-width: 800px) {
-  .container-poetic-chef .container-main .container-section-3 .container-imgs .container-desc-img .places {
-    width: 17rem;
-  }
-}
-.container-poetic-chef .container-main .container-section-3 .container-imgs .container-desc-img .desc-img {
+.container-poetic-chef .container-main .container-section-3 .container-imgs .container-desc-img .title-desc-img {
   font-family: "Quicksand", sans-serif;
-  font-weight: 500;
+  font-weight: 600;
   margin-top: 0.5rem;
 }/*# sourceMappingURL=style.css.map */

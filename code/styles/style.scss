@@ -268,33 +268,36 @@ body {
       min-height: 100vh;
       .title-section-3 {
         font-family: $font1;
-        font-weight: 600;
+        font-weight: 700;
         font-size: 1.5rem;
-        padding: 2rem 0 3rem 2rem;
+        // padding: 3rem 0 3rem 2rem;
         text-transform: uppercase;
       }
       
       .container-imgs {
-        display: flex;
-        
-        overflow: auto;
-        scroll-snap-type: y mandatory;
-        scroll-snap-align: start;
-        
         .container-desc-img {
-          padding: 2rem;
+          border: 3px solid;
+          @media screen and (min-width: 900px) {
+            // display: flex;
+          }
+          // padding: 2rem;
           .places {
-            width: 13rem;
-            
-            @media screen and (min-width: 800px) {
-              width: 17rem;
-            }
+            padding: 1rem;
+            // margin: 0 auto 0 auto;
+            width: 17rem;
           }
           
-          .desc-img {
+          .title-desc-img {
             font-family: $font1;
-            font-weight: 500;
+            font-weight: 600;
             margin-top: .5rem;
+          }
+
+          .desc-img {
+          }
+
+          button {
+
           }
         }
       }
