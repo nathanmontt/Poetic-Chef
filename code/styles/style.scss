@@ -23,7 +23,7 @@ $font1: 'Quicksand', sans-serif;
 }
 
 /*SCROLL BAR*/
-// body { 
+body { 
 //   &::-webkit-scrollbar {
 //     width: .3rem;
 //   }
@@ -35,7 +35,18 @@ $font1: 'Quicksand', sans-serif;
 //   &::-webkit-scrollbar-thumb {
 //     background: $color1;
 //   }
-// }
+
+  ::-webkit-scrollbar{
+    height: .3rem;
+    width: .3rem;
+    background-color: $color2;
+  }
+
+  ::-webkit-scrollbar-thumb:horizontal{
+    background-color: #000;
+    border-radius: 10px;
+  }
+}
 
 .container-poetic-chef {
   .container-menu {
@@ -250,6 +261,38 @@ $font1: 'Quicksand', sans-serif;
             width: 50%;
             height: 50%;
             padding: 5rem;
+          }
+        }
+      }
+    }
+
+    .container-section-3 {
+      min-height: 100vh;
+      .title-section-3 {
+        font-family: $font1;
+        font-weight: 600;
+        font-size: 1.5rem;
+        padding: 2rem 0 3rem 2rem;
+        text-transform: uppercase;
+      }
+      
+      .container-imgs {
+        display: flex;
+        
+        overflow: auto;
+        scroll-snap-type: y mandatory;
+        scroll-snap-align: start;
+        
+        .container-desc-img {
+          padding: 2rem;
+          .places {
+            width: 13rem;
+          }
+          
+          .desc-img {
+            font-family: $font1;
+            font-weight: 500;
+            margin-top: .5rem;
           }
         }
       }
