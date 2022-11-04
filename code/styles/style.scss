@@ -46,7 +46,7 @@ $font1: 'Quicksand', sans-serif;
     min-height: 100vh;
 
     @media screen and(min-width: 700px) {
-      background-image: url("/Poetic-Chef/assets/media/images/poetic-chef-1-Ozan-Safak.jpg");
+      background-image: url("/Poetic-Chef/assets/media/images/poetic-chef-7-Nubelson-Fernandes.jpg");
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -109,10 +109,11 @@ $font1: 'Quicksand', sans-serif;
       text-align: center;
 
       .title-slogan-hero {
-        font-size: 2rem;
+        font-size: 2.5rem;
         font-weight: 600;
         text-transform: uppercase;
       }
+
       .slogan-hero {
         text-transform: lowercase;
         font-size: .989rem;

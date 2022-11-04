@@ -24,7 +24,7 @@
 }
 @media screen and (min-width: 700px) {
   .container-poetic-chef .container-menu {
-    background-image: url("/Poetic-Chef/assets/media/images/poetic-chef-1-Ozan-Safak.jpg");
+    background-image: url("/Poetic-Chef/assets/media/images/poetic-chef-7-Nubelson-Fernandes.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -78,7 +78,7 @@
   text-align: center;
 }
 .container-poetic-chef .container-menu .container-slogan-hero .title-slogan-hero {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 600;
   text-transform: uppercase;
 }
