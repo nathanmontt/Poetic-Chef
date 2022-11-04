@@ -15,6 +15,14 @@
 }
 
 /*SCROLL BAR*/
+body::-webkit-scrollbar {
+  height: 0.3rem;
+  width: 0.3rem;
+  background-color: white;
+}
+body::-webkit-scrollbar-thumb:vertical {
+  background-color: black;
+}
 body ::-webkit-scrollbar {
   height: 0.3rem;
   width: 0.3rem;
@@ -230,6 +238,11 @@ body ::-webkit-scrollbar-thumb:horizontal {
 }
 .container-poetic-chef .container-main .container-section-3 .container-imgs .container-desc-img .places {
   width: 13rem;
+}
+@media screen and (min-width: 800px) {
+  .container-poetic-chef .container-main .container-section-3 .container-imgs .container-desc-img .places {
+    width: 17rem;
+  }
 }
 .container-poetic-chef .container-main .container-section-3 .container-imgs .container-desc-img .desc-img {
   font-family: "Quicksand", sans-serif;

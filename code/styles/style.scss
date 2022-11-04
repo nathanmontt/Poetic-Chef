@@ -24,17 +24,15 @@ $font1: 'Quicksand', sans-serif;
 
 /*SCROLL BAR*/
 body { 
-//   &::-webkit-scrollbar {
-//     width: .3rem;
-//   }
+  &::-webkit-scrollbar {
+    height: .3rem;
+    width: .3rem;
+    background-color: $color2;
+  }
 
-//   &::-webkit-scrollbar-track {
-//     background: $color3;
-//   }
-
-//   &::-webkit-scrollbar-thumb {
-//     background: $color1;
-//   }
+  &::-webkit-scrollbar-thumb:vertical {
+    background-color: $color1;
+  }
 
   ::-webkit-scrollbar{
     height: .3rem;
@@ -287,6 +285,10 @@ body {
           padding: 2rem;
           .places {
             width: 13rem;
+            
+            @media screen and (min-width: 800px) {
+              width: 17rem;
+            }
           }
           
           .desc-img {
