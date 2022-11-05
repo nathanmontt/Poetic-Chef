@@ -187,14 +187,11 @@ body {
       .container-texts-section-2{
         display: flex;
         justify-content: space-between;
-              // border: 3px solid green;
 
         .container-flex-media-query-1{
           @media screen and(min-width: 1040px){
-            // padding: 4rem 0 0 4rem;
           }
 
-          // border: 3px solid green;
           .title-section-2 {
             font-family: $font1;
             font-size: 1.1rem;
@@ -218,7 +215,7 @@ body {
             
             @media screen and(min-width: 1040px) {
               padding: 3rem 0 0 3rem;
-              // width: 480px;
+              
             }
           }
           
@@ -266,38 +263,72 @@ body {
 
     .container-section-3 {
       min-height: 100vh;
+      margin: 0 0 1rem 0;
       .title-section-3 {
         font-family: $font1;
         font-weight: 700;
         font-size: 1.5rem;
-        // padding: 3rem 0 3rem 2rem;
         text-transform: uppercase;
+
+        padding: 1.5rem 0 1.5rem 1.5rem;
+        
+        @media screen and (min-width: 1300px) {
+          padding: 4rem 0 1.5rem 5rem;
+        }
       }
       
       .container-imgs {
+        padding: .6rem;
+
+        @media screen and (min-width: 335px) {
+          overflow: auto;
+          scroll-snap-type: x mandatory;
+          display: flex;
+        }
+        
+        @media screen and (min-width: 1105px) {
+          justify-content: center;
+        }
+        
         .container-desc-img {
-          border: 3px solid;
-          @media screen and (min-width: 900px) {
-            // display: flex;
-          }
-          // padding: 2rem;
           .places {
             padding: 1rem;
-            // margin: 0 auto 0 auto;
             width: 17rem;
           }
           
           .title-desc-img {
             font-family: $font1;
-            font-weight: 600;
-            margin-top: .5rem;
-          }
+            font-size: 1.6rem;
 
+            padding: 1rem;
+          }
+          
           .desc-img {
+            font-family: $font1;
+            font-size: .9rem;
+            width: 17rem;
+            
+            padding: 0 0 1rem 1rem;
           }
 
           button {
+            font-family: $font1;
+            text-transform: uppercase;
 
+            padding: 1rem;
+            margin: 0 0 1rem 1rem;
+
+            background-color: transparent;
+            border: .01rem solid $color1;
+            outline: none;
+
+            transition: background-color .5s, color .5s;
+            cursor: pointer;
+
+            &:hover {
+              background-color: $color1;
+              color: $color2;
+            }
           }
         }
       }

@@ -218,15 +218,35 @@ body ::-webkit-scrollbar-thumb:horizontal {
 }
 .container-poetic-chef .container-main .container-section-3 {
   min-height: 100vh;
+  margin: 0 0 1rem 0;
 }
 .container-poetic-chef .container-main .container-section-3 .title-section-3 {
   font-family: "Quicksand", sans-serif;
   font-weight: 700;
   font-size: 1.5rem;
   text-transform: uppercase;
+  padding: 1.5rem 0 1.5rem 1.5rem;
 }
-.container-poetic-chef .container-main .container-section-3 .container-imgs .container-desc-img {
-  border: 3px solid;
+@media screen and (min-width: 1300px) {
+  .container-poetic-chef .container-main .container-section-3 .title-section-3 {
+    padding: 4rem 0 1.5rem 5rem;
+  }
+}
+.container-poetic-chef .container-main .container-section-3 .container-imgs {
+  padding: 0.6rem;
+}
+@media screen and (min-width: 335px) {
+  .container-poetic-chef .container-main .container-section-3 .container-imgs {
+    overflow: auto;
+    -ms-scroll-snap-type: x mandatory;
+        scroll-snap-type: x mandatory;
+    display: flex;
+  }
+}
+@media screen and (min-width: 1105px) {
+  .container-poetic-chef .container-main .container-section-3 .container-imgs {
+    justify-content: center;
+  }
 }
 .container-poetic-chef .container-main .container-section-3 .container-imgs .container-desc-img .places {
   padding: 1rem;
@@ -234,6 +254,27 @@ body ::-webkit-scrollbar-thumb:horizontal {
 }
 .container-poetic-chef .container-main .container-section-3 .container-imgs .container-desc-img .title-desc-img {
   font-family: "Quicksand", sans-serif;
-  font-weight: 600;
-  margin-top: 0.5rem;
+  font-size: 1.6rem;
+  padding: 1rem;
+}
+.container-poetic-chef .container-main .container-section-3 .container-imgs .container-desc-img .desc-img {
+  font-family: "Quicksand", sans-serif;
+  font-size: 0.9rem;
+  width: 17rem;
+  padding: 0 0 1rem 1rem;
+}
+.container-poetic-chef .container-main .container-section-3 .container-imgs .container-desc-img button {
+  font-family: "Quicksand", sans-serif;
+  text-transform: uppercase;
+  padding: 1rem;
+  margin: 0 0 1rem 1rem;
+  background-color: transparent;
+  border: 0.01rem solid black;
+  outline: none;
+  transition: background-color 0.5s, color 0.5s;
+  cursor: pointer;
+}
+.container-poetic-chef .container-main .container-section-3 .container-imgs .container-desc-img button:hover {
+  background-color: black;
+  color: white;
 }/*# sourceMappingURL=style.css.map */
