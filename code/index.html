@@ -127,13 +127,17 @@
           </div>
 
           <div class="container-right-informations">
-            <p class="title-right-info">contact owner</p>
+            <p class="title-right-info">contact the owner</p>
             <form action="">
-              <input type="text" name="name" id="name" placeholder="Your Name">
-              <input type="email" name="email" id="email" placeholder="Email">
+              <input type="text" name="name" id="name" autocomplete="off" required placeholder="Your Name">
+
+              <input type="email" name="email" id="email" autocomplete="off" required placeholder="Email">
               <button type="submit">submit</button>
             </form>
-            <p class="disclaimer">By submiting, you agree to receive our newsletter. You can always change this option later. <a href="#" class="l-m">learn more</a></p>
+
+            <p class="disclaimer">By submiting, you agree to receive our newsletter. You can always change this option later. <a href="#" id="learn-more">learn more</a></p>
+
+            <p class="made-by-me">designed and created by <a href="#">Nathan Monteiro</a></p>
           </div>
         </div>
       </div>

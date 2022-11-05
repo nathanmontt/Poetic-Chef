@@ -277,4 +277,113 @@ body ::-webkit-scrollbar-thumb:horizontal {
 .container-poetic-chef .container-main .container-section-3 .container-imgs .container-desc-img button:hover {
   background-color: black;
   color: white;
+}
+.container-poetic-chef footer {
+  min-height: 50vh;
+  color: white;
+  background-color: black;
+}
+.container-poetic-chef footer .container-footer {
+  padding: 3rem;
+}
+@media screen and (min-width: 1100px) {
+  .container-poetic-chef footer .container-footer .container-footer-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.container-poetic-chef footer .container-footer .container-footer-grid .container-left-informations .company-name {
+  font-family: "Quicksand", sans-serif;
+  font-size: 2rem;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  margin: 0 0 2rem 0;
+}
+.container-poetic-chef footer .container-footer .container-footer-grid .container-left-informations .container-links {
+  display: inline-flex;
+  flex-direction: column;
+}
+.container-poetic-chef footer .container-footer .container-footer-grid .container-left-informations .container-links .links {
+  margin: 0 0 0.5rem 0;
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  text-transform: uppercase;
+}
+.container-poetic-chef footer .container-footer .container-footer-grid .container-left-informations .container-links .links:hover {
+  font-weight: 600;
+}
+.container-poetic-chef footer .container-footer .container-footer-grid .container-left-informations .politics {
+  font-family: "Quicksand", sans-serif;
+  text-transform: capitalize;
+  margin: 0.7rem 0 3rem 0;
+  font-size: 0.8rem;
+}
+@media screen and (min-width: 1100px) {
+  .container-poetic-chef footer .container-footer .container-footer-grid .container-left-informations .politics {
+    margin: 5rem 0 0 0;
+  }
+}
+.container-poetic-chef footer .container-footer .container-footer-grid .container-left-informations .politics .p-terms, .container-poetic-chef footer .container-footer .container-footer-grid .container-left-informations .politics .t-terms {
+  color: white;
+}
+.container-poetic-chef footer .container-footer .container-footer-grid .container-right-informations .title-right-info {
+  font-family: "Quicksand", sans-serif;
+  font-size: 2rem;
+  color: white;
+  text-transform: uppercase;
+  margin: 0 0 2rem 0;
+}
+.container-poetic-chef footer .container-footer .container-footer-grid .container-right-informations form {
+  display: flex;
+  flex-direction: column;
+}
+.container-poetic-chef footer .container-footer .container-footer-grid .container-right-informations form #name, .container-poetic-chef footer .container-footer .container-footer-grid .container-right-informations form #email {
+  border: none;
+  border-bottom: 0.01rem solid white;
+  background-color: transparent;
+  outline: none;
+  margin-bottom: 1rem;
+  padding: 0.7rem;
+  font-family: "Quicksand", sans-serif;
+  color: white;
+  width: 24rem;
+}
+.container-poetic-chef footer .container-footer .container-footer-grid .container-right-informations form button {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 1rem;
+  margin: 0 0 1rem 0;
+  width: 8rem;
+  border: 0.01rem solid white;
+  background-color: white;
+  outline: none;
+  cursor: pointer;
+  transition: background-color 0.5s, color 0.5s, border 0.5s;
+}
+.container-poetic-chef footer .container-footer .container-footer-grid .container-right-informations form button:hover {
+  background-color: black;
+  color: white;
+  border: 0.01rem solid white;
+}
+.container-poetic-chef footer .container-footer .container-footer-grid .container-right-informations .disclaimer {
+  font-family: "Quicksand", sans-serif;
+  font-size: 0.8rem;
+  width: 21rem;
+}
+.container-poetic-chef footer .container-footer .container-footer-grid .container-right-informations .disclaimer #learn-more {
+  color: white;
+  text-transform: capitalize;
+  text-decoration: underline;
+}
+.container-poetic-chef footer .container-footer .container-footer-grid .container-right-informations .made-by-me {
+  font-size: 0.8rem;
+  font-family: "Quicksand", sans-serif;
+  text-transform: capitalize;
+  margin: 1rem 0 0 0;
+}
+.container-poetic-chef footer .container-footer .container-footer-grid .container-right-informations .made-by-me a {
+  color: white;
+  text-decoration: underline;
 }/*# sourceMappingURL=style.css.map */
