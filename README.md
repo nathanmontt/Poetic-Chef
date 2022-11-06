@@ -1,6 +1,6 @@
-**<h1 align="center">MiR - Made In Red</h1>**
+**<h1 align="center">MiR - Poetic Chef</h1>**
 
-![Logo](https://user-images.githubusercontent.com/87106760/196972448-0ac03757-28fe-4d9d-b6ea-a465ca09ee96.png)
+![Icon](https://user-images.githubusercontent.com/87106760/200183067-1cd68714-3110-4d64-b209-1ec2da21e6c7.png)
 
 <!-- ![Logo](/MiR/assets/midia/others/screenshot.png) -->
 <!-- <hr> -->
