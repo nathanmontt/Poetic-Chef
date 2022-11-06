@@ -48,7 +48,7 @@ body {
 
 .container-poetic-chef {
   .container-menu {
-    background-image: url("/Poetic-Chef/assets/media/images/poetic-chef-3-Jocelyn-Morales.jpg");
+    background-image: url("/Poetic-Chef/assets/media/images/poetic-chef-13-Bundo-Kim.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -173,14 +173,14 @@ body {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        min-height: 100vh;
+        min-height: 75vh;
 
-        @media screen and(min-width: 1000px) {
+        @media screen and(min-width: 700px) {
           background-image: url("/Poetic-Chef/assets/media/images/poetic-chef-5-Nubelson-Fernandes.jpg");
           background-position: center;
           background-repeat: no-repeat;
           background-size: cover;
-          min-height: 100vh;
+          min-height: 75vh;
         }
       }
 
@@ -391,17 +391,17 @@ body {
             }
           }
         }
-
+        
         .container-right-informations {
           .title-right-info {
             font-family: $font1;
             font-size: 2rem;
             color: $color2;
             text-transform: uppercase;
-
+            
             margin: 0 0 2rem 0;
           }
-
+          
           form {
             display: flex;
             flex-direction: column;
@@ -415,13 +415,17 @@ body {
               
               margin-bottom: 1rem;
               padding: .7rem;
-
+              
               font-family: $font1;
               color: $color2;
-
-              width: 24rem;
+              width: 15rem;
+              
+              @media screen and (min-width: 1100px) {
+                width: 24rem;
+              }
+              
             }
-
+            
             button {
               font-family: $font1;
               font-weight: 500;
@@ -449,7 +453,11 @@ body {
           .disclaimer {
             font-family: $font1;
             font-size: .8rem;
-            width: 21rem;
+            width: 15rem;
+
+            @media screen and (min-width: 1100px) {
+              width: 21rem;
+            }
             
             #learn-more {
               color: $color2;

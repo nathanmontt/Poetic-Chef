@@ -34,7 +34,7 @@ body ::-webkit-scrollbar-thumb:horizontal {
 }
 
 .container-poetic-chef .container-menu {
-  background-image: url("/Poetic-Chef/assets/media/images/poetic-chef-3-Jocelyn-Morales.jpg");
+  background-image: url("/Poetic-Chef/assets/media/images/poetic-chef-13-Bundo-Kim.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -146,15 +146,15 @@ body ::-webkit-scrollbar-thumb:horizontal {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 100vh;
+  min-height: 75vh;
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 700px) {
   .container-poetic-chef .container-main .container-section-2 .bg-image {
     background-image: url("/Poetic-Chef/assets/media/images/poetic-chef-5-Nubelson-Fernandes.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 100vh;
+    min-height: 75vh;
   }
 }
 .container-poetic-chef .container-main .container-section-2 .container-texts-section-2 {
@@ -347,7 +347,12 @@ body ::-webkit-scrollbar-thumb:horizontal {
   padding: 0.7rem;
   font-family: "Quicksand", sans-serif;
   color: white;
-  width: 24rem;
+  width: 15rem;
+}
+@media screen and (min-width: 1100px) {
+  .container-poetic-chef footer .container-footer .container-footer-grid .container-right-informations form #name, .container-poetic-chef footer .container-footer .container-footer-grid .container-right-informations form #email {
+    width: 24rem;
+  }
 }
 .container-poetic-chef footer .container-footer .container-footer-grid .container-right-informations form button {
   font-family: "Quicksand", sans-serif;
@@ -370,7 +375,12 @@ body ::-webkit-scrollbar-thumb:horizontal {
 .container-poetic-chef footer .container-footer .container-footer-grid .container-right-informations .disclaimer {
   font-family: "Quicksand", sans-serif;
   font-size: 0.8rem;
-  width: 21rem;
+  width: 15rem;
+}
+@media screen and (min-width: 1100px) {
+  .container-poetic-chef footer .container-footer .container-footer-grid .container-right-informations .disclaimer {
+    width: 21rem;
+  }
 }
 .container-poetic-chef footer .container-footer .container-footer-grid .container-right-informations .disclaimer #learn-more {
   color: white;
