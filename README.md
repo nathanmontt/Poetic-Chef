@@ -1,4 +1,4 @@
-**<h1 align="center">MiR - Poetic Chef</h1>**
+**<h1 align="center">Poetic Chef</h1>**
 
 ![Icon](https://user-images.githubusercontent.com/87106760/200183067-1cd68714-3110-4d64-b209-1ec2da21e6c7.png)
 
@@ -6,8 +6,8 @@
 <!-- <hr> -->
 
 ![MIT Badge licensed](https://img.shields.io/badge/license-MIT-informational)
-![Badge](https://img.shields.io/badge/lançamento-Outubro-blue)
-![Status Badge](https://img.shields.io/badge/status-em_desenvolvimento-green)
+![Badge](https://img.shields.io/badge/lançamento-Novembro-blue)
+![Status Badge](https://img.shields.io/badge/status-finalizado-green)
 
 <p align="center">Uma aplicação web, ainda em desenvolvimento, referente a uma vinícula fictícia na qual a mesma fabrica os próprios vinhos, os precifica e os vende.</p>
 
