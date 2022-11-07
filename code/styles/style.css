@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
 /*VARIABLES*/
 /*CSS RESET*/
@@ -34,7 +35,7 @@ body ::-webkit-scrollbar-thumb:horizontal {
 }
 
 .container-poetic-chef .container-menu {
-  background-image: url("/Poetic-Chef/assets/media/images/poetic-chef-13-Bundo-Kim.jpg");
+  background-image: url("/Poetic-Chef/assets/media/images/poetic-chef-11-Alaksiej-Čarankievič.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
