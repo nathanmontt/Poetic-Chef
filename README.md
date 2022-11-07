@@ -9,7 +9,7 @@
 ![Badge](https://img.shields.io/badge/lançamento-Novembro-blue)
 ![Status Badge](https://img.shields.io/badge/status-finalizado-green)
 
-<p align="center">Uma aplicação web, ainda em desenvolvimento, referente a uma vinícula fictícia na qual a mesma fabrica os próprios vinhos, os precifica e os vende.</p>
+<p align="center">Uma aplicação web, já finalizada, sobre uma rede de restaurantes chamada <strong>Poetic Chef</strong></p>
 
 #
 ### **Sobre o projeto**
