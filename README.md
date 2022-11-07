@@ -7,19 +7,18 @@
 
 ![MIT Badge licensed](https://img.shields.io/badge/license-MIT-informational)
 ![Badge](https://img.shields.io/badge/lançamento-Novembro-blue)
-![Status Badge](https://img.shields.io/badge/status-finalizado-green)
+![Status Badge](https://img.shields.io/badge/status-em_desenvolvimento-green)
 
 <p align="center">Uma aplicação web, já finalizada, sobre uma rede de restaurantes chamada <strong>Poetic Chef</strong></p>
 
 #
 ### **Sobre o projeto**
-O projeto consiste na criação de uma aplicação web na qual podemos notar que é uma loja de vinhos. A mesma <strong>não possui relação agluma com qualquer tipo de e-commerce online na vida real</strong>, ou seja, <strong>é um local fictício</strong>.
+O projeto consiste na criação de uma aplicação web na qual podemos verificar que comenta sobre conceitos, outros locais, de uma rede de restaurante. É posto no site fatos como o que levou ao conceito do site, outros locais que a franquia reside, além de uma forma de contato com o dono, onde um email padrão será enviado e, a partir daí, uma possível conversa pode ocorrer.
 
 A aplicação consiste em demonstrar para o usuário sobre:
 
-* Como a história da vinícula apresentada;
-* Como é ter uma grande variedades de vinhos;
-* Como funciona a questão de transporte dos mesmos
+* O conceito por trás do nome e da ideia da empresa;
+* A apresentação das franquias da empresa;
 
 #
 ### **Linguagens Utilizadas**
@@ -35,14 +34,9 @@ Para a aplicação, foram utilizadas poucas linguagens, como:
 ### **Features**
 ##### **Concluídas:**
 
-* Página <i><strong>Home</strong></i>
-* Página <i><strong>Sobre Nós (About Us)</strong></i>
-* Página <i><strong>Login</strong></i>
-* Página <i><strong>Criar Conta (Sign Up)</strong></i>
-
 ##### **Não concluídas:**
-* Página <i>Products (Produtos)</i>
-* Verificação nos <i>inputs</i> das áreas <i><strong>Login</strong></i> e <i><strong>Sign Up</strong></i>
+* Aba <i>Team (Equipe)</i> - as pessoas por trás que fazem isso acontecer
+* Aba <i>Sponsors (Patrocinadores)</i> - empresas que confiam no trabalho da instituição
 #
 ### **Licença**
 Foi utilizada a linceça do [MIT](./LICENSE)
@@ -58,8 +52,5 @@ Foi utilizada a linceça do [MIT](./LICENSE)
 [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/fagnerpsantos/)](https://www.linkedin.com/in/nathan-monteiro/)
 [![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/fagnerpsantos)](https://github.com/nathanmontt)
 [![Twitter Badge](https://img.shields.io/badge/-Twitter-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/fagnerpsantos)](https://twitter.com/nathanmontt)
-
-
-**<a href="https://github.com/nathanmontt/MiR/tree/nathanmontt-english-part"> English version</a>**
 
 #
