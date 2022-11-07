@@ -9,7 +9,7 @@
 ![Badge](https://img.shields.io/badge/lançamento-Novembro-blue)
 ![Status Badge](https://img.shields.io/badge/status-em_desenvolvimento-green)
 
-<p align="center">Uma aplicação web, ainda em desenvolvimento, sobre uma rede de restaurantes chamada <strong>Poetic Chef</strong></p>
+<p align="center">Uma aplicação web, ainda em desenvolvimento, sobre uma rede de restaurantes chamada <strong>Poetic Chef</strong>. Para acessar a aplicação, <a href="https://nathanmontt.github.io/Poetic-Chef/">clique aqui</a></p>
 
 #
 ### **Sobre o projeto**
