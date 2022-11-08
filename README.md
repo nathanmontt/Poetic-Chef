@@ -36,7 +36,6 @@ Para a aplicação, foram utilizadas poucas linguagens, como:
 
 ##### **Não concluídas:**
 * Aba <i>Team (Equipe)</i> - as pessoas por trás que fazem isso acontecer
-* Aba <i>Sponsors (Patrocinadores)</i> - empresas que confiam no trabalho da instituição
 #
 ### **Licença**
 Foi utilizada a linceça do [MIT](./LICENSE)
