@@ -219,7 +219,7 @@ body ::-webkit-scrollbar-thumb:horizontal {
 }
 .container-poetic-chef .container-main .container-section-3 {
   min-height: 100vh;
-  padding: 2rem 1.6rem 2rem 1.6rem;
+  padding: 2rem 1.6rem 2rem 1rem;
 }
 .container-poetic-chef .container-main .container-section-3 .title-section-3 {
   font-family: "Quicksand", sans-serif;
