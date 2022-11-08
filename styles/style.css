@@ -106,7 +106,7 @@ body ::-webkit-scrollbar-thumb:horizontal {
   font-size: 0.989rem;
 }
 .container-poetic-chef .container-main .container-concept {
-  background-color: beige;
+  background-color: white;
   min-height: 100vh;
   padding: 2rem 1.6rem 2rem 1.6rem;
 }
@@ -219,18 +219,18 @@ body ::-webkit-scrollbar-thumb:horizontal {
 }
 .container-poetic-chef .container-main .container-section-3 {
   min-height: 100vh;
-  margin: 0 0 1rem 0;
+  padding: 2rem 1.6rem 2rem 1.6rem;
 }
 .container-poetic-chef .container-main .container-section-3 .title-section-3 {
   font-family: "Quicksand", sans-serif;
-  font-weight: 700;
-  font-size: 1.5rem;
+  font-weight: 800;
+  font-size: 1.3rem;
   text-transform: uppercase;
   padding: 1.5rem 0 1.5rem 1.5rem;
 }
 @media screen and (min-width: 1300px) {
   .container-poetic-chef .container-main .container-section-3 .title-section-3 {
-    padding: 4rem 0 1.5rem 5rem;
+    margin: 0.5rem 0 0.5rem 8.5rem;
   }
 }
 .container-poetic-chef .container-main .container-section-3 .container-imgs {
@@ -244,7 +244,7 @@ body ::-webkit-scrollbar-thumb:horizontal {
     display: flex;
   }
 }
-@media screen and (min-width: 1105px) {
+@media screen and (min-width: 1165px) {
   .container-poetic-chef .container-main .container-section-3 .container-imgs {
     justify-content: center;
   }

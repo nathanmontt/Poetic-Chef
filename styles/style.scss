@@ -132,7 +132,7 @@ body {
 
   .container-main {
     .container-concept{
-      background-color: $color3;
+      background-color: $color2;
       min-height: 100vh;
       padding: 2rem 1.6rem 2rem 1.6rem;
 
@@ -263,17 +263,19 @@ body {
 
     .container-section-3 {
       min-height: 100vh;
-      margin: 0 0 1rem 0;
+      // margin: 0 0 1rem 0;
+      padding: 2rem 1.6rem 2rem 1.6rem;
+
       .title-section-3 {
         font-family: $font1;
-        font-weight: 700;
-        font-size: 1.5rem;
+        font-weight: 800;
+        font-size: 1.3rem;
         text-transform: uppercase;
 
         padding: 1.5rem 0 1.5rem 1.5rem;
         
         @media screen and (min-width: 1300px) {
-          padding: 4rem 0 1.5rem 5rem;
+          margin: .5rem 0 .5rem 8.5rem;
         }
       }
       
@@ -286,7 +288,7 @@ body {
           display: flex;
         }
         
-        @media screen and (min-width: 1105px) {
+        @media screen and (min-width: 1165px) {
           justify-content: center;
         }
         
@@ -331,6 +333,12 @@ body {
             }
           }
         }
+      }
+    }
+
+    .container-section-4 {
+      .container-images-sponsors {
+        .logo-sponsors {}
       }
     }
   }
