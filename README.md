@@ -31,12 +31,7 @@ Para a aplicação, foram utilizadas poucas linguagens, como:
 -  ![JavaScript Badge](https://img.shields.io/badge/JavaScript-yellow)
 <!-- [MIT licensed](./LICENSE). -->
 #
-### **Features**
-##### **Concluídas:**
 
-##### **Não concluídas:**
-* Aba <i>Team (Equipe)</i> - as pessoas por trás que fazem isso acontecer
-#
 ### **Licença**
 Foi utilizada a linceça do [MIT](./LICENSE)
 
