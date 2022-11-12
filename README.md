@@ -41,6 +41,8 @@ Foi utilizada a linceça do [MIT](./LICENSE)
 
 ##### Feito com ❤️ por Nathan Monteiro
 
+Para acessar as inspirações para a criação desse projeto, <a href="https://unsplash.com/@nathanmontt">Clique aqui</a>.
+
 ### **Contato**
 
 [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/fagnerpsantos/)](https://www.linkedin.com/in/nathan-monteiro/)
