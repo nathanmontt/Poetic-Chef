@@ -41,7 +41,7 @@ Foi utilizada a linceça do [MIT](./LICENSE)
 
 ##### Feito com ❤️ por Nathan Monteiro
 
-Para acessar as inspirações para a criação desse projeto, <a href="https://unsplash.com/@nathanmontt">Clique aqui</a>.
+<em>Para acessar as inspirações para a criação desse projeto, <a href="https://unsplash.com/@nathanmontt">Clique aqui</a>. Para acessar dentro da pasta, clique em <strong>Collections</strong> e siga para a pasta <strong>Poetic Chef</strong></em>
 
 ### **Contato**
 
