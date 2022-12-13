@@ -21,6 +21,11 @@ A aplicação consiste em demonstrar para o usuário sobre:
 * A apresentação das franquias da empresa;
 
 #
+
+### **Futuros Features**
+- Criação do <strong>Light/Dark Mode</strong>
+#
+
 ### **Linguagens Utilizadas**
 
 Para a aplicação, foram utilizadas poucas linguagens, como:
