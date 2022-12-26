@@ -7,7 +7,7 @@
 
 ![MIT Badge licensed](https://img.shields.io/badge/license-MIT-informational)
 ![Badge](https://img.shields.io/badge/lançamento-Novembro-blue)
-![Status Badge](https://img.shields.io/badge/status-em_desenvolvimento-green)
+![Status Badge](https://img.shields.io/badge/status-finalizado-green)
 
 <p align="center">Uma aplicação web, ainda em desenvolvimento, sobre uma rede de restaurantes chamada <strong>Poetic Chef</strong>. Para acessar a aplicação, <a href="https://nathanmontt.github.io/Poetic-Chef/">clique aqui</a></p>
 
@@ -21,6 +21,11 @@ A aplicação consiste em demonstrar para o usuário sobre:
 * A apresentação das franquias da empresa;
 
 #
+
+### **Futuros Features**
+- Criação do <strong>Light/Dark Mode</strong>
+#
+
 ### **Linguagens Utilizadas**
 
 Para a aplicação, foram utilizadas poucas linguagens, como:
@@ -31,12 +36,7 @@ Para a aplicação, foram utilizadas poucas linguagens, como:
 -  ![JavaScript Badge](https://img.shields.io/badge/JavaScript-yellow)
 <!-- [MIT licensed](./LICENSE). -->
 #
-### **Features**
-##### **Concluídas:**
 
-##### **Não concluídas:**
-* Aba <i>Team (Equipe)</i> - as pessoas por trás que fazem isso acontecer
-#
 ### **Licença**
 Foi utilizada a linceça do [MIT](./LICENSE)
 
@@ -45,6 +45,8 @@ Foi utilizada a linceça do [MIT](./LICENSE)
 <img style="border-radius: 100%" src="https://avatars.githubusercontent.com/u/87106760?s=400&u=a4fcaf45e79daf73720315436d4e598560012ff5&v=4" width="100px;" alt="profile-photo"/>
 
 ##### Feito com ❤️ por Nathan Monteiro
+
+<em>Para acessar as inspirações para a criação desse projeto, <a href="https://unsplash.com/@nathanmontt">Clique aqui</a>. Para acessar dentro da pasta, clique em <strong>Collections</strong> e siga para a pasta <strong>Poetic Chef</strong></em>
 
 ### **Contato**
 
