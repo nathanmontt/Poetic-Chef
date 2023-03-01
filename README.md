@@ -5,9 +5,11 @@
 <!-- ![Logo](/MiR/assets/midia/others/screenshot.png) -->
 <!-- <hr> -->
 
-![MIT Badge licensed](https://img.shields.io/badge/license-MIT-informational)
-![Badge](https://img.shields.io/badge/lançamento-Novembro-blue)
-![Status Badge](https://img.shields.io/badge/status-finalizado-green)
+<p align="center">
+  <img alt="MIT Badge" src="https://img.shields.io/github/license/nathanmontt/letter55?style=for-the-badge&logo=appveyor">
+  <img alt="Repository Badge" src="https://img.shields.io/github/repo-size/nathanmontt/letter55?style=for-the-badge&logo=appveyor">
+  <img alt="Status Badge" src="https://img.shields.io/badge/status-em_desenvolvimento-yellow?style=for-the-badge&logo=appveyor">
+</p>
 
 <p align="center">Uma aplicação web, ainda em desenvolvimento, sobre uma rede de restaurantes chamada <strong>Poetic Chef</strong>. Para acessar a aplicação, <a href="https://nathanmontt.github.io/Poetic-Chef/">clique aqui</a></p>
 
