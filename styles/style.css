@@ -239,8 +239,7 @@ body ::-webkit-scrollbar-thumb:horizontal {
 @media screen and (min-width: 335px) {
   .container-poetic-chef .container-main .container-section-3 .container-imgs {
     overflow: auto;
-    -ms-scroll-snap-type: x mandatory;
-        scroll-snap-type: x mandatory;
+    scroll-snap-type: x mandatory;
     display: flex;
   }
 }
